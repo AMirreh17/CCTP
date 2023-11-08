@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Appbar from './Appbar';
 
 function App() {
   return (
     <div className="App">
+      <Appbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    
       </header>
+      <footer>©The Undercover Project -2024</footer>
     </div>
   );
 }
