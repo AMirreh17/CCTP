@@ -9,6 +9,7 @@ function App() {
       <title>The Undercover Project</title>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <strong>The Undercover Project</strong>
         <p>
           Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
         </p>
