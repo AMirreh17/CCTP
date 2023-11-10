@@ -15,7 +15,7 @@ function App() {
         </p>
     
       </header>
-      <footer>©The Undercover Project -2024</footer>
+      <footer>©The Undercover Project - 2024</footer>
     </div>
   );
 }
