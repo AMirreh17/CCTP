@@ -9,6 +9,7 @@ function App() {
       <Appbar/>
       <title>The Undercover Project</title>
       <header className="App-header"> 
+      <img src={logo} className="App-logo" alt="logo" />
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         <Typography variant='h2'>
           Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
