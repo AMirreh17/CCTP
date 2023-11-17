@@ -69,9 +69,9 @@ export default function Appbar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, textAlign: "center",display: { xs: 'none', sm: 'block' } }}
           >
-            The Undercover Project
+            
           </Typography>
           <Search>
             <SearchIconWrapper>
