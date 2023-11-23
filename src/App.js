@@ -4,31 +4,22 @@ import './App.css';
 
 import { Box, Button, Paper, Typography } from '@mui/material';
 import NavBar from './NavBar';
-//import {Route, BrowserRouter, Routes} from 'react-router-dom';
-//import About from './About';
-//import Home from './Home';
+import {Route,Routes} from 'react-router-dom';
+import About from './About';
+import Test from './testpage';
+
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-     
-     {
-      /*
-
-  <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path= "/home" element={<Home />} />
-        <Route path= "/about" element={<About />} />
-        
-      </Routes>
       
-      </BrowserRouter>
+        <Routes>
+        <Route path= "/about" element={<About />} />
+        <Route path= "/test" element={<Test />} />
 
-      */
+        </Routes>
 
-     }
       
       <header className="App-header"> 
       {

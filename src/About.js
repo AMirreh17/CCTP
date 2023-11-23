@@ -1,17 +1,16 @@
 import {Typography } from '@mui/material';
 
 
-function About() {
+export default function About() {
    return(
     <div>
         
-        <header>
-            <Typography variant="h1">About</Typography>
-        </header>
+       
+            <Typography variant="h2">About</Typography>
+        
         
     </div>
 
    );
 }
 
-export default About;
