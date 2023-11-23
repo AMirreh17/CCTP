@@ -15,6 +15,7 @@ function App() {
       {
       //<img src={logo} className="App-logo" alt="logo" />
       }
+        
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         <Typography variant='h2'>
           Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
@@ -44,7 +45,7 @@ function App() {
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
       <Paper  elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
-        <Typography variant='h3'>How can AI improve your Social Media</Typography>
+        <Typography variant='h3'>Page #1</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -54,7 +55,7 @@ function App() {
         <Button variant='outlined' sx={{mt: 2}}>Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
-        <Typography variant='h3'>The Dangers of AI on Social Media</Typography>
+        <Typography variant='h3'>Page #2</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -64,7 +65,7 @@ function App() {
         <Button variant='outlined' sx={{mt: 2}}>Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
-        <Typography variant='h3'>Is AI really bad for you?</Typography>
+        <Typography variant='h3'>Page #3</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

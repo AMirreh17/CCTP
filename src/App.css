@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-image: url(Image.png);
+  background-image: url(image3.png);
+  background-size: 100% auto;
   background-color: #454c58;
   min-height: 70vh;
   display: flex;
@@ -42,6 +43,7 @@ footer {
   flex-direction: column;
   color:white;
 }
+
 
 @keyframes App-logo-spin {
   from {
