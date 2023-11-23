@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider, createTheme } from '@mui/material';
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter, HashRouter} from 'react-router-dom';
 
 
 const theme = createTheme(
@@ -32,11 +32,11 @@ const theme = createTheme(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <BrowserRouter>
+   <HashRouter>
     <ThemeProvider theme={theme}>
        <App />
     </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
