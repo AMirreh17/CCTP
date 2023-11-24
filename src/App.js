@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom';
 import About from './About';
 import Test from './testpage';
 import Home from './Home';
+import Awareness from './TestPage2';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path= "/" element={<Home />} />
         <Route path= "/about" element={<About />} />
         <Route path= "/test" element={<Test />} />
+        <Route path= "/aware" element={<Awareness />} />
 
         </Routes>
   

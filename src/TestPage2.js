@@ -1,20 +1,19 @@
-import {Typography, Box} from '@mui/material';
+import {Typography, Box } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 
-
-export default function About() {
-   return(
-    <div className='App'>
+export default function Awareness() {
+    return (
+        <div className='App'>
         <NavBar />
        <div className='App-header'>
 
-        <Typography variant="h1">About</Typography>
+        <Typography variant="h1">Awareness</Typography>
        </div>
-       <div className='mainBody'>
+        <div className='mainBody'>
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>Our Goal</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>The Dangers of AI within Social Media Content</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>
@@ -37,7 +36,7 @@ export default function About() {
           </Typography>
         </footer>
     </div>
-        
-   );
-}
 
+    );
+
+}
