@@ -12,9 +12,9 @@ export default function NavBar() {
     </Typography>
     <Stack direction='row' spacing={2}>
        <Button color='inherit' href="/">Home</Button>
-       <Button color='inherit' href="/#about">About Us</Button>
-       <Button color='inherit' href="/#test">Usability of AI</Button>
-       <Button color='inherit' href="/#aware">Awareness</Button>
+       <Button color='inherit' href="/CCTP/#about">About Us</Button>
+       <Button color='inherit' href="/CCTP/#test">Usability of AI</Button>
+       <Button color='inherit' href="/CCTP/#aware">Awareness</Button>
     </Stack>
  </Toolbar>
 </AppBar>
