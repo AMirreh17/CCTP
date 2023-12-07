@@ -7,6 +7,7 @@ import About from './About';
 import Test from './testpage';
 import Home from './Home';
 import Awareness from './TestPage2';
+import Showcase from './showcase';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path= "/about" element={<About />} />
         <Route path= "/test" element={<Test />} />
         <Route path= "/aware" element={<Awareness />} />
+        <Route path= "/showcase" element={<Showcase />} />
 
         </Routes>
   

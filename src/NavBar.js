@@ -15,6 +15,7 @@ export default function NavBar() {
        <Button color='inherit' href="/CCTP/#about">About Us</Button>
        <Button color='inherit' href="/CCTP/#test">Usability of AI</Button>
        <Button color='inherit' href="/CCTP/#aware">Awareness</Button>
+       <Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
     </Stack>
  </Toolbar>
 </AppBar>
