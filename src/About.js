@@ -9,12 +9,12 @@ export default function About() {
         <NavBar />
        <div className='App-header'>
 
-        <Typography variant="h1">About</Typography>
+        <Typography variant="h1">Our Goal</Typography>
        </div>
        <div className='mainBody'>
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>Our Goal</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>We want provide more awareness</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>

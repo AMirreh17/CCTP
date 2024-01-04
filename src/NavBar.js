@@ -12,9 +12,9 @@ export default function NavBar() {
     </Typography>
     <Stack direction='row' spacing={2}>
        <Button color='inherit' href="/CCTP">Home</Button>
-       <Button color='inherit' href="/CCTP/#about">About Us</Button>
-       <Button color='inherit' href="/CCTP/#test">Usability of AI</Button>
-       <Button color='inherit' href="/CCTP/#aware">Awareness</Button>
+       <Button color='inherit' href="/CCTP/#about">About</Button>
+       <Button color='inherit' href="/CCTP/#test">Background</Button>
+       <Button color='inherit' href="/CCTP/#aware">Recommendations</Button>
        <Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
     </Stack>
  </Toolbar>

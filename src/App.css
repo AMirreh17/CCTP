@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,9 +15,9 @@
 }
 
 .App-header {
-  background-image: url(image3.png);
+  background-image: url(Image6.png);
   background-size: 100% auto;
-  background-color: #454c58;
+  background-color: #44464b;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+  padding-left: 25px;
 }
 
 .App-link {
@@ -44,7 +46,13 @@ footer {
   color:white;
 }
 
-
+.wrapper {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -8,12 +8,12 @@ export default function Awareness() {
         <NavBar />
        <div className='App-header'>
 
-        <Typography variant="h1">Awareness</Typography>
+        <Typography variant="h1">Recommendations</Typography>
        </div>
         <div className='mainBody'>
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>The Dangers of AI within Social Media Content</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>Useful AI tools for your creative artworks on social media</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>

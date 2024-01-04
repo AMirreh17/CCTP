@@ -8,12 +8,12 @@ export default function Test() {
         <NavBar />
        <div className='App-header'>
 
-        <Typography variant="h1">Usability of AI</Typography>
+        <Typography variant="h1">What is Artificial Intelligence?</Typography>
        </div>
         <div className='mainBody'>
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>This is a test page</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>How is it used within Social Media content?</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>

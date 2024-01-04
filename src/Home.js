@@ -17,12 +17,14 @@ export default function Home() {
       }
         
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
-        <Typography variant='h2'>
-          Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
-        </Typography>
-    
+        {
+       // <Typography variant='h2'>
+          //Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
+        //</header></Typography>
+        }
       </header>
       <div className='mainBody'>
+        <div className='wrapper'>
         <Box >
       
       <Typography variant='h1' sx={{my: 1, mt: 2}}>Welcome to Our Website</Typography>
@@ -40,6 +42,7 @@ export default function Home() {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
          
           </Box>
+          </div>
       </div>
       <div className='mainBody'>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
