@@ -17,11 +17,12 @@ export default function Home() {
       }
         
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
-        {
-       // <Typography variant='h2'>
-          //Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
-        //</header></Typography>
-        }
+        
+       <Typography variant='h5'>
+          Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
+        </Typography>
+        <br></br>
+        <Button variant='outlined' sx={{mt: 2}}>Learn More</Button>
       </header>
       <div className='mainBody'>
         <div className='wrapper'>

@@ -15,9 +15,9 @@
 }
 
 .App-header {
-  background-image: url(Image6.png);
+  /*background-image: url(Image6.png);*/
   background-size: 100% auto;
-  background-color: #44464b;
+  background-color: #212133;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
