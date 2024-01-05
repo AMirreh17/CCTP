@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #212133;
   
 }
 
@@ -53,6 +54,7 @@ footer {
   flex-direction: column;
   color:white;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

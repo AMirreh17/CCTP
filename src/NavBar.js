@@ -1,5 +1,6 @@
 import { AppBar, IconButton, Stack, Toolbar, Typography, Button} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+
 export default function NavBar() {
     return (
 <AppBar position="static">
@@ -18,7 +19,6 @@ export default function NavBar() {
        {
         //<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
        }
-       
     </Stack>
  </Toolbar>
 </AppBar>

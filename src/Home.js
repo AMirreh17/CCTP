@@ -6,6 +6,7 @@ import { Box, Button, Paper, Typography } from '@mui/material';
 import NavBar from './NavBar';
 
 
+
 export default function Home() {
     return (
         <div className="App">
