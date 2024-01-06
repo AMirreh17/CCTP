@@ -7,6 +7,7 @@ import NavBar from './NavBar';
 
 
 
+
 export default function Home() {
     return (
         <div className="App">
@@ -19,11 +20,11 @@ export default function Home() {
         
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         
-       <Typography variant='h5'>
-          Revealing the truth behind Artificial Intelligence within Social Media Content/Platforms
+       <Typography variant='h6'>
+          Revealing the truth behind Artificial Intelligence within social media Content and platforms
         </Typography>
         <br></br>
-        <Button variant='outlined' sx={{mt: 2}}>Learn More</Button>
+        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </header>
       <div className='mainBody'>
         <div className='wrapper'>
