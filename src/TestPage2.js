@@ -11,6 +11,9 @@ export default function Awareness() {
         <Typography variant="h1">Recommendations</Typography>
        </div>
         <div className='mainBody'>
+        <div className='wrapper'>
+
+        
         <Box >
       
       <Typography variant='h2' sx={{my: 1, mt: 2}}>Useful AI tools for your creative artworks on social media</Typography>
@@ -28,6 +31,7 @@ export default function Awareness() {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
          
           </Box>
+          </div>
         </div>
         
        <footer>

@@ -33,6 +33,7 @@ export default function NavBar() {
         </Typography>
         <br></br>
         <Stack direction='column' spacing={2}>
+        <Button color='inherit' href="/CCTP">Home</Button>
        <Button color='inherit' href="/CCTP/#about">About</Button>
        <Button color='inherit' href="/CCTP/#background">Background</Button>
        <Button color='inherit' href="/CCTP/#recommendations">Recommendations</Button>

@@ -45,6 +45,7 @@ footer {
   display: flex;
   flex-direction: column;
   color:white;
+  
 }
 
 .wrapper {
@@ -53,6 +54,10 @@ footer {
   display: flex;
   flex-direction: column;
   color:white;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+ 
 }
 
 @keyframes App-logo-spin {

@@ -12,9 +12,12 @@ export default function About() {
         <Typography variant="h1">Our Goal</Typography>
        </div>
        <div className='mainBody'>
+        <div className='wrapper'>
+
+       
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>We want provide more awareness</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>We want to provide more awareness</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>
@@ -29,6 +32,7 @@ export default function About() {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
          
           </Box>
+          </div>
         </div>
         
        <footer>

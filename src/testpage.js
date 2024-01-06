@@ -11,9 +11,11 @@ export default function Test() {
         <Typography variant="h1">What is Artificial Intelligence?</Typography>
        </div>
         <div className='mainBody'>
+          <div className='wrapper'>
+
         <Box >
       
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>How is it used within Social Media content?</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>How is AI used within social media content?</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>
@@ -28,6 +30,7 @@ export default function Test() {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
          
           </Box>
+          </div>
         </div>
         
        <footer>

@@ -21,7 +21,7 @@ export default function Home() {
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         
        <Typography variant='h6'>
-          Revealing the truth behind Artificial Intelligence within social media Content and platforms
+          Revealing the truth behind Artificial Intelligence within social media content and platforms
         </Typography>
         <br></br>
         <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
@@ -30,12 +30,12 @@ export default function Home() {
         <div className='wrapper'>
         <Box >
       
-      <Typography variant='h1' sx={{my: 1, mt: 2}}>Welcome to Our Website</Typography>
+      <Typography variant='h1' sx={{my: 1, mt: 2}}>Welcome</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>
 
-        <Typography variant= 'body2' sx={{my: 4, mt: 2, whiteSpace: 'pre-line'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        <Typography variant= 'body2' sx={{my: 4, mt: 2, whiteSpace: 'pre-line'}} > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
