@@ -18,11 +18,12 @@ export default function NavBar() {
      
     </Typography>
     <Stack direction='row' spacing={2}>
-       <Button color='inherit' href="/CCTP">Home</Button>
-       <Button color='inherit' href="/CCTP/#about">About</Button>
-       <Button color='inherit' href="/CCTP/#background">Background</Button>
-       <Button color='inherit' href="/CCTP/#recommendations">Recommendations</Button>
-       {
+      {
+       //<Button color='inherit' href="/CCTP">Home</Button>
+       //<Button color='inherit' href="/CCTP/#about">About</Button>
+       //<Button color='inherit' href="/CCTP/#background">Background</Button>
+       //<Button color='inherit' href="/CCTP/#recommendations">Recommendations</Button>
+       
         //<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
        }
     </Stack>
