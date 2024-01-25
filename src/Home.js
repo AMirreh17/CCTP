@@ -17,12 +17,13 @@ export default function Home() {
       {
       //<img src={logo} className="App-logo" alt="logo" />
       }
-        
+       
         <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         
        <Typography variant='h6'>
-          Revealing the truth behind Artificial Intelligence within social media content and platforms
+          //Revealing the truth behind Artificial Intelligence within social media content and platforms
         </Typography>
+        
         <br></br>
         <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </header>
