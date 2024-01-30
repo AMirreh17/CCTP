@@ -1,6 +1,6 @@
 import { AppBar, IconButton, Stack, Toolbar, Typography, Button, Drawer, Box} from "@mui/material";
-import MenuIcon from '@mui/icons-material/Menu';
-
+//import MenuIcon from '@mui/icons-material/Menu';
+import AppLogo from '../src/assets/logo2.png';
 
 import {useState} from 'react'
 
@@ -12,8 +12,8 @@ export default function NavBar() {
    
  <Toolbar>
     <IconButton size='large' edge='start' color='inherit' aria-label="logo" onClick={() => setIsDrawerOpen(true)}>
-        <MenuIcon/>
-    
+        
+    <img src={AppLogo} width="40" height="40" alt=""/>
     </IconButton>
     <Typography variant="h6"></Typography>
     <Typography variant='h6' component='div' sx={{flexGrow: 1}}>

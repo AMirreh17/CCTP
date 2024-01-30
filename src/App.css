@@ -16,9 +16,9 @@
 }
 
 .App-header {
-  background-image: url(./assets/image4.avif);
+  /*background-image: url(./assets/image4.avif);*/
   background-size: cover;
-  background-color: #212133;
+  background-color: #0b1121;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -31,8 +31,8 @@
 }
 .container {
   background-size: cover;
-  background-color: #212133;
-  min-height: 70vh;
+  background-color: #353535;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,11 +48,12 @@
 }
 footer {
   padding: 25px;
-  background-color: #121212;
+  background-color: #272727;
   color:white;
+  
 }
 .mainBody {
-  background-color: #282c34;
+  background-color: #0b1121;
   padding: 25px;
   text-align: center;
   display: flex;
@@ -61,8 +62,9 @@ footer {
   
 }
 
+
 .wrapper {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -70,6 +72,24 @@ footer {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
+ 
+}
+.image{
+  
+  
+  float: right;
+}
+.wrapper1 {
+ 
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
  
 }
 
