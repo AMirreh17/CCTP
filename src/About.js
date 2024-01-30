@@ -7,7 +7,7 @@ export default function About() {
    return(
     <div className='App'>
         <NavBar />
-       <div className='App-header'>
+       <div className='container'>
 
         <Typography variant="h1">Our Goal</Typography>
        </div>

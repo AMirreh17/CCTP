@@ -6,7 +6,7 @@ export default function Awareness() {
     return (
         <div className='App'>
         <NavBar />
-       <div className='App-header'>
+       <div className='container'>
 
         <Typography variant="h1">Recommendations</Typography>
        </div>

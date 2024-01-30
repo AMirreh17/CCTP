@@ -8,20 +8,22 @@ import NavBar from './NavBar';
 
 
 
+
 export default function Home() {
     return (
         <div className="App">
       <NavBar />
+      
       
       <header className="App-header"> 
       {
       //<img src={logo} className="App-logo" alt="logo" />
       }
        
-        <Typography variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
+        <Typography variant='h1' sx={{my: 4, }}>Are you aware of how AI is used on social media?</Typography>
         
        <Typography variant='h6'>
-          Revealing the truth behind Artificial Intelligence within social media content and platforms
+          Our goal is to reveal the truth behind Artificial Intelligence within social media content and platforms
         </Typography>
         
         <br></br>
