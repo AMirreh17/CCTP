@@ -1,4 +1,4 @@
-import {Typography, Box } from '@mui/material';
+import {Typography, Box, Paper } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 
@@ -14,7 +14,7 @@ export default function Test() {
           <div className='wrapper'>
 
         <Box >
-      
+        <Paper elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 30 }}>
       <Typography variant='h2' sx={{my: 1, mt: 2}}>How is AI used within social media content?</Typography>
       <Typography variant='h3'>
           *Prototype Version*
@@ -28,7 +28,7 @@ export default function Test() {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
-         
+         </Paper>
           </Box>
           </div>
         </div>

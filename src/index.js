@@ -15,7 +15,7 @@ const theme = createTheme(
     },
     typography: {
       h1: {
-        fontSize: "3rem",
+        fontSize: "5rem",
         fontWeight: 600,
       },
       h2: {
@@ -26,6 +26,7 @@ const theme = createTheme(
         fontSize: "1.5rem",
         fontWeight: 600,
       },
+     
     }
   }
 );

@@ -16,10 +16,10 @@
 }
 
 .App-header {
-  /*background-image: url(./assets/image4.avif);*/
+  background-image: url(./assets/image6.avif);
   background-size: cover;
   background-color: #0b1121;
-  min-height: 70vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,8 @@ footer {
   
 }
 .mainBody {
-  background-color: #0b1121;
+  background-color: #F2F2F2;
+  /*background-color: #0b1121;*/
   padding: 25px;
   text-align: center;
   display: flex;
@@ -67,17 +68,16 @@ footer {
   /*background-color: #282c34;*/
   text-align: center;
   display: flex;
-  flex-direction: column;
+  position: relative;
   color:white;
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
  
 }
-.image{
+.img{
   
   
-  float: right;
 }
 .wrapper1 {
  
@@ -89,9 +89,13 @@ footer {
   margin-top: 10px;
   margin-left: 30px;
   margin-right: 30px;
+  flex-shrink: 0;
+  
+
   
  
 }
+
 
 @keyframes App-logo-spin {
   from {

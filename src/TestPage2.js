@@ -1,4 +1,4 @@
-import {Typography, Box } from '@mui/material';
+import {Typography, Box, Paper } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 
@@ -15,7 +15,7 @@ export default function Awareness() {
 
         
         <Box >
-      
+        <Paper elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 30 }}>
       <Typography variant='h2' sx={{my: 1, mt: 2}}>Useful AI tools for your creative artworks on social media</Typography>
       <Typography variant='h3'>
           *Prototype Version*
@@ -29,7 +29,7 @@ export default function Awareness() {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
-         
+         </Paper>
           </Box>
           </div>
         </div>

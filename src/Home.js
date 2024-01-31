@@ -4,7 +4,9 @@ import './App.css';
 
 import { Box, Button,  Paper, Typography } from '@mui/material';
 import NavBar from './NavBar';
+
 //import welcomeimg from '../src/assets/image3.png';
+
 
 
 
@@ -20,23 +22,26 @@ export default function Home() {
       {
       //<img src={logo} className="App-logo" alt="logo" />
       }
-       
-        <Typography variant='h1' sx={{my: 4, }}>Are you aware of how AI is used on social media?</Typography>
+      
+        <Typography variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         
        <Typography variant='h6'>
-          Our goal is to reveal the truth behind Artificial Intelligence within social media content and platforms
+          Revealing the truth behind Artificial Intelligence within social media content and platforms
         </Typography>
         
         <br></br>
-        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </header>
+
+      
+      
       <div className='mainBody'>
         <div className='wrapper1'>
-        <Box >
+        <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"}, justifyContent:'space-between' }}>
       <Paper elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 30 }}>
     
       <div className='text'>
-      <Typography variant='h1' sx={{my: 1, mt: 2}}>Welcome</Typography>
+      <Typography variant='h2' sx={{my: 1, mt: 2}}>Welcome our website</Typography>
       <Typography variant='h3'>
           *Prototype Version*
         </Typography>
@@ -49,12 +54,14 @@ export default function Home() {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
-            
+            <br></br>
           {
+
             //<img src={welcomeimg} width="500" height="500"alt=''/>
           }
+           
           
-          
+            
         </div> 
          
          </Paper>
@@ -62,7 +69,11 @@ export default function Home() {
           </Box>
           
           </div>
-      </div>
+      </div> 
+     
+
+
+
       <div className='mainBody'>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
