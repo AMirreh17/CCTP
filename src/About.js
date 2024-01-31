@@ -1,17 +1,31 @@
 import {Typography, Box, Paper} from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
+import {motion} from 'framer-motion';
 
-
+const fadeInAnimationsVariants = {
+  initial: {
+   opacity:0,
+   y: 100,
+  },
+  animate: {
+   opacity: 1,
+   y:0,
+   transition: {
+     delay: 0.05,
+   }
+  },
+ }
 export default function About() {
    return(
     <div className='App'>
         <NavBar />
-       <div className='container'>
+       <motion.div className='container' animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
+        
 
         <Typography variant="h1">Our Goal</Typography>
-       </div>
-       <div className='mainBody'>
+       </motion.div>
+       <motion.div className='mainBody' variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <div className='wrapper'>
 
        
@@ -33,7 +47,7 @@ export default function About() {
          </Paper>
           </Box>
           </div>
-        </div>
+        </motion.div>
         
        <footer>
         <Typography>

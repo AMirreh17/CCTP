@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: #212133;
+  /*background-color: #212133;*/
+  background-color: #e4e2e2;
   
 }
 
@@ -90,12 +91,18 @@ footer {
   margin-left: 30px;
   margin-right: 30px;
   flex-shrink: 0;
-  
-
-  
- 
 }
+.text{
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 
+}
+.textColor{
+
+color: #797878;
+}
 
 @keyframes App-logo-spin {
   from {
