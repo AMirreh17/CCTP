@@ -7,6 +7,7 @@ import NavBar from './NavBar';
 import {motion} from 'framer-motion';
 
 import welcomeimg from '../src/assets/image4.png';
+import welcomeimg2 from '../src/assets/image3.png';
 
 
 
@@ -43,7 +44,7 @@ export default function Home() {
         </Typography>
         
         <br></br>
-        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </motion.div>
         
       </header>
@@ -52,7 +53,7 @@ export default function Home() {
 
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={9} sm={6}>
+        <Grid item xs={9} sm={7}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome our website</Typography>
           <Typography variant='h3'>
             *Prototype Version*
@@ -74,7 +75,26 @@ export default function Home() {
       </Grid>
       </motion.div>
       
+      <motion.div className="welcome2" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
 
+      <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
+      <Grid item>
+        <img src={welcomeimg2} width="500" height="500"alt=''/>
+        </Grid>
+        <Grid item xs={9} sm={7}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
+            <br></br>
+          <div className="">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+      </Grid>
+      </motion.div>
 
 
 
@@ -93,7 +113,7 @@ export default function Home() {
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
         
-        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
         <Typography variant='h3'>What is AI?</Typography>
@@ -103,7 +123,7 @@ export default function Home() {
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
         
-        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#background">Learn More</Button>
+        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#background">Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
         <Typography variant='h3'>Recommendations</Typography>
@@ -113,7 +133,7 @@ export default function Home() {
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
         
-        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#recommendations">Learn More</Button>
+        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#recommendations">Learn More</Button>
         
       </Paper>
       </Box>
