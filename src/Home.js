@@ -6,7 +6,7 @@ import { Box, Button,  Paper, Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
 import {motion} from 'framer-motion';
 
-//import welcomeimg from '../src/assets/image3.png';
+import welcomeimg from '../src/assets/image4.png';
 
 
 
@@ -48,9 +48,9 @@ export default function Home() {
         
       </header>
       
-      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <motion.div className="welcome" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
 
-      <Grid container direction="row" my={4} className='text' spacing={2}>
+      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
         <Grid item xs={9} sm={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome our website</Typography>
@@ -67,10 +67,13 @@ export default function Home() {
         <br></br>
         </div>
         </Grid>
+        <Grid item>
+        <img src={welcomeimg} width="500" height="500"alt=''/>
+        </Grid>
         
       </Grid>
       </motion.div>
-
+      
 
 
 

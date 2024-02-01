@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /*background-color: #212133;*/
-  background-color: #e4e2e2;
+  background-color: #d1d1d1;
   
 }
 
@@ -54,7 +54,7 @@ footer {
   
 }
 .mainBody {
-  background-color: #F2F2F2;
+  background-color: #504f4f;
   /*background-color: #0b1121;*/
   padding: 25px;
   text-align: center;
@@ -76,9 +76,10 @@ footer {
   margin-right: 50px;
  
 }
-.img{
+img{
   
-  
+  box-shadow: 10px 20px 40px black;
+ 
 }
 .wrapper1 {
  
@@ -94,7 +95,7 @@ footer {
 }
 .text{
   color: black;
-  text-align: center;
+  text-align: left;
   align-items: center;
   justify-content: center;
 
@@ -103,7 +104,14 @@ footer {
 
 color: #797878;
 }
-
+.welcome{
+  background-size: cover;
+  padding: 30px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
