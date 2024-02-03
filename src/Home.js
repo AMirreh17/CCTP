@@ -37,14 +37,18 @@ export default function Home() {
       //<img src={logo} className="App-logo" alt="logo" />
       }
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography fontSize="100px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+        <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         
-       <Typography variant='h6'>
+        
+          <Typography variant='h6'>
           Revealing the truth behind Artificial Intelligence within social media content and platforms
         </Typography>
-        
         <br></br>
-        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        
+       
+        
+        
+        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </motion.div>
         
       </header>
@@ -63,7 +67,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
         </Typography>
         <br></br>
         </div>
@@ -88,7 +92,25 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+      </Grid>
+      </motion.div>
+      <motion.div className="welcome3" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+      
+        <Grid item xs={11} sm={8}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Is AI bad for social media?</Typography>
+            <br></br>
+          <div className="">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
         </Typography>
         <br></br>
         </div>
@@ -96,17 +118,11 @@ export default function Home() {
       </Grid>
       </motion.div>
 
-
-
-
-
-
-
       <motion.div className='mainBody' variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
       <Paper  elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
-        <Typography variant='h3'>Our Goal</Typography>
+        <Typography variant='h3'>About us</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -126,7 +142,7 @@ export default function Home() {
         <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#background">Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
-        <Typography variant='h3'>Recommendations</Typography>
+        <Typography variant='h3'>Popular AI tools</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

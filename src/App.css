@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /*background-color: #212133;*/
-  background-color: #d1d1d1;
+  background-color: #272727;
   
 }
 
@@ -17,18 +17,18 @@
 }
 
 .App-header {
-  /*background-image: url(./assets/image6.avif);*/
+  /*background-image: url(./assets/image7.png);*/
   background-size: cover;
   background-color: #272727;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
-  /*padding-left: 25px;*/
+  text-align: left;
+  padding: 40px;
 }
 .container {
   background-size: cover;
@@ -51,6 +51,7 @@ footer {
   padding: 25px;
   background-color: #272727;
   color:white;
+  /*min-height: 30vh;*/
   
 }
 .mainBody {
@@ -81,7 +82,7 @@ footer {
 }
 img{
   
-  box-shadow: 10px 20px 40px black;
+  box-shadow: 5px 20px 40px black;
  
 }
 .wrapper1 {
@@ -110,6 +111,13 @@ img{
   justify-content: center;
 
 }
+.text3{
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
 .textColor{
 
 color: #797878;
@@ -120,6 +128,7 @@ color: #797878;
   min-height: 50vh;
   align-items: center;
   justify-content: center;
+  background-color: #d1d1d1;
   
   
 }
@@ -131,6 +140,15 @@ color: #797878;
   justify-content: center;
   background-color: #2e2d2d;
 }
+.welcome3{
+  background-size: cover;
+  padding: 30px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #383737;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
