@@ -20,7 +20,7 @@ export default function About() {
    return(
     <div className='App'>
         <NavBar />
-       <motion.div className='container' animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
+       <motion.div className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
         
 
         <Typography variant="h1">Our Goal</Typography>

@@ -8,6 +8,7 @@ import {motion} from 'framer-motion';
 
 import welcomeimg from '../src/assets/image4.png';
 import welcomeimg2 from '../src/assets/image3.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
       //<img src={logo} className="App-logo" alt="logo" />
       }
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
+      
         <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         
         
@@ -46,9 +48,14 @@ export default function Home() {
         <br></br>
         
        
+        {
+          //<Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        }
         
         
-        <Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+
+        <Link to="/about">
+        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button></Link>
       </motion.div>
         
       </header>

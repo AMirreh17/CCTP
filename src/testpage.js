@@ -6,7 +6,7 @@ export default function Test() {
     return (
         <div className='App'>
         <NavBar />
-       <div className='container'>
+       <div className='container2'>
 
         <Typography variant="h1">What is Artificial Intelligence?</Typography>
        </div>
