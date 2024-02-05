@@ -8,7 +8,7 @@ import {motion} from 'framer-motion';
 
 import welcomeimg from '../src/assets/image4.png';
 import welcomeimg2 from '../src/assets/image3.png';
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -56,8 +56,8 @@ export default function Home() {
         
         
         
-          <Link to="">
-        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button></Link>
+        <a href='/CCTP/#about'>
+        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button></a>
         
         
       </motion.div>
