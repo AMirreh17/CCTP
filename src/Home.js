@@ -50,12 +50,16 @@ export default function Home() {
        
         {
           //<Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+          //<Button  class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black hover:bg-black hover:text-white rounded-full" href="/CCTP/#about">Learn More</Button>
         }
         
         
-
-        <Link to="/about">
+        
+        
+          <Link to="">
         <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button></Link>
+        
+        
       </motion.div>
         
       </header>
