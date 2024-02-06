@@ -2,7 +2,7 @@
 import './App.css';
 //import Appbar from './Appbar';
 
-import { Box, Button,  Paper, Typography, Grid } from '@mui/material';
+import { Box /*Button*/,  Paper, Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
 import {motion} from 'framer-motion';
 
@@ -57,28 +57,30 @@ export default function Home() {
         
         
         <a href='/CCTP/#about'>
-        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button></a>
+        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
         
         
       </motion.div>
         
       </header>
       
-      <motion.div className="welcome" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <motion.div class="text-white">
 
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
         <Grid item xs={9} sm={7}>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome our website</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome</Typography>
           <Typography variant='h3'>
             *Prototype Version*
             </Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
+        The Undercover Project is an online resource to help educate social media users and enthusiasts on the impacts and benefits of 
+        Artificial Intelligence (AI) within social media content and platforms. 
+        This website will outline the basics of AI, its usage within popular social media platforms, and what AI tools and resources are available
         </Typography>
         <br></br>
         </div>
@@ -89,9 +91,10 @@ export default function Home() {
         
       </Grid>
       </motion.div>
+      </motion.div>
       
-      <motion.div className="welcome2" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-
+      <motion.div className="" >
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
       <Grid item>
         <img src={welcomeimg2} width="500" height="500"alt=''/>
@@ -99,25 +102,25 @@ export default function Home() {
         <Grid item xs={9} sm={7}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
             <br></br>
-          <div className="">
+          <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
+        Our objective is to raise awareness and educate others on AI within the context of social media. 
+        Most media today are being consumed on social media platforms and AI plays a huge role within this revolution 
         </Typography>
         <br></br>
         </div>
         </Grid>
       </Grid>
       </motion.div>
-      <motion.div className="welcome3" variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-
+      </motion.div>
+      <motion.div className="welcome3" >
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
         <Grid item xs={11} sm={8}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Is AI bad for social media?</Typography>
             <br></br>
-          <div className="">
+          <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -128,42 +131,64 @@ export default function Home() {
         </Grid>
       </Grid>
       </motion.div>
+      </motion.div>
 
-      <motion.div className='mainBody' variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <motion.div className='mainBody'>
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
       <Paper  elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+        <br></br>
         <Typography variant='h3'>About us</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
+        {
+          //<Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+        }
+        <br></br>
+        <a href='/CCTP/#about'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
         
-        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+        <br></br>
         <Typography variant='h3'>What is AI?</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
-        
-        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#background">Learn More</Button>
+        {
+          //<Button variant='outlined' sx={{mt: 2}} href="/CCTP/#background">Learn More</Button>
+        }
+        <br></br>
+        <a href='/CCTP/#background'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
       </Paper>
       <Paper  elevation={12} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+        <br></br>
         <Typography variant='h3'>Popular AI tools</Typography>
         <Typography sx={{mt: 2}}> 
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         </Typography>
-        
-        <Button variant='outlined' sx={{mt: 2}} href="/CCTP/#recommendations">Learn More</Button>
+        {
+          //<Button variant='outlined' sx={{mt: 2}} href="/CCTP/#recommendations">Learn More</Button>
+        }
+        <br></br>
+        <a href='/CCTP/#recommendations'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
         
       </Paper>
       </Box>
+      </motion.div>
       </motion.div>
       
       
