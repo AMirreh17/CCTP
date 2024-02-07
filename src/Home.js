@@ -7,7 +7,7 @@ import NavBar from './NavBar';
 import {motion, useScroll, useTransform} from 'framer-motion';
 
 import welcomeimg from '../src/assets/image4.png';
-import welcomeimg2 from '../src/assets/image3.png';
+import welcomeimg2 from '../src/assets/Image5.png';
 import { useRef } from 'react';
 
 
@@ -38,7 +38,7 @@ export default function Home() {
 
       )
       
-      const sm = useTransform(scrollYProgress, [0,1], [0,-50]);
+      const sm = useTransform(scrollYProgress, [0,1], [0,-150]);
 
 
 
@@ -55,12 +55,17 @@ export default function Home() {
       
 
         
-        <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         
+        <motion.h1  class="text-7xl font-bold leading-normal"> The Undecover Project</motion.h1>
         
-          <Typography variant='h6'>
+        {
+         /* <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+           <Typography variant='h6'>
           Revealing the truth behind Artificial Intelligence within social media content and platforms
-        </Typography>
+        </Typography>*/
+        }
+         
+        <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         
        
@@ -73,7 +78,7 @@ export default function Home() {
         
         
         <a href='/CCTP/#about'>
-        <motion.button whileHover={{scale: 1.2}}class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
         
         
@@ -88,6 +93,7 @@ export default function Home() {
       
         <Grid item xs={9} sm={7}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome</Typography>
+        
           <Typography variant='h3'>
             *Prototype Version*
             </Typography>
@@ -120,8 +126,9 @@ export default function Home() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Our objective is to raise awareness and educate others on AI within the context of social media. 
-        Most media today are being consumed on social media platforms and AI plays a huge role within this revolution 
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
         </Typography>
         <br></br>
         </div>
@@ -133,7 +140,7 @@ export default function Home() {
       <motion.div className="welcome3" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
-      
+       
         <Grid item xs={11} sm={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Is AI bad for social media?</Typography>
             <br></br>
@@ -184,7 +191,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#about'>
-        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <motion.button whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
         </Grid>
         <Grid item xs={11} sm={4}>
@@ -196,8 +203,8 @@ export default function Home() {
         </Typography>
         <br></br>
         </div>
-        <a href='/CCTP/#about'>
-        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <a href='/CCTP/#background'>
+        <motion.button whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
         </Grid>
         <Grid item xs={11} sm={4}>
@@ -209,8 +216,8 @@ export default function Home() {
         </Typography>
         <br></br>
         </div>
-        <a href='/CCTP/#about'>
-        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <a href='/CCTP/#recommendations'>
+        <motion.button whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
         </Grid>
       </Grid>
