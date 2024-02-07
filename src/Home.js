@@ -2,12 +2,13 @@
 import './App.css';
 //import Appbar from './Appbar';
 
-import { Box /*Button*/,  Paper, Typography, Grid } from '@mui/material';
+import { /*Box, Button,  Paper,*/ Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
-import {motion} from 'framer-motion';
+import {motion, useScroll, useTransform} from 'framer-motion';
 
 import welcomeimg from '../src/assets/image4.png';
 import welcomeimg2 from '../src/assets/image3.png';
+import { useRef } from 'react';
 
 
 
@@ -28,8 +29,21 @@ const fadeInAnimationsVariants = {
 
 
 export default function Home() {
-    return (
-        <div className="App">
+
+      const container = useRef(null);
+      const {scrollYProgress} = useScroll({
+        target: container,
+        offset: ['start end', 'end start']
+      }
+
+      )
+      
+      const sm = useTransform(scrollYProgress, [0,1], [0,-50]);
+
+
+
+  return (
+        <div ref={container} className="App">
       <NavBar />
       
       
@@ -39,6 +53,8 @@ export default function Home() {
       }
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
       
+
+        
         <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         
         
@@ -97,7 +113,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
       <Grid item>
-        <img src={welcomeimg2} width="500" height="500"alt=''/>
+        <motion.img  src={welcomeimg2} width="500" height="500"alt=''/>
         </Grid>
         <Grid item xs={9} sm={7}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
@@ -113,11 +129,12 @@ export default function Home() {
       </Grid>
       </motion.div>
       </motion.div>
+
       <motion.div className="welcome3" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={11} sm={8}>
+        <Grid item xs={11} sm={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Is AI bad for social media?</Typography>
             <br></br>
           <div className="textColor">
@@ -133,6 +150,80 @@ export default function Home() {
       </motion.div>
       </motion.div>
 
+      <motion.div className="welcome3" >
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+      
+        <Grid item xs={11} sm={6}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI have an impact on our future on social media?</Typography>
+            <br></br>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+      </Grid>
+      </motion.div>
+      </motion.div>
+
+      <motion.div className="welcome3">
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+      
+        <Grid item xs={11} sm={4}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>About us</Typography>
+            <br></br>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Do you want to find out more about the aims and the purpose for this project and why it was created? 
+        </Typography>
+        <br></br>
+        </div>
+        <a href='/CCTP/#about'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
+        </Grid>
+        <Grid item xs={11} sm={4}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI?</Typography>
+            <br></br>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        What is AI and why is it used within social media platforms, and does it have an impact? Find out more about the background of AI within social media.  
+        </Typography>
+        <br></br>
+        </div>
+        <a href='/CCTP/#about'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
+        </Grid>
+        <Grid item xs={11} sm={4}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Popular AI Tools</Typography>
+            <br></br>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Are you a content creator or social media enthusiast? There are AI tools available which can improve your productivity and artwork 
+        </Typography>
+        <br></br>
+        </div>
+        <a href='/CCTP/#about'>
+        <motion.button whileHover={{scale: 1.2}}class=" bg-white px-10 py-5 text- uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        </a>
+        </Grid>
+      </Grid>
+      </motion.div>
+      </motion.div>
+
+
+
+
+
+
+        {
+          /*
       <motion.div className='mainBody'>
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
@@ -190,9 +281,10 @@ export default function Home() {
       </Box>
       </motion.div>
       </motion.div>
+      */
       
-      
-      <footer>
+}
+      <footer >
         <Typography>
           ©The Undercover Project - 2024
           </Typography>
