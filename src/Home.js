@@ -38,7 +38,8 @@ export default function Home() {
 
       )
       
-      const sm = useTransform(scrollYProgress, [0,1], [0,-150]);
+      const sm = useTransform(scrollYProgress, [0,1], [0,-50]);
+      const md = useTransform(scrollYProgress, [0,1], [0,-150]);
 
 
 
@@ -65,7 +66,7 @@ export default function Home() {
         </Typography>*/
         }
          
-        <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
+        <motion.p style={{y:sm}} class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         
        
@@ -78,7 +79,7 @@ export default function Home() {
         
         
         <a href='/CCTP/#about'>
-        <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <motion.button style={{y:md}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
         
         
@@ -163,6 +164,26 @@ export default function Home() {
       
         <Grid item xs={11} sm={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI have an impact on our future on social media?</Typography>
+            <br></br>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged 
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+      </Grid>
+      </motion.div>
+      </motion.div>
+
+      <motion.div className="welcome3" >
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+      
+        <Grid item xs={11} sm={6}>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Can I use AI to improve my social media content?</Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
