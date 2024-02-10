@@ -163,7 +163,7 @@ export default function Home() {
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
         <Grid item xs={11} sm={6}>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI have an impact on our future on social media?</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> Why is there a "negative stigma" behind AI?</Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -207,7 +207,7 @@ export default function Home() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Do you want to find out more about the aims and the purpose for this project and why it was created? 
+        Do you want to find out the background behind our aims as well as the purpose of this project and why it was created? 
         </Typography>
         <br></br>
         </div>
