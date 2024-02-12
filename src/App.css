@@ -19,7 +19,7 @@
 .App-header {
   background-image: url(./assets/tupbackground1.png);
   background-size: cover;
-  background-color: #111111;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,9 @@
   text-align: center;
   
 }
-
+.bgColour{
+  background-color: #272727;
+}
 .App-link {
   color: #61dafb;
 }
@@ -97,6 +99,7 @@ footer {
 img{
   
   /*box-shadow: 5px 20px 40px black;*/
+  border-radius: 5%;
  
 }
 .wrapper1 {
@@ -162,6 +165,7 @@ color: #797878;
   justify-content: center;
  /*background-color: #383737;*/
 }
+
 
 @keyframes App-logo-spin {
   from {
