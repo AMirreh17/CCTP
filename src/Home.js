@@ -5,7 +5,7 @@ import './App.css';
 import { /*Box, Button,  Paper,*/ Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
 import {motion, useMotionValueEvent, useScroll, useTransform, useSpring, useMotionValue} from 'framer-motion';
-
+import Footer from './footer';
 import welcomeimg from '../src/assets/image4.png';
 import welcomeimg2 from '../src/assets/Image5.png';
 import { useRef } from 'react';
@@ -54,13 +54,13 @@ export default function Home() {
       })
 
   return (
-        <div ref={container} className="App">
+        <div className="App">
       
       <NavBar />
       
      
-      
-      <header className="App-header"> 
+      <div ref={container}>
+      <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       {
       //<img src={logo} className="App-logo" alt="logo" />
       }
@@ -97,7 +97,7 @@ export default function Home() {
         
       </motion.div>
         
-      </header>
+      </motion.header>
       
       <motion.div class="text-white py-10">
 
@@ -154,7 +154,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
        
-        <Grid item xs={11} sm={6}>
+        <Grid item xs={11} sm={8} md={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI Impact our social media experience?</Typography>
             <br></br>
           <div className="textColor">
@@ -174,7 +174,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={11} sm={6}>
+        <Grid item xs={11} sm={8} md={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> Why is there a "negative stigma" behind AI?</Typography>
             <br></br>
           <div className="textColor">
@@ -194,7 +194,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={11} sm={6}>
+        <Grid item xs={11} sm={8} md={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Can I use AI to improve my social media content?</Typography>
             <br></br>
           <div className="textColor">
@@ -209,8 +209,8 @@ export default function Home() {
       </motion.div>
       </motion.div>
 
-      
-
+      {
+      /*
       <motion.div className="welcome3" class="text-white">
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       
@@ -221,7 +221,7 @@ export default function Home() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Do you want to find out the background behind our aims as well as the purpose of this project and why it was created? 
+        Do you want to find out the background behind our aims as well as the purpose of this project and why it was created? Find out more on About 
         </Typography>
         <br></br>
         </div>
@@ -247,7 +247,8 @@ export default function Home() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Are you a content creator or social media enthusiast? There are AI tools available which can improve your productivity and artwork 
+        Are you a content creator or social media enthusiast? There are AI tools available which can improve your productivity and artwork. 
+        Find out more on our AI Tools page
         </Typography>
         <br></br>
         </div>
@@ -258,8 +259,8 @@ export default function Home() {
       </Grid>
       </motion.div>
       </motion.div>
-
-
+      <br></br> */
+      }
 
 
 
@@ -326,11 +327,8 @@ export default function Home() {
       */
       
 }
-      <footer >
-        <Typography>
-          ©The Undercover Project - 2024
-          </Typography>
-        </footer>
+    <Footer />
+      
         <motion.div style={{
           scaleX,
         background: "white",
@@ -342,6 +340,7 @@ export default function Home() {
         height: "5px"
       }}>
       </motion.div>
+      </div>
     </div>
     );
 

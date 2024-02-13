@@ -1,6 +1,7 @@
 import {Typography, Box, Paper } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
+import Footer from './footer';
 
 export default function Awareness() {
     return (
@@ -34,11 +35,8 @@ export default function Awareness() {
           </div>
         </div>
         
-       <footer>
-        <Typography>
-          ©The Undercover Project - 2024
-          </Typography>
-        </footer>
+       
+       <Footer />
     </div>
 
     );

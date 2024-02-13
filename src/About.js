@@ -2,6 +2,7 @@ import {Typography, Box, Paper} from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 import {motion} from 'framer-motion';
+import Footer from './footer';
 
 const fadeInAnimationsVariants = {
   initial: {
@@ -49,11 +50,7 @@ export default function About() {
           </div>
         </motion.div>
         
-       <footer>
-        <Typography>
-          ©The Undercover Project - 2024
-          </Typography>
-        </footer>
+       <Footer />
     </div>
         
    );
