@@ -78,14 +78,14 @@ footer {
   vertical-align: middle;
 }
 .mainBody {
-  /*background-color: #504f4f;*/
+  background-color: #E6E6E1;
   /*background-color: #0b1121;*/
   padding: 25px;
   text-align: center;
   display: flex;
   flex-direction: column;
   color:white;
-  min-height: 60vh;
+  min-height: 70vh;
   align-items: center;
   justify-content: center;
   

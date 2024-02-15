@@ -9,6 +9,7 @@ import Footer from './footer';
 import welcomeimg from '../src/assets/image4.png';
 import welcomeimg2 from '../src/assets/Image5.png';
 import { useRef } from 'react';
+import Explore from './ExploreSection';
 
 
 
@@ -208,6 +209,11 @@ export default function Home() {
         </Grid>
       </Grid>
       </motion.div>
+      </motion.div>
+      
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+
+        <Explore />
       </motion.div>
       
       
