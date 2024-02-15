@@ -13,6 +13,7 @@ import { useRef } from 'react';
 
 
 
+
 const fadeInAnimationsVariants = {
  initial: {
   opacity:0,
@@ -208,7 +209,8 @@ export default function Home() {
       </Grid>
       </motion.div>
       </motion.div>
-
+      
+      
       {
       /*
       <motion.div className="welcome3" class="text-white">
