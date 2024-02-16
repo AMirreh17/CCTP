@@ -101,18 +101,20 @@ export default function Home() {
         
       </motion.header>
       
-      <motion.div class="text-white py-10">
+      <motion.div class="text-white py-10" className='welcome'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
         <Grid item xs={9} sm={7}>
+        <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome</Typography>
         
           <Typography variant='h3'>
             *Prototype Version*
             </Typography>
             <br></br>
+            </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         The Undercover Project is an online resource to help educate social media users and enthusiasts on the impacts and benefits of 
@@ -137,8 +139,10 @@ export default function Home() {
         <motion.img  src={welcomeimg2} width="500" height="500"alt=''/>
         </Grid>
         <Grid item xs={9} sm={7}>
+          
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
             <br></br>
+           
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Our mission is to bring further awareness to AI within the context of social media. 
@@ -152,13 +156,15 @@ export default function Home() {
       </motion.div>
       </motion.div>
 
-      <motion.div className="welcome3" >
+      <motion.div className="welcome2" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
        
         <Grid item xs={11} sm={8} md={6}>
+          <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI Impact our social media experience?</Typography>
             <br></br>
+            </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         All social media applications utilise AI algorithms in some form to improve their overall user experiences. 
@@ -192,6 +198,8 @@ export default function Home() {
       </motion.div>
       </motion.div>
 
+      {
+        /*
       <motion.div className="welcome3" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
@@ -210,7 +218,8 @@ export default function Home() {
       </Grid>
       </motion.div>
       </motion.div>
-      
+      */
+      }
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
 
         <Explore />
