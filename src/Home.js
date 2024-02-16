@@ -36,7 +36,7 @@ export default function Home() {
       const yScroll = useMotionValue(0);
       const {scrollYProgress} = useScroll({
         target: container,
-        offset: ['start end', 'end start']
+        offset: ['start end', '0.8 0.21']
       }
 
       )
@@ -72,7 +72,8 @@ export default function Home() {
         
         
         
-        <Typography fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+        <Typography  fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+        
         {
          /* <motion.h1  class="text-7xl font-bold leading-normal"> The Undecover Project</motion.h1>
            <Typography variant='h6'>
@@ -80,7 +81,7 @@ export default function Home() {
         </Typography>*/
         }
          
-        <motion.p class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
+        <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         
        
@@ -100,6 +101,8 @@ export default function Home() {
       </motion.div>
         
       </motion.header>
+
+      
       
       <motion.div class="text-white py-10" className='welcome'>
 
@@ -136,7 +139,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
       <Grid item>
-        <motion.img  src={welcomeimg2} width="500" height="500"alt=''/>
+        <motion.img  src={welcomeimg2} width="500" height="900"alt=''/>
         </Grid>
         <Grid item xs={9} sm={7}>
           
@@ -155,6 +158,11 @@ export default function Home() {
       </Grid>
       </motion.div>
       </motion.div>
+      
+      
+
+
+
 
       <motion.div className="welcome2" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
