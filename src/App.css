@@ -171,8 +171,9 @@ color: #797878;
   min-height: 50vh;
   align-items: center;
   justify-content: center;
- /*background-color: #383737;*/
+ background-color: #111111;
 }
+
 .card{
   align-items: center;
   justify-content: center;
