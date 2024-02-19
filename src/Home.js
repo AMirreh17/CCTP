@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-//import Appbar from './Appbar';
+
 
 import { /*Box, Button,  Paper,*/ Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
@@ -56,54 +56,22 @@ export default function Home() {
       })
 
   return (
-        <div className="App">
-      
+    <div className="App">
+
       <NavBar />
-      
-     
+  
       <div ref={container}>
       <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
-      {
-      //<img src={logo} className="App-logo" alt="logo" />
-      }
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-      
-
-        
-        
-        
         <Typography  fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
-        
-        {
-         /* <motion.h1  class="text-7xl font-bold leading-normal"> The Undecover Project</motion.h1>
-           <Typography variant='h6'>
-          Revealing the truth behind Artificial Intelligence within social media content and platforms
-        </Typography>*/
-        }
-         
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
-        
-       
-        {
-          //<Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
-          //<Button  class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black hover:bg-black hover:text-white rounded-full" href="/CCTP/#about">Learn More</Button>
-        }
-        
-        
-        
-        
         <a href='/CCTP/#about'>
         <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a>
-        
-        
       </motion.div>
-        
       </motion.header>
 
-      
-      
       <motion.div class="text-white py-10" className='welcome'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>

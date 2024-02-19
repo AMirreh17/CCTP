@@ -169,3 +169,16 @@
   */
   
 }
+{
+  //<Button variant='contained' sx={{mt: 2}} href="/CCTP/#about">Learn More</Button>
+  //<Button  class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black hover:bg-black hover:text-white rounded-full" href="/CCTP/#about">Learn More</Button>
+}
+{
+  /* <motion.h1  class="text-7xl font-bold leading-normal"> The Undecover Project</motion.h1>
+    <Typography variant='h6'>
+   Revealing the truth behind Artificial Intelligence within social media content and platforms
+ </Typography>*/
+ }
+ {
+  //<img src={logo} className="App-logo" alt="logo" />
+  }
