@@ -2,15 +2,25 @@ import {Typography, Box, Paper } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 import Footer from './footer';
+import {motion} from 'framer-motion';
+
 
 export default function Awareness() {
+
     return (
         <div className='App'>
         <NavBar />
-       <div className='container2'>
+        <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
+      <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
+        <Typography  fontSize="80px" variant='h1' sx={{my: 4, }}>AI Tools</Typography>
+        <motion.p  class="font-light  max-w-xl">Most popular and effective AI tools for social media content creators and enthusiasts</motion.p>
+        <br></br>
+        
+      </motion.div>
+      </motion.header>
 
-        <Typography variant="h1">Recommendations</Typography>
-       </div>
+
+
         <div className='mainBody'>
         <div className='wrapper'>
 

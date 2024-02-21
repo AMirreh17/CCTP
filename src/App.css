@@ -45,15 +45,16 @@
 }
 .container2{
   background-size: cover;
-  background-color: #272727;
+  background-color: #111111;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
+  text-align: left;
+  padding: 60px;
   
 }
 .bgColour{

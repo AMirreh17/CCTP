@@ -4,7 +4,7 @@ import './App.css';
 
 import {Route,Routes} from 'react-router-dom';
 import About from './About';
-import Test from './testpage';
+import Test from './Background';
 import Home from './Home';
 import Awareness from './TestPage2';
 import Showcase from './showcase';
