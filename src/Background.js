@@ -4,7 +4,7 @@ import './App.css';
 import Footer from './footer';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import { useRef } from 'react';
-import img1 from '../src/assets/background.png';
+import img1 from '../src/assets/AI.png';
 import img2 from '../src/assets/background2.png';
 import img3 from '../src/assets/background3.png';
 
@@ -64,7 +64,7 @@ export default function Test() {
       </motion.div>
       </motion.header>
 
-      <motion.div class="text-white py-10" className='welcome'>
+      <motion.div class="text-white py-10" className='backgroundsection2'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
@@ -90,17 +90,15 @@ export default function Test() {
       </motion.div>
       </motion.div>
 
-      <motion.div className="welcome3" class="py-10" >
+      <motion.div className="backgroundsection2" class="py-10" >
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-      <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
+      <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={15}>
       <Grid item>
-      <img src={img1} width="500" height="500"alt=''/>
+      <img src={img1} width="600" height="500"alt=''/>
       </Grid>
-        <Grid item xs={11} sm={8} md={6}>
-          <div className='text-white'>
+        <Grid item xs={11} sm={6} md={6}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>How is AI used within social media applications?</Typography>
             <br></br>
-            </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI systems have been implemented into most social media platforms to improve their user experiences. Some of these platforms consist of Instagram, YouTube, X, Facebook, Snapchat and TikTok. 
@@ -122,12 +120,12 @@ export default function Test() {
       </motion.div>
       </motion.div>
 
-      <motion.div class="text-white py-10" className='welcome'>
+      <motion.div class="text-white py-10" className='backgroundsection2'>
 
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
      
-      <Grid item xs={9} sm={7}>
+      <Grid item xs={9} sm={8} md={6}>
       <div className='text-black'>
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>How is AI implemented within social media content?</Typography>
           <br></br>
@@ -154,13 +152,14 @@ export default function Test() {
       </motion.div>
       </motion.div>
 
-      <motion.div className="welcome3" class="py-10">
+      <motion.div className="background-section-3" class="py-10">
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
       <Grid item>
       <img src={img3} width="500" height="500"alt=''/>
       </Grid>
         <Grid item xs={11} sm={8} md={6}>
+          
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> The Dangers and Implications of using AI tools for social media content? </Typography>
             <br></br>
           <div className="textColor">

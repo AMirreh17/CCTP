@@ -63,7 +63,7 @@ export default function Home() {
       <div ref={container}>
       <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="80px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+        <Typography  fontSize="70px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         <a href='/CCTP/#about'>

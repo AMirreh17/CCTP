@@ -154,8 +154,6 @@ color: #797878;
   align-items: center;
   justify-content: center;
   background-color: #E6E6E1;
-  
-  
 }
 
 .welcome2{
@@ -186,6 +184,30 @@ color: #797878;
 }
 html {
   scroll-snap-type: y mandatory;
+}
+.backgroundsection2{
+  background-size: cover;
+  padding: 30px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFF0;
+}
+.backgroundsection1{
+  background-size: cover;
+  padding: 30px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAF9F6;
+}
+.backgroundsection3{
+  background-size: cover;
+  padding: 30px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF5EE;
 }
 
 @keyframes App-logo-spin {
