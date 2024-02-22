@@ -32,7 +32,7 @@ export default function Footer() {
         <Grid item xs={11} sm={8} md={4}>
         <Typography  align="left"fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>Contact Us</Typography>  
           <div className="textColor">
-        <Typography  align="left" fontSize="15px" sx={{mt: 2}}> Email: admin@TheUndercoverProject.com</Typography>
+        <Typography  align="left" fontSize="15px" sx={{mt: 2}}> Email: admin@theundercoverproject.com</Typography>
         <Typography  align="left"fontSize="15px" sx={{mt: 2}}> Tel: </Typography>
         <Typography  align="left" fontSize="15px"sx={{mt: 2}}> Location: </Typography>
         

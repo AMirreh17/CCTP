@@ -1,4 +1,4 @@
-import {Typography, Box, Paper} from '@mui/material';
+import {Typography, Grid} from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 import {motion} from 'framer-motion';
@@ -29,28 +29,33 @@ export default function About() {
         
       </motion.div>
       </motion.header>
-       <motion.div className='mainBody' variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-        <div className='wrapper'>
+      <motion.div class="text-white py-10" className='backgroundsection2'>
 
-       
-        <Box >
-        <Paper elevation={16} square={false} style={{ width: {xs: 1, md:500}, padding: 30 }}>
-      <Typography variant='h2' sx={{my: 1, mt: 2}}>We want to provide more awareness</Typography>
-      <Typography variant='h3'>
-          *Prototype Version*
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+        <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+
+        <Grid item xs={9} sm={7}>
+        <div className='text-black'>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is The Undercover Project?</Typography>
+
+          
+            <br></br>
+            </div>
+          <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        The Undercover Project is an online resource to help educate social media users and enthusiasts on the impacts and benefits of AI within social media content and platforms. 
         </Typography>
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        This online resource is a part of a final year project on the BSc Digital Media course at the University of West of England (UWE). The objectives of this project are to bring more awareness to AI within social media and to provide advice on the usability of AI within social media content production. 
+        For example, recommending AI tools which benefit social media content creators and enthusiasts.  
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
 
-        <Typography variant= 'body2' sx={{my: 4, mt: 2, whiteSpace: 'pre-line'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
-          <Typography variant= 'body2'  sx={{my: 4, mt: 2}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Typography>
-         </Paper>
-          </Box>
-          </div>
+
+        </Grid>
+        </motion.div>
         </motion.div>
         
        <Footer />

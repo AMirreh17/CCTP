@@ -174,7 +174,7 @@ export default function Test() {
       </motion.div>
       </motion.div>
       
-      <motion.div class="text-white py-10" className='welcome'>
+      <motion.div class="text-white py-10" className='backgroundsection2'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Grid container direction="row" my={4} className='text3' spacing={2} >
