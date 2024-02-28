@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /*background-color: #212133;*/
-  background-color: #111111;
+  background-color: #0c0c0c;
   
 }
 
@@ -79,7 +79,7 @@ footer {
   vertical-align: middle;
 }
 .mainBody {
-  background-color: #E6E6E1;
+  background-color: #FFFFF0;
   /*background-color: #0b1121;*/
   padding: 25px;
   text-align: center;
@@ -104,12 +104,7 @@ footer {
   margin-right: 50px;
  
 }
-img{
-  
-  box-shadow: 5px 20px 40px black;
-  border-radius: 5%;
- 
-}
+
 .wrapper1 {
  
   justify-content: space-between;
@@ -153,8 +148,22 @@ color: #797878;
   min-height: 50vh;
   align-items: center;
   justify-content: center;
-  background-color: #E6E6E1;
+  background-color: #FFFFF0;
 }
+.welcome img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
+.welcome2 img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
+
+.welcome3 img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
+
 
 .welcome2{
   background-size: cover;
@@ -193,6 +202,11 @@ html {
   justify-content: center;
   background-color: #FFFFF0;
 }
+.backgroundsection2 img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
+
 .backgroundsection1{
   background-size: cover;
   padding: 30px;
@@ -201,6 +215,10 @@ html {
   justify-content: center;
   background-color: #FAF9F6;
 }
+.backgroundsection1 img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
 .backgroundsection3{
   background-size: cover;
   padding: 30px;
@@ -208,6 +226,10 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #FFF5EE;
+}
+.backgroundsection3 img{
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
 }
 
 @keyframes App-logo-spin {
