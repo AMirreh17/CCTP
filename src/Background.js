@@ -57,7 +57,7 @@ export default function Test() {
       <div ref={container}>
       <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="80px" variant='h1' sx={{my: 4, }}>Background</Typography>
+        <Typography  fontSize="70px" variant='h1' sx={{my: 4, }}>Background</Typography>
         <motion.p  class="font-light  max-w-xl">The context behind Artificial intelligence and how it has impacted social media content and platforms</motion.p>
         <br></br>
         

@@ -1,8 +1,10 @@
 import {Typography, Grid} from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
-import {motion} from 'framer-motion';
+import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import Footer from './footer';
+import { useRef } from 'react';
+
 
 const fadeInAnimationsVariants = {
   initial: {
@@ -17,9 +19,36 @@ const fadeInAnimationsVariants = {
    }
   },
  }
+ 
+
 export default function About() {
+  
+  const container = useRef(null);
+      const yScroll = useMotionValue(0);
+      const {scrollYProgress} = useScroll({
+        target: container,
+        offset: ['start end', '0.65 0.49']
+      }
+
+      )
+      
+      
+     
+      const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+      });
+      
+
+      useMotionValueEvent(scrollYProgress, "change", (latest) => {
+        yScroll.set(latest);
+        console.log(latest)
+      })
+
    return(
     <div className='App'>
+      <div ref={container}>
         <NavBar />
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
@@ -59,6 +88,18 @@ export default function About() {
         </motion.div>
         
        <Footer />
+       <motion.div style={{
+        scaleX,
+        background: "white",
+        transformOrigin: "Left",
+        position: "sticky",
+        top: 0,
+        bottom: 0,
+        width: "100%",
+        height: "5px"
+      }}>
+      </motion.div>
+       </div>
     </div>
         
    );

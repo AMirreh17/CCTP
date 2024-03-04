@@ -1,7 +1,7 @@
 import { AppBar, IconButton, Stack, Toolbar, Typography, Button, Drawer, Box} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import AppLogo from '../src/assets/logo2.png';
-import { motion } from "framer-motion";
+
 import {useState} from 'react'
 
 
@@ -24,21 +24,22 @@ export default function NavBar() {
     </Typography>
     <Stack direction='row' spacing={2}>
     
-    
+    <Button color='inherit' href="/CCTP/#background">Background</Button>
+       <Button color='inherit' href="/CCTP/#recommendations">Tools</Button>
+       <Button color='inherit' href="">Awareness</Button>
+         
+      
+      { /*
          <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full" href="/CCTP/#about"> Background</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Background</motion.button>
          </a>
          <a href='/CCTP/#recommendations'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full" href="/CCTP/#about"> Resources</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Resources</motion.button>
          </a>
-         <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full" href="/CCTP/#about"> Awareness</motion.button>
-         </a>
-      
-      {
-       //<Button color='inherit' href="/CCTP/#background">Background</Button>
-       //<Button color='inherit' href="/CCTP/#recommendations">Tools</Button>
-       //<Button color='inherit' href="">Awareness</Button>
+         <a href='/CCTP/#Awareness'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Awareness</motion.button>
+         </a>*/
+       
        //<Button color='inherit' href="/CCTP">Home</Button>
        //<Button color='inherit' href="/CCTP/#about">About</Button>
       //<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
@@ -54,7 +55,8 @@ export default function NavBar() {
         <Button color='inherit' href="/CCTP">Home</Button>
        <Button color='inherit' href="/CCTP/#about">About</Button>
        <Button color='inherit' href="/CCTP/#background">Background</Button>
-       <Button color='inherit' href="/CCTP/#recommendations">Recommendations</Button>
+       <Button color='inherit' href="/CCTP/#recommendations">AI Resources</Button>
+       <Button color='inherit' href="/CCTP/#Awareness">Awareness</Button>
        {
         //<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
        }

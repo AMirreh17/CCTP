@@ -8,6 +8,7 @@ import Test from './Background';
 import Home from './Home';
 import Awareness from './TestPage2';
 import Showcase from './showcase';
+import Awareness2 from './Awareness';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path= "/background" element={<Test />} />
         <Route path= "/recommendations" element={<Awareness />} />
         <Route path= "/showcase" element={<Showcase />} />
+        <Route path= "/Awareness" element={<Awareness2 />} />
 
         </Routes>
   
