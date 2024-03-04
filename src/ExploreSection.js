@@ -51,7 +51,7 @@ export default function Explore(){
         
          <br></br>
          <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3   text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3 text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
          </a>
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
