@@ -57,7 +57,7 @@ export default function Test() {
       <div ref={container}>
       <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="70px" variant='h1' sx={{my: 4, }}>Background</Typography>
+        <Typography  fontSize="50px" variant='h1' sx={{my: 4, }}>Background</Typography>
         <motion.p  class="font-light  max-w-xl">The context behind Artificial intelligence and how it has impacted social media content and platforms</motion.p>
         <br></br>
         
@@ -71,7 +71,7 @@ export default function Test() {
       
         <Grid item xs={9} sm={7}>
         <div className='text-black'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is Artificial Intelligence?</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Artificial Intelligence?</Typography>
         
           
             <br></br>
@@ -97,7 +97,7 @@ export default function Test() {
       <img style={{boxShadow: "5px 20px 40px black", borderRadius: "5%"}}  src={img1} width="600" height="500"alt=''/>
       </Grid>
         <Grid item xs={11} sm={6} md={6}>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>How is AI used within social media applications?</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>How is AI used within social media applications?</Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -127,7 +127,7 @@ export default function Test() {
      
       <Grid item xs={9} sm={8} md={6}>
       <div className='text-black'>
-      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>How is AI implemented within social media content?</Typography>
+      <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>How is AI implemented within social media content?</Typography>
           <br></br>
           </div>
         <div className="textColor">
@@ -160,7 +160,7 @@ export default function Test() {
       </Grid>
         <Grid item xs={11} sm={8} md={6}>
           
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> The Dangers and Implications of using AI tools for social media content? </Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> The Dangers and Implications of using AI tools for social media content? </Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -181,7 +181,7 @@ export default function Test() {
 
             <Grid item xs={9} sm={7}>
             <div className='text-black'>
-            <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Check out this video</Typography>
+            <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Check out this video</Typography>
 
               
                 <br></br>
