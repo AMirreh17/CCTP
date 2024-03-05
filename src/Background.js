@@ -57,7 +57,7 @@ export default function Test() {
       <div ref={container}>
       <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="50px" variant='h1' sx={{my: 4, }}>Background</Typography>
+        <Typography  fontSize="60px" variant='h1' sx={{my: 4, }}>Background</Typography>
         <motion.p  class="font-light  max-w-xl">The context behind Artificial intelligence and how it has impacted social media content and platforms</motion.p>
         <br></br>
         
@@ -125,7 +125,7 @@ export default function Test() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
      
-      <Grid item xs={9} sm={8} md={6}>
+      <Grid item xs={11} sm={8} md={6}>
       <div className='text-black'>
       <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>How is AI implemented within social media content?</Typography>
           <br></br>

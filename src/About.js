@@ -52,7 +52,7 @@ export default function About() {
         <NavBar />
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="50px" variant='h1' sx={{my: 4, }}>About</Typography>
+        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>About</Typography>
         <motion.p  class="font-light  max-w-xl">Find out more about our project aims and objectives</motion.p>
         <br></br>
         
@@ -65,7 +65,7 @@ export default function About() {
 
         <Grid item xs={9} sm={7}>
         <div className='text-black'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is The Undercover Project?</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who are we?</Typography>
 
           
             <br></br>

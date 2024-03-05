@@ -4,8 +4,8 @@ import './App.css';
 import Footer from './footer';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import { useRef } from 'react';
-import img1 from '../src/assets/AI.png';
-import img2 from '../src/assets/ai2.jpg';
+import img1 from '../src/assets/aiexample1.png';
+import img2 from '../src/assets/aiexample2.webp';
 
 
 
@@ -57,7 +57,7 @@ export default function Awareness2() {
       <div ref={container}>
       <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="40px" variant='h1' sx={{my: 4, }}>Awareness</Typography>
+        <Typography  fontSize="60px" variant='h1' sx={{my: 4, }}>Awareness</Typography>
         <motion.p  class="font-light  max-w-xl">How to be more aware of AI based social media content</motion.p>
         <br></br>
         
@@ -69,9 +69,9 @@ export default function Awareness2() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={9} md={6} sm={7}>
+        <Grid item xs={11} md={6} sm={7}>
         <div className='text-black'>
-        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>The Rise of AI Misinformation</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> AI Misinformation</Typography>
         
           
             <br></br>
@@ -122,7 +122,7 @@ export default function Awareness2() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
      
-      <Grid item xs={10} sm={8} md={6}>
+      <Grid item xs={11} sm={9} md={7}>
       <div className='text-black'>
       <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Methods of Prevention</Typography>
           <br></br>
@@ -154,7 +154,7 @@ export default function Awareness2() {
 
       </Grid>     
        <Grid item>
-      <img src={img2} width="600" height="500"alt=''/>
+      <img src={img2} width="400" height="500"alt=''/>
       </Grid>
       </Grid>
       </motion.div>
@@ -190,7 +190,7 @@ export default function Awareness2() {
       
         <motion.div style={{
         scaleX,
-        background: "white",
+        background: "grey",
         transformOrigin: "Left",
         position: "sticky",
         top: 0,

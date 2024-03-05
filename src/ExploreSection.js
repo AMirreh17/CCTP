@@ -24,7 +24,7 @@ export default function Explore(){
        
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
          
-         <Typography fontSize="40px" variant='h2'>About</Typography>
+         <Typography fontSize="40px" variant='h2'>Background</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -40,7 +40,7 @@ export default function Explore(){
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
          
-         <Typography  fontSize="40px"variant='h2'>Background</Typography>
+         <Typography  fontSize="40px"variant='h2'>Resources</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -56,7 +56,7 @@ export default function Explore(){
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
          
-         <Typography  fontSize="40px"variant='h3'> Tools</Typography>
+         <Typography  fontSize="40px"variant='h3'> Awareness</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
