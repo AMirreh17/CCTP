@@ -77,7 +77,7 @@ export default function Home() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={9} sm={7}>
+        <Grid item xs={9} sm={8} md={7}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome</Typography>
         
@@ -134,7 +134,7 @@ export default function Home() {
       <Grid item>
       <img src={welcomeimg2} width="500" height="500"alt=''/>
       </Grid>
-      <Grid item xs={9} sm={7}>
+      <Grid item xs={9} sm={8} md={7}>
       <div className='text-black'>
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI Impact our social media experience?</Typography>
           <br></br>
