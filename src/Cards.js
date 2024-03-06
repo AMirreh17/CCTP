@@ -1,32 +1,105 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
+import './App.css';
+import { Typography, Card, Box, Grid } from '@mui/material';
+import cardimg from '../src/assets/Insta.avif';
+import cardimg2 from '../src/assets/X.avif';
+import cardimg3 from '../src/assets/yt.avif';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import {motion} from 'framer-motion';
+
 
 export default function Card1() {
+  
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    
+    <div className='mainBody'>
+      
+        <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}>
+      
+      <Grid item xs={11} sm={9} md={6}>
+        <div className='text-black'>
+      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>External Resources</Typography>
+          <br></br></div>
+          <div className="textColor">
+      <Typography  fontSize="20px" sx={{mt: 2}} > 
+      Here are some useful resources relating to how AI misinformation is mitigated between different platforms
+      </Typography>
+      <br></br>
+      </div>
+      </Grid>
+      </Grid>
+    <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:15, m: 3,  }}>
+    <Card sx={{ maxWidth: 450 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
+        image= {cardimg}
+        title="card image"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Instagram, Meta
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <div className="textColor">
+        <Typography variant="body2" >
+          Instagram Help Centre, Why are some Instagram posts marked as false information. Find out more information about how Instagram tackles false information
         </Typography>
+        </div>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      
+      <CardActions class="align-middle py-2">
+      <a href='https://help.instagram.com/388534952086572' >
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         </a>
       </CardActions>
     </Card>
+    <Card sx={{ maxWidth: 450 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image= {cardimg2}
+        title="card image"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          X (Twitter)
+        </Typography>
+        <div className="textColor">
+        <Typography variant="body2" >
+          X Help Centre, what are Community Notes. Find out more information about how X solves false information and context on their platform
+        </Typography>
+        </div>
+      </CardContent>
+      
+      <CardActions class="align-middle py-2">
+      <a href='https://help.twitter.com/en/using-x/community-notes' >
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         </a>
+      </CardActions>
+    </Card>
+    <Card sx={{ maxWidth: 450 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image= {cardimg3}
+        title="card image"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          YouTube Official Blog
+        </Typography>
+        <div className="textColor">
+        <Typography variant="body2" >
+          YouTube Official Blog, Our approach to responsible innovation. Find out more information about how YouTube rules on responsible usage of AI 
+          </Typography>
+        </div>
+      </CardContent>
+      
+      <CardActions class="align-middle py-2">
+      <a href='https://blog.youtube/inside-youtube/our-approach-to-responsible-ai-innovation/' >
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         </a>
+      </CardActions>
+    </Card>
+    </Box>
+    </div>
   );
 }

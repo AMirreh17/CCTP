@@ -6,6 +6,7 @@ import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 
 import { useRef } from 'react';
 import img1 from '../src/assets/aiexample1.png';
 import img2 from '../src/assets/aiexample2.webp';
+import Card1 from './Cards';
 
 
 
@@ -169,8 +170,6 @@ export default function Awareness2() {
             <Grid item xs={9} sm={7}>
             <div className='text-white'>
             <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Want to find out more?</Typography>
-
-              
                 <br></br>
                 </div>
               <div className="textColor">
@@ -180,12 +179,18 @@ export default function Awareness2() {
             </Typography>
             <br></br>
             </div>
+            <a href='/CCTP/#background'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         </a>
             </Grid>
             </Grid>
         </motion.div>
         </motion.div>
-      
-      
+        
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+
+        <Card1 />
+      </motion.div>
         <Footer />
       
         <motion.div style={{
