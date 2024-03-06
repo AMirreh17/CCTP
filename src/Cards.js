@@ -29,12 +29,12 @@ export default function Card1() {
       </div>
       </Grid>
       </Grid>
-    <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:15, m: 3,  }}>
+    <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:15, m: 3, alignItems: 'center' }}>
     <Card sx={{ maxWidth: 450 }}>
       <CardMedia
         sx={{ height: 140 }}
         image= {cardimg}
-        title="card image"
+        title="Instagram"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -57,7 +57,7 @@ export default function Card1() {
       <CardMedia
         sx={{ height: 140 }}
         image= {cardimg2}
-        title="card image"
+        title="Twitter"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -80,7 +80,7 @@ export default function Card1() {
       <CardMedia
         sx={{ height: 140 }}
         image= {cardimg3}
-        title="card image"
+        title="YouTube"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

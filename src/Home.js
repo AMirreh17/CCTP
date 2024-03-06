@@ -7,7 +7,7 @@ import NavBar from './NavBar'; // importing the function NavBar from NavBar.js f
 import {motion, useMotionValueEvent, useScroll, useTransform, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion
 import Footer from './footer'; // importing the function Footer from Footer.js file
 import welcomeimg from '../src/assets/image4.png';// importing a image from assets folder
-import welcomeimg2 from '../src/assets/Image5.png'; // importing a image from assets folder
+import welcomeimg2 from '../src/assets/chatgpt.avif'; // importing a image from assets folder
 import { useRef } from 'react';// importing the function useRef from react
 import Explore from './ExploreSection';// // importing the function Explore from ExploreSection.js file
 
@@ -80,12 +80,8 @@ export default function Home() {
       
         <Grid item xs={9} sm={8} md={7}>
         <div className='text-black'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Welcome</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
         
-          <Typography variant='h3'>
-            *Prototype Version*
-            </Typography>
-            <br></br>
             </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -95,6 +91,9 @@ export default function Home() {
         </Typography>
         <br></br>
         </div>
+        <a href='/CCTP/#about'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Learn More</motion.button>
+         </a>
         </Grid>
         <Grid item>
         <img src={welcomeimg} width="500" height="500"alt=''/>
@@ -110,19 +109,21 @@ export default function Home() {
        
         <Grid item xs={11} sm={8} md={6}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI for social media?</Typography>
             <br></br>
             </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Our mission is to bring further awareness to AI within the context of social media. 
-      This online resource will help bring clarity to how AI is used within social media platforms 
-      as well as how social media users utilise AI tools to produce social media content. AI is becoming prominent within social media content, 
-      therefore it is important to educate users on the current dangers and usability of AI
+        AI is a technology/system which is designed to complete complex tasks. Social media applications utilise AI to 
+        improve their user experiences on their platforms. This consist of tracking likes, comments, follows, trends and more. 
+        Find out more about the context behind AI and how it is implemented within social media content and platforms.
         </Typography>
         <br></br>
         <br></br>
         </div>
+        <a href='/CCTP/#background'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         </a>
         </Grid>
       </Grid>
       </motion.div>
@@ -137,17 +138,20 @@ export default function Home() {
       </Grid>
       <Grid item xs={9} sm={8} md={7}>
       <div className='text-black'>
-      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Does AI Impact our social media experience?</Typography>
+      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What are AI tools for content creators?</Typography>
           <br></br>
           </div>
         <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      All social media applications utilise AI algorithms in some form to improve their overall user experiences. 
-      AI allows social media applications to understand their user’s habits more such as how users interact with different genres of content and recommending 
-      potential content which they might be interested in. 
+      Many social media content creators utilise AI tools to improve their content production and create outstanding artwork. 
+      There are various AI tools available, which can benefit your social media experience and enhance your creativity when used in a positive light. 
+      Find out more about trendy AI tools for social media content or visual artwork as a whole 
       </Typography>
       <br></br>
       </div>
+      <a href='/CCTP/#recommendations'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Learn More</motion.button>
+         </a>
       </Grid>
       </Grid>
       </motion.div>
@@ -159,16 +163,19 @@ export default function Home() {
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}> 
       
         <Grid item xs={11} sm={8} md={6}>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> Why is there a "negative stigma" behind AI?</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI technology has developed further within the recent decades; however, we still are uncertain on the growth of AI and it’s impacts on our livelihood. 
-        The “negative stigma” behind AI stems from the dangers and risks which AI can bring to our society in the future. 
-        For example, Privacy issues, Ethical implications and Employability. 
+        AI can be a powerful tool to improve your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
+        Social media applications such as Instagram, YouTube and X, have recently developed methods on mitigating AI misinformation across their platforms. 
+        Find ways to become more aware AI and how to protect yourself on social media
         </Typography>
         <br></br>
         </div>
+        <a href='/CCTP/#background'>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         </a>
         </Grid>
       </Grid>
       </motion.div>

@@ -86,7 +86,34 @@ export default function About() {
         </Grid>
         </motion.div>
         </motion.div>
-        
+        <motion.div class="text-white py-10" className='backgroundsection3'>
+
+          <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+          <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+
+          <Grid item xs={9} sm={7}>
+          <div className='text-white'>
+          <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who is the founder?</Typography>
+
+            
+              <br></br>
+              </div>
+            <div className="textColor">
+          <Typography  fontSize="20px" sx={{mt: 2}} > 
+          The founder and creator of this project is Adam Mirreh. I am a final year student at the University of West of England (UWE) Bristol. This project was a part of my final year project. 
+          </Typography>
+          <Typography  fontSize="20px" sx={{mt: 2}} > 
+          I am an aspiring Digital Creative. The ability to be unique and tell a story through visual concepts has always been an interest of mine. 
+          I’m a diligent and motivated individual, with a passion to produce creative and exciting video productions and web developments at industry standard. 
+          </Typography>
+          <br></br>
+          </div>
+          </Grid>
+
+
+          </Grid>
+          </motion.div>
+          </motion.div>
        <Footer />
        <motion.div style={{
         scaleX,
