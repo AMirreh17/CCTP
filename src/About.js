@@ -4,6 +4,8 @@ import './App.css';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import Footer from './footer';
 import { useRef } from 'react';
+import aboutimg2 from '../src/assets/me.jpg';// importing a image from assets folder
+import aboutimg from '../src/assets/socialmedia.avif';// importing a image from assets folder
 
 
 const fadeInAnimationsVariants = {
@@ -61,9 +63,9 @@ export default function About() {
       <motion.div class="text-white py-10" className='backgroundsection2'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-        <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+        <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
 
-        <Grid item xs={9} sm={7}>
+        <Grid item xs={12} sm={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who are we?</Typography>
 
@@ -81,7 +83,9 @@ export default function About() {
         <br></br>
         </div>
         </Grid>
-
+        <Grid item>
+        <img src={aboutimg} width="500" height="500"alt=''/>
+        </Grid>
 
         </Grid>
         </motion.div>
@@ -89,9 +93,11 @@ export default function About() {
         <motion.div class="text-white py-10" className='backgroundsection3'>
 
           <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-          <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
-
-          <Grid item xs={9} sm={7}>
+          <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
+          <Grid item>
+          <img src={aboutimg2} width="500" height="500"alt=''/>
+          </Grid>
+          <Grid item xs={12} sm={6}>
           <div className='text-white'>
           <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who is the founder?</Typography>
 

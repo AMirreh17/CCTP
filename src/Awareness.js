@@ -70,7 +70,7 @@ export default function Awareness2() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={11} md={6} sm={7}>
+        <Grid item xs={12} md={6} sm={7}>
         <div className='text-black'>
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> AI Misinformation</Typography>
         
@@ -123,7 +123,7 @@ export default function Awareness2() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
      
-      <Grid item xs={11} sm={8} md={7}>
+      <Grid item xs={12} sm={8} md={7}>
       <div className='text-black'>
       <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Methods of Prevention</Typography>
           <br></br>
@@ -167,7 +167,7 @@ export default function Awareness2() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Grid container direction="row" my={4} className='text3' spacing={2} >
 
-            <Grid item xs={9} sm={7}>
+            <Grid item xs={12} sm={7}>
             <div className='text-white'>
             <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Want to find out more?</Typography>
                 <br></br>

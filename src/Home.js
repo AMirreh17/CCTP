@@ -89,7 +89,7 @@ export default function Home() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={9} sm={8} md={6}>
+        <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
         
@@ -118,7 +118,7 @@ export default function Home() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
        
-        <Grid item xs={11} sm={8} md={6}> {/*Grid component from Material UI is used here to align and organise content*/}
+        <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI for social media?</Typography>
             <br></br>
@@ -147,7 +147,7 @@ export default function Home() {
       <Grid item>
       <img src={welcomeimg2} width="500" height="500"alt=''/>
       </Grid>
-      <Grid item xs={9} sm={8} md={6}>
+      <Grid item xs={12} sm={8} md={6}>
       <div className='text-black'>
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What are AI tools for content creators?</Typography>
           <br></br>
@@ -173,7 +173,7 @@ export default function Home() {
 
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}> 
       
-        <Grid item xs={11} sm={8} md={6}>
+        <Grid item xs={11} sm={8} md={7}>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>
             <br></br>
           <div className="textColor">

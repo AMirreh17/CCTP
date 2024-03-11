@@ -23,7 +23,7 @@ export default function Card1() {
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Here are some useful resources relating to how AI misinformation is mitigated between different platforms
+      Here are some useful resources relating to how AI misinformation is mitigated between different social media platforms
       </Typography>
       <br></br>
       </div>

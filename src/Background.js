@@ -69,7 +69,7 @@ export default function Test() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
       
-        <Grid item xs={9} sm={7}>
+        <Grid item xs={12} sm={7}>
         <div className='text-black'>
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Artificial Intelligence?</Typography>
         
@@ -125,7 +125,7 @@ export default function Test() {
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
      
-      <Grid item xs={11} sm={8} md={6}>
+      <Grid item xs={12} sm={8} md={6}>
       <div className='text-black'>
       <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>How is AI implemented within social media content?</Typography>
           <br></br>
@@ -179,7 +179,7 @@ export default function Test() {
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Grid container direction="row" my={4} className='text3' spacing={2} >
 
-            <Grid item xs={9} sm={7}>
+            <Grid item xs={12} sm={7}>
             <div className='text-black'>
             <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Check out this video</Typography>
 
