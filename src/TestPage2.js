@@ -54,7 +54,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Recommendations</Typography>
+      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
