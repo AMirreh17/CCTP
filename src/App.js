@@ -6,7 +6,7 @@ import {Route,Routes} from 'react-router-dom';// importing functions/variables f
 import About from './About';// importing the function About from About.js file
 import Test from './Background';// Importing the function Test from Background.js file
 import Home from './Home';// Importing the function Home from Home.js file
-import Awareness from './TestPage2';// Importing the function Awareness from TestPage2.js file. This page is the AI resources page but due to errors when chaanging names, the original file names stayed
+import Awareness from './AIResources';// Importing the function Awareness from TestPage2.js file. This page is the AI resources page but due to errors when chaanging names, the original file names stayed
 import Showcase from './showcase';// Importing the function Showcase from showcase.js file
 import Awareness2 from './Awareness';// Importing the function Awarness2 from Awareness.js file
 

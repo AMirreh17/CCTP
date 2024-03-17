@@ -6,7 +6,7 @@ import { /*Box, Button,  Paper,*/ Typography, Grid, IconButton } from '@mui/mate
 import NavBar from './NavBar'; // importing the function NavBar from NavBar.js file
 import {motion, useMotionValueEvent, useScroll, useTransform, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion
 import Footer from './footer'; // importing the function Footer from Footer.js file
-import welcomeimg from '../src/assets/image4.png';// importing a image from assets folder
+import welcomeimg from '../src/assets/tupslogan.png';// importing a image from assets folder
 import welcomeimg2 from '../src/assets/chatgpt.avif'; // importing a image from assets folder
 import { useRef } from 'react';// importing the function useRef from react
 import Explore from './ExploreSection';// // importing the function Explore from ExploreSection.js file
@@ -41,9 +41,7 @@ export default function Home() {
       const {scrollYProgress} = useScroll({
         target: container,
         offset: ['start end', '0.8 0.18']
-      }
-
-      )
+      })
       
       const sm = useTransform(scrollYProgress, [0,1], [0,-50]);// The function sm is used to add a parallax scroll to an element. Parallax scrolls can be used to change the speed of different components while scrolling
      //Declarinf the function scaleX whihc used the useSpring function from framer motion. This function can give an element a spring effect while scrolling.
@@ -201,7 +199,7 @@ export default function Home() {
       {/*This div displays the scroll line animation and sticks to the bottom of the browser view*/}
         <motion.div style={{ 
         scaleX,
-        background: "white",
+        background: "grey",
         transformOrigin: "Left",
         position: "sticky",
         top: 0,

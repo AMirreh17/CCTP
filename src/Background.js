@@ -202,7 +202,7 @@ export default function Test() {
       
         <motion.div style={{
         scaleX,
-        background: "white",
+        background: "grey",
         transformOrigin: "Left",
         position: "sticky",
         top: 0,

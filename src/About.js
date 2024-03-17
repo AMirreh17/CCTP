@@ -5,7 +5,7 @@ import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 
 import Footer from './footer';
 import { useRef } from 'react';
 import aboutimg2 from '../src/assets/me.jpg';// importing a image from assets folder
-import aboutimg from '../src/assets/socialmedia.avif';// importing a image from assets folder
+import aboutimg from '../src/assets/tuplogo.png';// importing a image from assets folder
 
 
 const fadeInAnimationsVariants = {
@@ -123,7 +123,7 @@ export default function About() {
        <Footer />
        <motion.div style={{
         scaleX,
-        background: "white",
+        background: "grey",
         transformOrigin: "Left",
         position: "sticky",
         top: 0,

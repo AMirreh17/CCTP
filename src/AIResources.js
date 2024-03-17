@@ -2,7 +2,8 @@ import {Typography, Grid } from '@mui/material';
 import NavBar from './NavBar';
 import './App.css';
 import Footer from './footer';
-import {motion} from 'framer-motion';
+import { useRef } from 'react';
+import {motion, useSpring, useScroll} from 'framer-motion';
 import toolimg from '../src/assets/chatgpt.avif'; // importing a image from assets folder
 import toolimg2 from '../src/assets/midjourney.avif'; // importing a image from assets folder
 import toolimg3 from '../src/assets/Dall.png'; // importing a image from assets folder
@@ -19,7 +20,7 @@ import logoimg4 from '../src/assets/tubebuddylogo.png'; // importing a image fro
 
 
 export default function Awareness() {
-
+  const container = useRef(null);
   const fadeInAnimationsVariants = {
     initial: {
      opacity:0,
@@ -33,11 +34,22 @@ export default function Awareness() {
      }
     },
    }
-  
+   const {scrollYProgress} = useScroll({
+    target: container,
+    offset: ['start end', '0.8 0.18']
+  })
+   const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+
+
     return (
       
         <div className='App'>
         <NavBar />
+        <div ref={container}>
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
         <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>AI Tools</Typography>
@@ -54,7 +66,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
+      <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -122,9 +134,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>ChatGPT</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>Text-based, Automation, Free to use</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         ChatGPT is a text-to-text generative AI tool which allows users to complete text-based tasks through commanding prompts. This is created by the company Open AI and this AI tool brings a more conversational style response compared to your regular AI tools. 
         ChatGPT is commonly used by social media users and content creators to generate content ideas, scripts, and to create video titles and descriptions.  
@@ -152,8 +166,10 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Midjourney</Typography>
-        
-            </div>
+        <div class="font-light text-lg">
+          <p>Image-based, Creative, Subscription</p>
+        </div>
+        </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Midjourney is a text-to image generative AI tool which allows users to produce AI generated images from commanding prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and the human species. 
@@ -177,9 +193,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>DALL-E 2</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>Image-based, Creative, Pay to use</p>
+        </div>
+          </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         DALL-E 2 is a text to image generative AI tool which allows users to produce AI generated images through commanding prompts. 
         This AI tool was also created by the company, Open AI, which is one of the leading companies within generative AI. This AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. 
@@ -208,9 +226,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Sora AI <span class="font-light text-lg">(*New*)</span></Typography>
-
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+        <p>Video-based, Innovative, Recently added</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Sora AI is a newly text to video generative AI tool which allows users to produce AI generated one minute video clips through commanding prompts. This tool was also created by the company, Open AI, and this newly released AI tool innovates AI and motion. This tool could potentially be used for stock footage within video content on social media or potentially visual tutorials and demonstrations. 
         This tool has not been released to the public yet, but if you want to keep up to date with the developments or its public release, please follow the link below. 
@@ -360,6 +380,19 @@ export default function Awareness() {
       </motion.div>
       </motion.div>
        <Footer />
+       {/*This div displays the scroll line animation and sticks to the bottom of the browser view*/}
+       <motion.div style={{ 
+        scaleX,
+        background: "grey",
+        transformOrigin: "Left",
+        position: "sticky",
+        top: 0,
+        bottom: 0,
+        width: "100%",
+        height: "5px"
+      }}>
+      </motion.div>
+    </div>
     </div>
 
     );
