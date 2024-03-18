@@ -118,7 +118,7 @@ export default function Home() {
        
         <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI for social media?</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI and how is it used on social media?</Typography>
             <br></br>
             </div>
           <div className="textColor">
@@ -147,7 +147,7 @@ export default function Home() {
       </Grid>
       <Grid item xs={12} sm={8} md={6}>
       <div className='text-black'>
-      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What are AI tools for content creators?</Typography>
+      <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Can AI tools be used for content creation?</Typography>
           <br></br>
           </div>
         <div className="textColor">
@@ -158,7 +158,7 @@ export default function Home() {
       </Typography>
       <br></br>
       </div>
-      <a href='/CCTP/#recommendations'>
+      <a href='/CCTP/#AIResources'>
          <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Learn More</motion.button>
          </a>
       </Grid>

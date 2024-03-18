@@ -4,8 +4,8 @@ import './App.css';
 import Footer from './footer';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import { useRef } from 'react';
-import img1 from '../src/assets/AI.png';
-import img2 from '../src/assets/background2.png';
+import img1 from '../src/assets/codeimage.jpeg';
+import img2 from '../src/assets/socialmediacontent.webp';
 import img3 from '../src/assets/background3.png';
 
 

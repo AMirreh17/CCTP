@@ -50,7 +50,7 @@ export default function Explore(){
          </div>
         
          <br></br>
-         <a href='/CCTP/#recommendations'>
+         <a href='/CCTP/#AIResources'>
          <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3 text-black rounded-full"> Learn More</motion.button>
          </a>
        </Paper>

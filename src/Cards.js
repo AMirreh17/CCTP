@@ -38,7 +38,7 @@ export default function Card1() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Instagram, Meta
+          Instagram Help Centre
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
@@ -88,7 +88,7 @@ export default function Card1() {
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
-          YouTube Official Blog, Our approach to responsible innovation. Find out more information about how YouTube rules on responsible usage of AI 
+        YouTube Official Blog, Our approach to Responsible innovation. Find out more information about how YouTube tackles different AI usage on their platform 
           </Typography>
         </div>
       </CardContent>

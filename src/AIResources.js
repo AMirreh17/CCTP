@@ -275,9 +275,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Vidyo AI</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>Short form content, Content creation, Productivity</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         VIdyo AI is a video-based AI tool which allows users to edit long form content into short form content which can be published onto social media platforms such as YouTube and TikTok. 
         This AI tool allows the ability to cut down podcast videos into many short form snippets which then can be uploaded onto TikTok or YouTube Shorts. 
@@ -306,9 +308,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>TubeBuddy</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>YouTube Analytics, SEO, Long form content</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         TubeBuddy is a YouTube creation and strategy tool available to YouTubers who want to improve their content and exposure. 
         Tube Buddy utilizes AI features to generate titles for videos, suggest short form content ideas and analyze your potential thumbnails to see the potential virality it can bring to your videos. 
@@ -331,9 +335,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Magic Studio</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>Image-based, Photo editor, Content creation</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Magic Studio is an AI tool which allows users to edit parts of an image with the use of AI. 
         This tool offers users features such as removing unwanted objects within an image, AI image generation through text prompts, 
@@ -362,9 +368,11 @@ export default function Awareness() {
         <Grid item xs={12} sm={8} md={6}>
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>TimeBolt</Typography>
-        
-            </div>
-          <div className="textColor">
+        <div class="font-light text-lg">
+          <p>Content creation, Video editing, Multi platform</p>
+        </div>
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Time Bolt is a video and audio editing tool which uses AI to remove unwanted sounds and significantly cut down long form videos such as podcasts into shorter clips. 
         This tool brings many features such as audio removal, short form content editing, recording video meetings, live streaming highlights and many more. 

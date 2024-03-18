@@ -5,7 +5,7 @@ import Footer from './footer';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import { useRef } from 'react';
 import img1 from '../src/assets/aiexample1.png';
-import img2 from '../src/assets/aiexample2.webp';
+import img2 from '../src/assets/socialmedia.webp';
 import Card1 from './Cards';
 
 
