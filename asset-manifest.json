@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/CCTP/static/css/main.82ad7602.css",
-    "main.js": "/CCTP/static/js/main.5a494370.js",
+    "main.js": "/CCTP/static/js/main.0a77fcee.js",
     "static/js/787.02c67af2.chunk.js": "/CCTP/static/js/787.02c67af2.chunk.js",
-    "static/media/image4.png": "/CCTP/static/media/image4.8bbe78e6cbeaf05ad023.png",
     "static/media/sora.png": "/CCTP/static/media/sora.7fb4a11105a0f7bf2fbd.png",
     "static/media/magicstudio.png": "/CCTP/static/media/magicstudio.68d1e69b9d238b71b779.png",
     "static/media/vidyo.png": "/CCTP/static/media/vidyo.68da3c9cc1f5a5cb08da.png",
@@ -15,23 +14,24 @@
     "static/media/gptlogo.jpg": "/CCTP/static/media/gptlogo.a77aec8264d8218e083e.jpg",
     "static/media/Midjourneylogo.png": "/CCTP/static/media/Midjourneylogo.b0ffad5bc94c33459683.png",
     "static/media/chatgpt.avif": "/CCTP/static/media/chatgpt.c5c6cc1e84a55c4f255e.avif",
-    "static/media/AI.png": "/CCTP/static/media/AI.1dd2c6c1b4f9953104c6.png",
     "static/media/me.jpg": "/CCTP/static/media/me.116f3d54aaa1dbe2856b.jpg",
     "static/media/yt.avif": "/CCTP/static/media/yt.1513481b2250f57f08af.avif",
+    "static/media/codeimage.jpeg": "/CCTP/static/media/codeimage.1e02e625b3f6eea889d9.jpeg",
     "static/media/Dall.png": "/CCTP/static/media/Dall.15e5c7bc4c0138b70ee6.png",
-    "static/media/socialmedia.avif": "/CCTP/static/media/socialmedia.48e38a2503264209afea.avif",
-    "static/media/aiexample2.webp": "/CCTP/static/media/aiexample2.2aeffe5d2c87fcc053b8.webp",
+    "static/media/socialmedia.webp": "/CCTP/static/media/socialmedia.2c3575fde9de86afdd5b.webp",
+    "static/media/tupslogan.png": "/CCTP/static/media/tupslogan.2f42c6b4354603748086.png",
+    "static/media/tuplogo.png": "/CCTP/static/media/tuplogo.3d172d564c0562dec4fe.png",
     "static/media/headerbackground.png": "/CCTP/static/media/headerbackground.bc3055c79c9cb20cfec6.png",
+    "static/media/socialmediacontent.webp": "/CCTP/static/media/socialmediacontent.7180f413138ec886d836.webp",
     "static/media/Insta.avif": "/CCTP/static/media/Insta.94b9e701b7cb58201130.avif",
     "static/media/X.avif": "/CCTP/static/media/X.645562cda12d712f64c8.avif",
-    "static/media/background2.png": "/CCTP/static/media/background2.dfc21c8717ac2fe79ad9.png",
     "index.html": "/CCTP/index.html",
     "main.82ad7602.css.map": "/CCTP/static/css/main.82ad7602.css.map",
-    "main.5a494370.js.map": "/CCTP/static/js/main.5a494370.js.map",
+    "main.0a77fcee.js.map": "/CCTP/static/js/main.0a77fcee.js.map",
     "787.02c67af2.chunk.js.map": "/CCTP/static/js/787.02c67af2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82ad7602.css",
-    "static/js/main.5a494370.js"
+    "static/js/main.0a77fcee.js"
   ]
 }
