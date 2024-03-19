@@ -62,7 +62,7 @@ export default function Footer() {
         </Grid>
       
       </Grid>
-      <Typography align="left" sx={{mt: 2}} >
+      <Typography align="center" sx={{mt: 2}} >
           ©The Undercover Project - 2024 | This website is a part of a University final year project at the University of West of England (UWE)
           </Typography>
             </footer>

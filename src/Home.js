@@ -65,7 +65,7 @@ export default function Home() {
       <div ref={container}> {/*The container function uis added here*/}
       <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div*/}
       <motion.div animate={{y: -30, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div*/}
-        <Typography  fontSize="70px" variant='h1' sx={{my: 4, }}>The Undecover Project</Typography>
+        <Typography  fontSize="70px" variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         <a href='/CCTP/#about'> {/*Button is added here with custom styling*/}
@@ -101,7 +101,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#about'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > About Us</motion.button>
          </a>
         </Grid>
         <Grid item>
@@ -131,7 +131,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
       </Grid>
@@ -159,7 +159,7 @@ export default function Home() {
       <br></br>
       </div>
       <a href='/CCTP/#AIResources'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > Discover</motion.button>
          </a>
       </Grid>
       </Grid>
@@ -183,7 +183,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#Awareness'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
       </Grid>

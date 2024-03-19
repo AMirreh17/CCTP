@@ -80,24 +80,29 @@ export default function Awareness() {
       
         
         <Grid item  xs={9} sm={5} md={3}>
+          <motion.div whileHover={{scale: 1.1}}>
         <a href='https://chat.openai.com/auth/login'>
         <img src={logoimg} width="300" height="500"alt='ChatGPT'/>
-        </a>
+        </a></motion.div>
         </Grid>
         <Grid item  xs={9} sm={5} md={3}>
+        <motion.div whileHover={{scale: 1.1}}>
         <a href='https://discord.com/invite/midjourney'>
         <img src={logoimg2} width="300" height="500"alt='Midjourney'/>
         </a>
+        </motion.div>
         </Grid>
         <Grid item  xs={9} sm={5}md={3}>
+        <motion.div whileHover={{scale: 1.1}}>
         <a href='https://vidyo.ai/'>
         <img src={logoimg3} width="300" height="500"alt='Vidyo'/>
-        </a>
+        </a></motion.div>
         </Grid>
         <Grid item  xs={9} sm={5} md={3}>
+        <motion.div whileHover={{scale: 1.1}}>
         <a href='https://chromewebstore.google.com/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb'>
         <img src={logoimg4} width="300" height="500"alt='TubeBuddy'/>
-        </a>
+        </a></motion.div>
         </Grid>
       </Grid>
       
