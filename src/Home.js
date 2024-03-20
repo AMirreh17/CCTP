@@ -2,9 +2,9 @@
 import './App.css';
 
 
-import { /*Box, Button,  Paper,*/ Typography, Grid, IconButton } from '@mui/material'; // importing functions/variables, Typography and Grid from react library called Material Ui
+import { /*Box, Button,  Paper,*/ Typography, Grid, IconButton } from '@mui/material'; // importing functions/variables, Typography and Grid from react library called Material UI. This is referenced from Material Ui documentsation: https://mui.com/components/
 import NavBar from './NavBar'; // importing the function NavBar from NavBar.js file
-import {motion, useMotionValueEvent, useScroll, useTransform, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion
+import {motion, useMotionValueEvent, useScroll, useTransform, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion. The is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
 import Footer from './footer'; // importing the function Footer from Footer.js file
 import welcomeimg from '../src/assets/tupslogan.png';// importing a image from assets folder
 import welcomeimg2 from '../src/assets/chatgpt.avif'; // importing a image from assets folder
@@ -17,6 +17,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 
 // This function used to add fade up animations within different div components
+//This function is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s
 const fadeInAnimationsVariants = {
  initial: {
   opacity:0,
@@ -33,7 +34,7 @@ const fadeInAnimationsVariants = {
 
 
 export default function Home() {
-
+      //The variables and functions below are referenced from tutorials from Oliver Larose and Sakura Dev: https://www.youtube.com/watch?v=VhXemORYup8&t and https://www.youtube.com/watch?v=GMafliGL7Zs
       const container = useRef(null);// declaring the function container and it is equal to the react function useRef. useRef is given a null value, so it can be later added to a element within the page
       const targetRef = useRef(null);
       const yScroll = useMotionValue(0);
@@ -63,18 +64,18 @@ export default function Home() {
       <NavBar /> {/*The NavBar function is added to the top of the page*/}
   
       <div ref={container}> {/*The container function uis added here*/}
-      <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div*/}
-      <motion.div animate={{y: -30, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div*/}
-        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>The Undercover Project</Typography>
+      <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div animate={{y: -30, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>The Undercover Project</Typography> {/*These elements were produced by myself*/}
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
-        <a href='/CCTP/#about'> {/*Button is added here with custom styling*/}
+        <a href='/CCTP/#about'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
         <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a> 
         <br></br>
         <br></br>
         <div >
-        <IconButton  color='inherit' aria-label="logo" onClick={() => targetRef.current?.scrollIntoView({behaviour: "smooth"})}>
+        <IconButton  color='inherit' aria-label="logo" onClick={() => targetRef.current?.scrollIntoView({behaviour: "smooth"})}> {/* A continuous of previous tutorial reference: https://www.youtube.com/watch?v=GMafliGL7Zs */}
          <ArrowDownwardIcon style={{fontSize:"50px"}}/>
         </IconButton>
         </div>
@@ -84,10 +85,9 @@ export default function Home() {
 
       <motion.div ref={targetRef} class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
-      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
-      
-        <Grid item xs={12} sm={8} md={6}>
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
+        <Grid item xs={12} sm={8} md={6}>{/*These elements were produced by myself*/}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
         
@@ -100,7 +100,7 @@ export default function Home() {
         </Typography>
         <br></br>
         </div>
-        <a href='/CCTP/#about'>
+        <a href='/CCTP/#about'>{/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-4 text-xl  text-white rounded-full" > About Us</motion.button>
          </a>
         </Grid>
@@ -113,11 +113,10 @@ export default function Home() {
       </motion.div>
 
       <motion.div className="welcome3" class="py-10" > 
-      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
-      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
-       
-        <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
-          <div className='text-white'>
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>{/*Grid component from Material UI is used here to align and organise content*/} 
+        <Grid item xs={11} sm={8} md={7}> {/*These elements were produced by myself*/}
+          <div className='text-white'> 
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI and how is it used on social media?</Typography>
             <br></br>
             </div>
@@ -130,7 +129,7 @@ export default function Home() {
         <br></br>
         <br></br>
         </div>
-        <a href='/CCTP/#background'>
+        <a href='/CCTP/#background'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
@@ -140,9 +139,9 @@ export default function Home() {
 
       <motion.div class="text-white py-10" className='welcome'>
 
-      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
-      <Grid item>
+      <Grid item> {/*These elements were produced by myself*/}
       <img src={welcomeimg2} width="500" height="500"alt=''/>
       </Grid>
       <Grid item xs={12} sm={8} md={6}>
@@ -158,7 +157,7 @@ export default function Home() {
       </Typography>
       <br></br>
       </div>
-      <a href='/CCTP/#AIResources'>
+      <a href='/CCTP/#AIResources'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
       <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-4 text-xl text-white rounded-full" > Discover</motion.button>
       </a>
       </Grid>
@@ -167,11 +166,9 @@ export default function Home() {
       </motion.div>
 
       <motion.div className="welcome3" class="py-10">
-      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
-
-      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}> 
-      
-        <Grid item xs={11} sm={8} md={7}>
+      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/}
+        <Grid item xs={11} sm={8} md={7}>  {/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>
             <br></br>
           <div className="textColor">
@@ -182,7 +179,7 @@ export default function Home() {
         </Typography>
         <br></br>
         </div>
-        <a href='/CCTP/#Awareness'>
+        <a href='/CCTP/#Awareness'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
@@ -196,7 +193,7 @@ export default function Home() {
       </motion.div>
       
         <Footer /> {/*The Footer function is placed here. The contents from  the Footer.js is added here*/}
-      {/*This div displays the scroll line animation and sticks to the bottom of the browser view*/}
+      {/*This div displays the scroll line animation and sticks to the bottom of the browser view. This div is referenced from a tutorial: https://www.youtube.com/watch?v=AsniwnTMNrw&t*/}
         <motion.div style={{ 
         scaleX,
         background: "grey",

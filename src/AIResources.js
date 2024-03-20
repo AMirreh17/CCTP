@@ -59,20 +59,20 @@ export default function Awareness() {
       </motion.div>
       </motion.header>
       
-      <motion.div class="text-white py-10" className='backgroundsection2'>
+      <motion.div class="text-white py-10 align-middle" className='backgroundsection2'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
         <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}>
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
-          <br></br></div>
-          <div className="textColor">
+      <Typography align="center" fontSize="30px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
+          <br></br>
+          </div>
+      <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
       Here are some useful AI tools utilised by many social media content creators and creatives across the world
       </Typography>
-      
       </div>
       </Grid>
       </Grid>
@@ -109,7 +109,7 @@ export default function Awareness() {
       </motion.div>
       </motion.div>
 
-      <motion.div className="welcome3" class="py-10" > 
+      <motion.div className="backgroundsection3" class="py-10" > 
       <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
        

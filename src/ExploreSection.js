@@ -22,14 +22,13 @@ export default function Explore(){
       </Grid>
         <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
-       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
          <Typography fontSize="40px" variant='h2'>Background</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+         What is Artificial Intelligence and why is it utilised within most social media platforms. 
+         Does this have an impact on me? Find out more about the context behind AI and how it’s used by many users on social media.
          </Typography>
        </div>
          <br></br>
@@ -38,14 +37,13 @@ export default function Explore(){
          </a>
          
        </Paper>
-       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
          <Typography  fontSize="40px"variant='h2'>AI Resources</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+         Explore the vast world of AI resources for content creation and creative artwork. 
+         View our selection of popular AI tools and resources best suited for you or any social media enthusiast who is interested in learning more about AI.
          </Typography>
          </div>
         
@@ -54,14 +52,13 @@ export default function Explore(){
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3 text-black rounded-full"> Learn More</motion.button>
          </a>
        </Paper>
-       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 10 }}>
+       <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
          <Typography  fontSize="40px"variant='h3'> Awareness</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+         What are the dangers of AI and how does this have an impact on social media users? 
+         Find out more about the dangers of AI and how to be more aware of AI misinformation along your social media journeys. 
          </Typography>
          </div>
        
