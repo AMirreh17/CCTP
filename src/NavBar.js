@@ -1,5 +1,6 @@
 import { AppBar, IconButton, Stack, Toolbar, Typography, Button, Drawer, Box} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
 //import AppLogo from '../src/assets/logo2.png';
 
 import {useState} from 'react'
@@ -11,11 +12,11 @@ export default function NavBar() {
 <AppBar position="sticky" style={{background: '#111111', minHeight: "70px"}}>
    
  <Toolbar>
-    <IconButton size='large' edge='start' color='inherit' aria-label="logo" onClick={() => setIsDrawerOpen(true)}>
-     
-      
-        
+    <IconButton size='large' edge='start' color='inherit' aria-label="logo" onClick={() => setIsDrawerOpen(true)}> 
     <MenuIcon />
+    </IconButton>
+    <IconButton size='large' edge='start' color='inherit' aria-label="logo"  href="/CCTP/" > 
+    <HomeIcon />
     </IconButton>
     {
       //<img src={AppLogo} width="40" height="40" alt=""/>
@@ -26,13 +27,21 @@ export default function NavBar() {
      
     </Typography>
     <Stack direction='row' spacing={2}>
-    
-    <Button color='inherit' href="/CCTP/#background">Background</Button>
-    <Button color='inherit' href="/CCTP/#AIResources"> AI Resources</Button>
+
+     <a href='/CCTP/#Background'>
+     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-white rounded font-sans hover:text-black" > Background</button>
+     </a>
+     <a href='/CCTP/#AIResources'>
+     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-white rounded font-sans hover:text-black" > AI Resources</button>
+     </a>
+     
+
        
          
       
       { /*
+         <Button color='inherit' href="/CCTP/#background">Background</Button>
+         <Button color='inherit' href="/CCTP/#AIResources"> AI Resources</Button>
          <a href='/CCTP/#background'>
          <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Background</motion.button>
          </a>

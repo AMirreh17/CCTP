@@ -66,7 +66,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
+      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -151,7 +151,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://chat.openai.com/auth/login'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
         <Grid item>
@@ -183,7 +183,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://discord.com/invite/midjourney'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
       </Grid>
@@ -211,7 +211,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://openai.com/dall-e-2'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
         <Grid item>
@@ -243,7 +243,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://openai.com/sora'>
-        <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+        <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
         </a>
         </Grid>
         </Grid>
@@ -293,7 +293,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://vidyo.ai/'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
         <Grid item>
@@ -326,7 +326,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://chromewebstore.google.com/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
       </Grid>
@@ -353,7 +353,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://magicstudio.com/'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
         <Grid item>
@@ -386,7 +386,7 @@ export default function Awareness() {
         <br></br>
         </div>
         <a href='https://www.timebolt.io/'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-black px-7 py-5 text-xl tracking-widest text-white rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
          </a>
         </Grid>
       </Grid>

@@ -49,7 +49,7 @@ export default function Card1() {
       
       <CardActions class="align-middle py-2">
       <a href='https://help.instagram.com/388534952086572' >
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
          </a>
       </CardActions>
     </Card>
@@ -61,7 +61,7 @@ export default function Card1() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          X (Twitter)
+          X Help Centre
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
@@ -72,7 +72,7 @@ export default function Card1() {
       
       <CardActions class="align-middle py-2">
       <a href='https://help.twitter.com/en/using-x/community-notes' >
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
          </a>
       </CardActions>
     </Card>
@@ -95,7 +95,7 @@ export default function Card1() {
       
       <CardActions class="align-middle py-2">
       <a href='https://blog.youtube/inside-youtube/our-approach-to-responsible-ai-innovation/' >
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3  text-black rounded-full" > View Source</motion.button>
          </a>
       </CardActions>
     </Card>

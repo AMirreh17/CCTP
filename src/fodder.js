@@ -182,3 +182,30 @@
  {
   //<img src={logo} className="App-logo" alt="logo" />
   }
+  {
+    /*
+     <motion.div class="text-white py-10" className='backgroundsection2'>
+
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
+        <Grid container direction="row" my={4} className='text3' spacing={2} >
+
+            <Grid item xs={12} sm={7}>
+            <div className='text-black'>
+            <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Check out this video</Typography>
+
+              
+                <br></br>
+                </div>
+              <div className="textColor">
+            <Typography  fontSize="20px" sx={{mt: 2}} > 
+            This video summarises the topics of AI and social media further with some addition information about AI tools for social media 
+            </Typography>
+            <br></br>
+            </div>
+            </Grid>
+            </Grid>
+        </motion.div>
+        </motion.div>
+      
+    */
+  }

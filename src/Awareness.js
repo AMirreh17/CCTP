@@ -97,7 +97,7 @@ export default function Awareness2() {
       <Grid item>
       <img style={{boxShadow: "5px 20px 40px black", borderRadius: "5%"}}  src={img1} width="600" height="500"alt=''/>
       </Grid>
-        <Grid item xs={11} sm={8} md={6}>
+        <Grid item xs={11} sm={7} md={6}>
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Examples of AI Misinformation</Typography>
             <br></br>
           <div className="textColor">
@@ -180,7 +180,7 @@ export default function Awareness2() {
             <br></br>
             </div>
             <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-7 py-5 text-xl tracking-widest text-black rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl text-black rounded-full" > Learn More</motion.button>
          </a>
             </Grid>
             </Grid>

@@ -132,18 +132,20 @@ export default function Test() {
           </div>
         <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      With the rise of generative AI and AI tools in the recent years, this has made content creation on social media platforms a lot easier.
-      There are many tools available which can speed the process of producing content such as generating content ideas, video editing, thumbnails, tags, 
+      With the rise of generative AI and AI tools in recent years, this has made content creation on social media platforms a lot easier.
+      There are many tools available which can speed the process of producing content such as generating  ideas, video editing, thumbnails, tags, 
       generating artwork and video descriptions/titles.  
       </Typography>
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Some of the popular AI tools used consist of Midjourney, ChatGPT, Video AI, Rapid Tags, Tube Buddy and many more. 
+      Some of the popular AI tools used consist of Midjourney, ChatGPT, Vidyo AI, Rapid Tags, Tube Buddy and many more. 
       If you want to find out more information about AI tools for social media or you are interested in using some of the tools mentioned above, 
       check out our AI tools page for our current recommendations.  
       </Typography>
       <br></br>
       </div>
-
+      <a href='/CCTP/#AIResources'>
+      <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-4 text-xl text-white rounded-full" > Find out more</motion.button>
+      </a>
       </Grid>     
        <Grid item>
       <img src={img2} width="500" height="500"alt=''/>
@@ -169,34 +171,13 @@ export default function Test() {
         </Typography>
         <br></br>
         </div>
+        <a href='/CCTP/#Awareness'>
+      <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl text-black rounded-full" > Find out more</motion.button>
+      </a>
         </Grid>
       </Grid>
       </motion.div>
       </motion.div>
-      
-      <motion.div class="text-white py-10" className='backgroundsection2'>
-
-        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-        <Grid container direction="row" my={4} className='text3' spacing={2} >
-
-            <Grid item xs={12} sm={7}>
-            <div className='text-black'>
-            <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Check out this video</Typography>
-
-              
-                <br></br>
-                </div>
-              <div className="textColor">
-            <Typography  fontSize="20px" sx={{mt: 2}} > 
-            This video summarises the topics of AI and social media further with some addition information about AI tools for social media 
-            </Typography>
-            <br></br>
-            </div>
-            </Grid>
-            </Grid>
-        </motion.div>
-        </motion.div>
-      
       
         <Footer />
       
