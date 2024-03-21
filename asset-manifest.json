@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/CCTP/static/css/main.90a08c02.css",
-    "main.js": "/CCTP/static/js/main.7d32ade4.js",
+    "main.css": "/CCTP/static/css/main.8de23238.css",
+    "main.js": "/CCTP/static/js/main.ef3d86ec.js",
     "static/js/787.02c67af2.chunk.js": "/CCTP/static/js/787.02c67af2.chunk.js",
     "static/media/sora.png": "/CCTP/static/media/sora.7fb4a11105a0f7bf2fbd.png",
+    "static/media/researchexample.png": "/CCTP/static/media/researchexample.4782170a68bec121bf42.png",
     "static/media/magicstudio.png": "/CCTP/static/media/magicstudio.68d1e69b9d238b71b779.png",
     "static/media/vidyo.png": "/CCTP/static/media/vidyo.68da3c9cc1f5a5cb08da.png",
     "static/media/midjourney.avif": "/CCTP/static/media/midjourney.61fb821ebaa8f3124faf.avif",
     "static/media/tubebuddy.png": "/CCTP/static/media/tubebuddy.8e636fa154add985b170.png",
     "static/media/aiexample1.png": "/CCTP/static/media/aiexample1.2b3bea9e0f79240f51ac.png",
+    "static/media/metaexample.png": "/CCTP/static/media/metaexample.fd83ce599f71ac79688e.png",
+    "static/media/fakenews.avif": "/CCTP/static/media/fakenews.d42aff5f79c2b34f58c6.avif",
     "static/media/background3.png": "/CCTP/static/media/background3.5146ccf6929da97da3e8.png",
     "static/media/timebolt.png": "/CCTP/static/media/timebolt.286b6de7e66e8731a5e7.png",
     "static/media/gptlogo.jpg": "/CCTP/static/media/gptlogo.a77aec8264d8218e083e.jpg",
@@ -18,20 +21,21 @@
     "static/media/yt.avif": "/CCTP/static/media/yt.1513481b2250f57f08af.avif",
     "static/media/codeimage.jpeg": "/CCTP/static/media/codeimage.1e02e625b3f6eea889d9.jpeg",
     "static/media/Dall.png": "/CCTP/static/media/Dall.15e5c7bc4c0138b70ee6.png",
-    "static/media/socialmedia.webp": "/CCTP/static/media/socialmedia.2c3575fde9de86afdd5b.webp",
+    "static/media/whatisai.jpeg": "/CCTP/static/media/whatisai.192443b5bd61fc50f4a1.jpeg",
+    "static/media/newsexample2.avif": "/CCTP/static/media/newsexample2.7b1ddb40fceb77a0473b.avif",
     "static/media/tupslogan.png": "/CCTP/static/media/tupslogan.2f42c6b4354603748086.png",
     "static/media/tuplogo.png": "/CCTP/static/media/tuplogo.3d172d564c0562dec4fe.png",
-    "static/media/headerbackground.png": "/CCTP/static/media/headerbackground.bc3055c79c9cb20cfec6.png",
+    "static/media/headerbackground.png": "/CCTP/static/media/headerbackground.3568d69cc772440dbfd0.png",
     "static/media/socialmediacontent.webp": "/CCTP/static/media/socialmediacontent.7180f413138ec886d836.webp",
     "static/media/Insta.avif": "/CCTP/static/media/Insta.94b9e701b7cb58201130.avif",
     "static/media/X.avif": "/CCTP/static/media/X.645562cda12d712f64c8.avif",
     "index.html": "/CCTP/index.html",
-    "main.90a08c02.css.map": "/CCTP/static/css/main.90a08c02.css.map",
-    "main.7d32ade4.js.map": "/CCTP/static/js/main.7d32ade4.js.map",
+    "main.8de23238.css.map": "/CCTP/static/css/main.8de23238.css.map",
+    "main.ef3d86ec.js.map": "/CCTP/static/js/main.ef3d86ec.js.map",
     "787.02c67af2.chunk.js.map": "/CCTP/static/js/787.02c67af2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90a08c02.css",
-    "static/js/main.7d32ade4.js"
+    "static/css/main.8de23238.css",
+    "static/js/main.ef3d86ec.js"
   ]
 }
