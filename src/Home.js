@@ -70,7 +70,7 @@ export default function Home() {
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
         <a href='/CCTP/#about'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
-        <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-white px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
+        <motion.button style={{y:sm}} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="bg-amber-50 px-10 py-5 text-xl uppercase tracking-widest text-black rounded-full" href="/CCTP/#about"> Learn More</motion.button>
         </a> 
         <br></br>
         <br></br>
@@ -130,7 +130,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#background'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
       </Grid>
@@ -180,7 +180,7 @@ export default function Home() {
         <br></br>
         </div>
         <a href='/CCTP/#Awareness'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-7 py-4 text-xl  text-black rounded-full" > Discover</motion.button>
          </a>
         </Grid>
       </Grid>

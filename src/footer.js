@@ -22,9 +22,9 @@ export default function Footer() {
         Background
         </Typography>
         </a>
-        <a href="/CCTP/#recommendations">
+        <a href="/CCTP/#AIResources">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
-        Tools
+        AI Resources
         </Typography>
         </a>
        </div>
@@ -41,19 +41,19 @@ export default function Footer() {
         <Grid item xs={11} sm={8} md={4}>
         <Typography  align="left" fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>Useful External Resources</Typography>  
           <div className="textColor">
-        <a href="/CCTP">
+        <a href="https://openai.com/research/overview">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
-        Link 1 
+        Open AI Research 
         </Typography>
         </a>
-        <a href="/CCTP/#about">
+        <a href="https://help.instagram.com/975917226081685">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
-        Link 2
+        Instagram - Tips for identifying false information
         </Typography>
         </a>
-        <a href="/CCTP/#background">
+        <a href="https://www.marketingaiinstitute.com/blog/what-is-artificial-intelligence-for-social-media#:~:text=Today%2C%20social%20media%20AI%20tools,in%20some%20way%20to%20function">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
-        Link 3
+        What is Artificial Intelligence for social media
         </Typography>
         </a>
         

@@ -52,7 +52,7 @@ export default function Awareness() {
         <div ref={container}>
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>AI Tools</Typography>
+        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>AI Resources</Typography>
         <motion.p  class="font-light  max-w-xl">Most popular and effective AI tools for social media content creators and enthusiasts</motion.p>
         <br></br>
         

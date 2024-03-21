@@ -33,7 +33,7 @@ export default function Explore(){
        </div>
          <br></br>
          <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3  text-black rounded-full"> Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3  text-black rounded-full"> Learn More</motion.button>
          </a>
          
        </Paper>
@@ -49,7 +49,7 @@ export default function Explore(){
         
          <br></br>
          <a href='/CCTP/#AIResources'>
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3 text-black rounded-full"> Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3 text-black rounded-full"> Learn More</motion.button>
          </a>
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
@@ -64,7 +64,7 @@ export default function Explore(){
        
          <br></br>
          <a href='/CCTP/#Awareness'>
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-5 py-3  text-black rounded-full"> Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3  text-black rounded-full"> Learn More</motion.button>
          </a>
          
        </Paper>

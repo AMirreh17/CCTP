@@ -5,9 +5,11 @@ import Footer from './footer';
 import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
 import { useRef } from 'react';
 import img1 from '../src/assets/aiexample1.png';
-import img2 from '../src/assets/socialmedia.webp';
+import img2 from '../src/assets/metaexample.png';
 import Card1 from './Cards';
-
+import img3 from '../src/assets/researchexample.png'
+import img4 from '../src/assets/newsexample2.avif'
+import img5 from '../src/assets/fakenews.avif'
 
 
 export default function Awareness2() {
@@ -68,7 +70,7 @@ export default function Awareness2() {
       <motion.div class="text-white py-10" className='backgroundsection2'>
 
         <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-      <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>
+      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
       
         <Grid item xs={12} md={6} sm={7}>
         <div className='text-black'>
@@ -85,7 +87,9 @@ export default function Awareness2() {
         <br></br>
         </div>
         </Grid>
-       
+        <Grid item>
+      <img style={{boxShadow: "5px 20px 40px black", borderRadius: "5%"}}  src={img5} width="500" height="500"alt=''/>
+      </Grid>
         
       </Grid>
       </motion.div>
@@ -118,45 +122,71 @@ export default function Awareness2() {
       </motion.div>
       </motion.div>
 
-      <motion.div class="text-white py-10" className='backgroundsection2'>
+      <motion.div  class="text-white py-10" className='welcome'>
 
-      <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
-     
-      <Grid item xs={12} sm={8} md={7}>
-      <div className='text-black'>
-      <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Methods of Prevention</Typography>
-          <br></br>
-          </div>
-        <div className="textColor">
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-     <Typography  fontSize="30px" sx={{mt: 2}} > Utilise built in features within social media applications 
-      </Typography>
-      <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Social media applications are now implementing features to mitigate misinformation and fake news within their platforms. For example, X have created community notes to help allow users to add further context to content posted, to stop the spread of misinformation. 
-      Other applications such as Instagram have similar features (potential false content on Instagram is censored before viewing) to combat false and misleading content.  
-      </Typography>
-
-      <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with generative AI developments 
-      </Typography>
-      <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Keeping up to date and understanding the developments on generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common AI generated tools used on social media consist of ChatGPT, Stable Diffusion, DALL-E and many more. 
-      If you want to find out more information about AI generated tools, check out our page dedicated to AI tools for social media. 
-      </Typography>
-
-      <Typography  fontSize="30px" sx={{mt: 2}} > Conducting your own research 
-      </Typography>
-      <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Researching into the context of the AI misinformation you have encountered can be useful in finding out the truth and protecting yourself. Utilising reliable sources and media are essential when encountering AI content that you are unsure of. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the context of the content you have encountered.
-      However, more difficult and widespread AI misinformation on social media will require other methods for protection. 
-      </Typography>
-      <br></br>
-      </div>
-
-      </Grid>     
-       <Grid item>
-      <img src={img2} width="400" height="500"alt=''/>
+        <Grid item xs={12} sm={8} md={6}>
+        <div className='text-black'>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> Methods of Prevention </Typography>
+        </div>
+        <div className="textColor">
+        <Typography  fontSize="30px" sx={{mt: 2}} > Utilise built in features within social media applications </Typography>
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Social media applications are now implementing features to mitigate misinformation and fake news within their platforms. For example, X have created community notes to help allow users to add further context to content posted, to stop the spread of misinformation. 
+        Other applications such as Instagram have similar features (potential false content on Instagram is censored before viewing) to combat false and misleading content.   
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+        <Grid item>
+        <img src={img2} width="500" height="500"alt=''/>
+        </Grid>
+        
       </Grid>
+      </motion.div>
+      </motion.div>
+      <motion.div  class="text-white py-10" className='welcome'>
+
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+      <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
+      <Grid item>
+        <img src={img3} width="500" height="500"alt=''/>
+        </Grid>
+        <Grid item xs={12} sm={8} md={6}>
+          <div className="textColor">
+          <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with AI generated developments</Typography>
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Keeping up to date and understanding the developments on generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common AI generated tools used on social media consist of ChatGPT, Stable Diffusion, DALL-E and many more. 
+        If you want to find out more information about AI generated tools, check out our page dedicated to AI tools for social media.   
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+      </Grid>
+      </motion.div>
+      </motion.div>
+      
+      <motion.div  class="text-white py-10" className='welcome'>
+
+        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+      <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
+      
+        <Grid item xs={12} sm={8} md={6}>
+        <div className="textColor">
+        <Typography  fontSize="30px" sx={{mt: 2}} >Conducting your own research</Typography>
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Researching into the context of the AI misinformation you have encountered can be useful in finding out the truth and protecting yourself. 
+        Utilizing reliable sources and media are essential when encountering AI content that you are unsure of. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the context of the content posted. 
+        However, more difficult, and widespread AI misinformation on social media will require other methods for protection. 
+        </Typography>
+        <br></br>
+        </div>
+        </Grid>
+        <Grid item>
+        <img src={img4} width="500" height="500"alt=''/>
+        </Grid>
       </Grid>
       </motion.div>
       </motion.div>
@@ -180,7 +210,7 @@ export default function Awareness2() {
             <br></br>
             </div>
             <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-white px-7 py-4 text-xl text-black rounded-full" > Learn More</motion.button>
+         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-7 py-4 text-xl text-black rounded-full" > Learn More</motion.button>
          </a>
             </Grid>
             </Grid>

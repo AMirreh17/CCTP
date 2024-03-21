@@ -29,10 +29,10 @@ export default function NavBar() {
     <Stack direction='row' spacing={2}>
 
      <a href='/CCTP/#Background'>
-     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-white rounded font-sans hover:text-black" > Background</button>
+     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-amber-50 rounded font-sans hover:text-black" > Background</button>
      </a>
      <a href='/CCTP/#AIResources'>
-     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-white rounded font-sans hover:text-black" > AI Resources</button>
+     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-amber-50 rounded font-sans hover:text-black" > AI Resources</button>
      </a>
      
 
