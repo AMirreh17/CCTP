@@ -96,7 +96,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         The Undercover Project is an online resource to help educate social media users and enthusiasts on the impacts and benefits of 
         Artificial Intelligence (AI) within social media content and platforms. 
-        This website will outline the basics of AI, its usage within popular social media platforms, and what AI tools and resources are available
+        This website will outline the basics of AI, its usage within popular social media platforms, and what AI tools and resources are available.
         </Typography>
         <br></br>
         </div>
@@ -124,7 +124,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI is a technology/system which is designed to complete complex tasks. Social media applications utilise AI to 
         improve their user experiences on their platforms. This consist of tracking likes, comments, follows, trends and more. 
-        Find out more about the context behind AI and how it is implemented within social media content and platforms.
+        Find out more information about the context behind AI and how it is implemented within social media content and platforms.
         </Typography>
         <br></br>
         <br></br>
@@ -151,9 +151,9 @@ export default function Home() {
           </div>
         <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Many social media content creators utilise AI tools to improve their content production and create outstanding artwork. 
-      There are various AI tools available, which can benefit your social media experience and enhance your creativity when used in a positive light. 
-      Find out more about trendy AI tools for social media content or visual artwork as a whole 
+      Many social media content creators utilise AI tools to improve their content production and create outstanding artworks. 
+      There are various AI tools available, which can benefit your social media experience and enhance your creativity, when used in a positive light. 
+      Find out more information about trendy AI tools for social media content or visual artworks. 
       </Typography>
       <br></br>
       </div>
@@ -175,7 +175,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI can be a powerful tool to improve your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
         Social media applications such as Instagram, YouTube and X, have recently developed methods on mitigating AI misinformation across their platforms. 
-        Find ways to become more aware of AI and how to protect yourself on social media
+        Find out ways to become more aware of AI and how to protect yourself on social media
         </Typography>
         <br></br>
         </div>

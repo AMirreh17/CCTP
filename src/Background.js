@@ -140,9 +140,9 @@ export default function Test() {
       generating artwork and video descriptions/titles.  
       </Typography>
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Some of the popular AI tools used consist of Midjourney, ChatGPT, Vidyo AI, Rapid Tags, Tube Buddy and many more. 
+      Some of the most popular AI tools used consist of Midjourney, ChatGPT, Vidyo AI, TimeBolt, TubeBuddy and many more. 
       If you want to find out more information about AI tools for social media or you are interested in using some of the tools mentioned above, 
-      check out our AI tools page for our current recommendations.  
+      check out our AI Resources page for our current recommendations.  
       </Typography>
       <br></br>
       </div>
@@ -169,7 +169,7 @@ export default function Test() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI related tools can benefit many content creators within the creation processes, however, there are some social media users that utilise these AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and inappropriate content which could widely spread across social media platforms. 
+        AI related tools can benefit many content creators within content production, however, there are some social media users that utilise these AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and misleading content which could widely spread across social media platforms. 
         Social media is the main source of information for many of their users, therefore, it is important to be aware of what content you post.  
         </Typography>
         <br></br>

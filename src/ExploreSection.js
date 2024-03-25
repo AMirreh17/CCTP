@@ -27,7 +27,7 @@ export default function Explore(){
          <Typography fontSize="40px" variant='h2'>Background</Typography>
          <div className="textColor">
          <Typography sx={{mt: 2}}> 
-         What is Artificial Intelligence and why is it utilised within most social media platforms. 
+         What is Artificial Intelligence and why is it used within most social media platforms. 
          Does this have an impact on me? Find out more about the context behind AI and how it’s used by many users on social media.
          </Typography>
        </div>

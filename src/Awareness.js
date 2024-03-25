@@ -109,10 +109,10 @@ export default function Awareness2() {
         A recent example of AI misinformation occurring is with the current US presidential election campaigns. AI generated political advertisements were created to highlight a potential future if the current US president, Joe Biden, was to continue for a second presidential term. This generated content consisted of doomsday events, potential world wars, soldiers patrolling the streets, etc. These advertisements are to mislead the public for political gain.   
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Another example of AI misinformation was when pictures circulated on social media of the Pope wearing a popular piece of clothing, a puffer jacket. This sparked curiosity as the pictures were very realistic and many social media users believed it to be real 
+        Another example of AI misinformation was when pictures circulated on social media of the Pope wearing a popular piece of clothing, a puffer jacket. This sparked curiosity as the pictures were very realistic and many social media users believed it to be real. 
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI generated tools are powerful technologies which can influence many social media users; however, are there ways to protect yourself from AI misinformation on social media?  
+        AI generative tools are powerful technologies which can influence many social media users; however, are there methods available to protect yourself from AI misinformation on social media?  
         </Typography>
         <br></br>
         <br></br>
@@ -135,7 +135,7 @@ export default function Awareness2() {
         <Typography  fontSize="30px" sx={{mt: 2}} > Utilise built in features within social media applications </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Social media applications are now implementing features to mitigate misinformation and fake news within their platforms. For example, X have created community notes to help allow users to add further context to content posted, to stop the spread of misinformation. 
-        Other applications such as Instagram have similar features (potential false content on Instagram is censored before viewing) to combat false and misleading content.   
+        Other applications such as Instagram and Facebook have similar features (potential false content on Instagram and Facebook is censored before viewing) to combat false and misleading content.   
         </Typography>
         <br></br>
         </div>
@@ -156,7 +156,7 @@ export default function Awareness2() {
         </Grid>
         <Grid item xs={12} sm={8} md={6}>
           <div className="textColor">
-          <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with AI generated developments</Typography>
+          <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with generative AI developments</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Keeping up to date and understanding the developments on generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common AI generated tools used on social media consist of ChatGPT, Stable Diffusion, DALL-E and many more. 
         If you want to find out more information about AI generated tools, check out our page dedicated to AI tools for social media.   
@@ -178,7 +178,7 @@ export default function Awareness2() {
         <Typography  fontSize="30px" sx={{mt: 2}} >Conducting your own research</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Researching into the context of the AI misinformation you have encountered can be useful in finding out the truth and protecting yourself. 
-        Utilizing reliable sources and media are essential when encountering AI content that you are unsure of. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the context of the content posted. 
+        Utilising reliable sources and media are essential when encountering AI content that you are unsure of. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the context of the content posted. 
         However, more difficult, and widespread AI misinformation on social media will require other methods for protection. 
         </Typography>
         <br></br>
