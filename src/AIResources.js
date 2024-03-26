@@ -52,7 +52,7 @@ export default function Awareness() {
         <div ref={container}>
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>AI Resources</Typography>
+        <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>AI Resources</Typography>
         <motion.p  class="font-light  max-w-xl">Most popular and effective AI tools for social media content creators and enthusiasts</motion.p>
         <br></br>
         
@@ -66,7 +66,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography align="center" fontSize="30px"variant='h2' sx={{my: 1, mt: 2}}>Recommendations</Typography>
+      <Typography align="center" fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Trendy AI Tools </Typography>
           <br></br>
           </div>
       <div className="textColor">
@@ -115,7 +115,7 @@ export default function Awareness() {
        
         <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Generative AI</Typography>
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
             <br></br>
             </div>
           <div className="textColor">

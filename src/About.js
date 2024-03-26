@@ -54,7 +54,7 @@ export default function About() {
         <NavBar />
         <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>About</Typography>
+        <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>About</Typography>
         <motion.p  class="font-light  max-w-xl">Find out more about our project aims and objectives</motion.p>
         <br></br>
         

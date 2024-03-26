@@ -60,7 +60,7 @@ export default function Awareness2() {
       <div ref={container}>
       <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
       <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="60px" variant='h1' sx={{my: 4, }}>Awareness</Typography>
+        <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>Awareness</Typography>
         <motion.p  class="font-light  max-w-xl">How to be more aware of AI based social media content</motion.p>
         <br></br>
         
