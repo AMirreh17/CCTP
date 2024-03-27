@@ -12,11 +12,6 @@ export default function Footer() {
         <Typography align="left" fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>The Undercover Project</Typography>  
           <div className="textColor">
       
-        <a href="/CCTP/#about">
-        <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
-        About
-        </Typography>
-        </a>
         <a href="/CCTP/#background">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
         Background
@@ -25,6 +20,11 @@ export default function Footer() {
         <a href="/CCTP/#AIResources">
         <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
         AI Resources
+        </Typography>
+        </a>
+        <a href="/CCTP/#Awareness">
+        <Typography align="left" fontSize="15px" sx={{mt: 2}} > 
+        Awareness
         </Typography>
         </a>
        </div>

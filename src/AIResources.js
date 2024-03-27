@@ -71,7 +71,7 @@ export default function Awareness() {
           </div>
       <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Here are some useful AI tools utilised by many social media content creators and creatives across the world
+      Here are some useful AI tools utilised by many social media content creators and digital creatives across the world
       </Typography>
       </div>
       </Grid>
@@ -120,9 +120,9 @@ export default function Awareness() {
             </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI is a technology/system which is designed to complete complex tasks. Generative AI in particular, is a type pf AI technology used to 
-        produce different forms of content. These forms of content can range from video, images, illustrations, audio and text (such as ChatGPT). Below, we will be 
-        our resource gallery for Generative AI tools, feel free to check it out.
+        AI is a technology/system which is designed to complete complex tasks. Generative AI in particular, is a type of AI technology used to 
+        produce different forms of content. These forms of content can range from video, images, illustrations, audio and text (such as ChatGPT). Below will be 
+        a resource gallery of various generative AI tools used for social media content and creative artworks.
         </Typography>
         <br></br>
         <br></br>
@@ -145,8 +145,8 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        ChatGPT is a text-to-text generative AI tool which allows users to complete text-based tasks through commanding prompts. This is created by the company Open AI and this AI tool brings a more conversational style response compared to your regular AI tools. 
-        ChatGPT is commonly used by social media users and content creators to generate content ideas, scripts, and to create video titles and descriptions.  
+        ChatGPT is a text-to-text generative AI tool which allows users to complete text-based tasks. ChatGPT was created by the company Open AI and this generative AI tool brings a more conversational style format to AI chatbots. 
+        ChatGPT is commonly used by social media users and content creators to generate content ideas, scripts, and video titles and descriptions.  
         </Typography>
         <br></br>
         </div>
@@ -177,8 +177,8 @@ export default function Awareness() {
         </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Midjourney is a text-to image generative AI tool which allows users to produce AI generated images from commanding prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and the human species. 
-        This AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. Midjourney is one of the leading image-based AI tools available.  
+        Midjourney is a text-to image generative AI tool which allows users to produce AI generated images through prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and humans. 
+        This generative AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. Midjourney is one of the leading image-based generative AI tools available.  
         </Typography>
         <br></br>
         </div>
@@ -204,9 +204,9 @@ export default function Awareness() {
           </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        DALL-E 2 is a text to image generative AI tool which allows users to produce AI generated images through commanding prompts. 
-        This AI tool was also created by the company, Open AI, which is one of the leading companies within generative AI. This AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. 
-        Alongside Midjourney, DALL-E is one of the leading image-based AI tools available. 
+        DALL-E 2 is a text to image generative AI tool which allows users to produce AI generated images through prompts. 
+        This generative AI tool was also created by the company Open AI, which is one of the leading companies within AI research. This generative AI tool is commonly used to produce graphics and artworks which can be shared across social media platforms. 
+        Alongside Midjourney, DALL-E 2 is one of the leading image-based generative AI tools available. 
         </Typography>
         <br></br>
         </div>
@@ -237,8 +237,8 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Sora AI is a newly text to video generative AI tool which allows users to produce AI generated one minute video clips through commanding prompts. This tool was also created by the company, Open AI, and this newly released AI tool innovates AI and motion. This tool could potentially be used for stock footage within video content on social media or potentially visual tutorials and demonstrations. 
-        This tool has not been released to the public yet, but if you want to keep up to date with the developments or its public release, please follow the link below. 
+        Sora AI is a newly text to video generative AI tool which allows users to produce AI generated one minute video clips through prompts. This generative AI tool was also created by the company Open AI, and this newly released AI tool brings innovation to AI and motion. This tool could potentially be used for stock footage within video content on social media or visual tutorials and demonstrations. 
+        This tool has not been released to the public yet, but if you want to keep up to date with the developments or its public release, feel free to follow the source below. 
         </Typography>
         <br></br>
         </div>
@@ -260,10 +260,10 @@ export default function Awareness() {
             </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Many social media content creators utilise AI tools to improve their content production and create outstanding artwork. 
+        Many social media content creators utilise AI tools to improve their content production and create outstanding artworks. 
         There are various AI tools available, which can benefit your social media experience and enhance your creativity when used in a positive light.
-        Below, we will be 
-        our resource gallery for social media content based AI tools, feel free to check it out.
+        Below will be 
+        a resource gallery of various AI tools used for social media content and creative artworks.
         </Typography>
         <br></br>
         <br></br>
@@ -286,9 +286,9 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        VIdyo AI is a video-based AI tool which allows users to edit long form content into short form content which can be published onto social media platforms such as YouTube and TikTok. 
-        This AI tool allows the ability to cut down podcast videos into many short form snippets which then can be uploaded onto TikTok or YouTube Shorts. 
-        This tool allows content creators to improve their short-form content and produce content at a quicker rate.  
+        VIdyo AI is a video-based AI tool which allows users to edit long form videos into short form videos. These videos can be published onto social media platforms such as YouTube and TikTok. 
+        This AI tool allows the ability to cut down podcast videos into many short form snippets, which is then commonly uploaded onto TikTok or YouTube Shorts. 
+        This tool allows content creators to improve their short-form content and produce videos at a quicker rate.  
         </Typography>
         <br></br>
         </div>
@@ -319,9 +319,9 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        TubeBuddy is a YouTube creation and strategy tool available to YouTubers who want to improve their content and exposure. 
-        Tube Buddy utilizes AI features to generate titles for videos, suggest short form content ideas and analyze your potential thumbnails to see the potential virality it can bring to your videos. 
-        Also, there are other beneficial features which can help your YouTube videos such as video analysis and ratings, tags, and SEO. 
+        TubeBuddy is a YouTube and strategy based tool available for YouTube content creators who want to improve their content and exposure. 
+        TubeBuddy utilises AI features to generate titles for videos, suggest short form content ideas and analyse your potential thumbnails. 
+        Also, there are other beneficial features which can boost your YouTube videos such as video analysis/ratings, tags, and SEO. 
         </Typography>
         <br></br>
         </div>
@@ -346,7 +346,7 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Magic Studio is an AI tool which allows users to edit parts of an image with the use of AI. 
+        Magic Studio is a AI tool which allows users to edit parts of an image with the use of AI. 
         This tool offers users features such as removing unwanted objects within an image, AI image generation through text prompts, 
         background remover, image rescaling and many more. This tool can be beneficial to photo-based content creators, especially on social media applications such as Instagram.  
         </Typography>
@@ -379,9 +379,9 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Time Bolt is a video and audio editing tool which uses AI to remove unwanted sounds and significantly cut down long form videos such as podcasts into shorter clips. 
-        This tool brings many features such as audio removal, short form content editing, recording video meetings, live streaming highlights and many more. 
-        This tool can benefit podcasters, live streamers (due to its compatibility with Twitch), or any video-based content creator.
+        TimeBolt is a video and audio editing tool which uses AI to remove unwanted sounds and edit long form videos into short form videos. 
+        This tool offers features such as audio removal, short form content editing, recording video meetings, producing live streaming highlights and many more. 
+        This tool can benefit podcasters, live streamers (due to its compatibility with Twitch), or any video-based content creators.
         </Typography>
         <br></br>
         </div>
