@@ -90,9 +90,8 @@ export default function Home() {
         <Grid item xs={12} sm={8} md={6}>{/*These elements were produced by myself*/}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
-        
-            </div>
-          <div className="textColor">
+        </div>
+        <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         The Undercover Project is an online resource to help educate social media users and enthusiasts on the impacts and benefits of 
         Artificial Intelligence (AI) within social media content and platforms. 
