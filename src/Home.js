@@ -174,7 +174,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI can be a powerful tool to improve your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
         Social media applications such as Instagram, YouTube and X, have recently developed methods on mitigating AI misinformation across their platforms. 
-        Find out ways to become more aware of AI and how to protect yourself on social media
+        Find out ways to become more aware of AI and how to protect yourself on social media.
         </Typography>
         <br></br>
         </div>

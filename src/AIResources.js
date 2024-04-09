@@ -13,7 +13,7 @@ import toolimg6 from '../src/assets/tubebuddy.png'; // importing a image from as
 import toolimg7 from '../src/assets/magicstudio.png'; // importing a image from assets folder
 import toolimg8 from '../src/assets/timebolt.png'; // importing a image from assets folder
 
-import logoimg from '../src/assets/gptlogo.jpg'; // importing a image from assets folder
+import logoimg from '../src/assets/chatgptlogo.png'; // importing a image from assets folder
 import logoimg2 from '../src/assets/Midjourneylogo.png'; // importing a image from assets folder
 import logoimg3 from '../src/assets/vidyoailogo.jpg'; // importing a image from assets folder
 import logoimg4 from '../src/assets/tubebuddylogo.png'; // importing a image from assets folder
@@ -66,7 +66,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography align="center" fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Trendy AI Tools </Typography>
+      <Typography align="center" fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Our selection </Typography>
           <br></br>
           </div>
       <div className="textColor">

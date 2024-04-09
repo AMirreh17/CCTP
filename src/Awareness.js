@@ -9,7 +9,7 @@ import img2 from '../src/assets/metaexample.png';
 import Card1 from './Cards';
 import img3 from '../src/assets/researchexample.png'
 import img4 from '../src/assets/newsexample2.avif'
-import img5 from '../src/assets/fakenews.avif'
+import img5 from '../src/assets/fakenews.webp'
 
 
 export default function Awareness2() {

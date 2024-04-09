@@ -14,7 +14,7 @@ export default function Explore(){
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Explore our website and find out the context behind how AI has revolutionised the social media world
+      Explore our website and find out the context behind how AI has revolutionised the social media world.
       </Typography>
       <br></br>
       </div>

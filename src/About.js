@@ -78,7 +78,7 @@ export default function About() {
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         This online resource is a part of a final year project on the BSc Digital Media course at the University of West of England Bristol (UWE). The objective of this project is to bring more awareness to AI within social media and to provide advice on the usability of AI within social media content production. 
-        For example, recommending AI tools which benefit social media content creators and enthusiasts.  
+        For example, recommending AI tools which can benefit social media content creators and enthusiasts.  
         </Typography>
         <br></br>
         </div>
@@ -106,7 +106,7 @@ export default function About() {
               </div>
             <div className="textColor">
           <Typography  fontSize="20px" sx={{mt: 2}} > 
-          The founder and creator of The Undercover Project is Adam Mirreh. I am a final year student at the University of West of England Bristol (UWE) . This online resource was a part of my final year project. 
+          Hi, my name is Adam Mirreh and I am the founder and creator of The Undercover Project. I am a final year student at the University of West of England Bristol (UWE) . This online resource was a part of my final year project. 
           </Typography>
           <Typography  fontSize="20px" sx={{mt: 2}} > 
           I am an aspiring Digital Creative. The ability to be unique and tell a story through visual concepts has always been an interest of mine. 

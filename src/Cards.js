@@ -23,7 +23,7 @@ export default function Card1() {
           <br></br></div>
           <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Here are some useful resources relating to how AI misinformation is mitigated between different social media platforms
+      Here are some useful resources relating to how AI misinformation is mitigated between different social media platforms.
       </Typography>
       <br></br>
       </div>
@@ -42,7 +42,7 @@ export default function Card1() {
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
-          Instagram Help Centre, Why are some Instagram posts marked as false information. Find out more information about how Instagram tackles false information
+          Instagram Help Centre, why are some Instagram posts marked as false information. Find out more information about how Instagram tackles false information.
         </Typography>
         </div>
       </CardContent>
@@ -65,7 +65,7 @@ export default function Card1() {
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
-          X Help Centre, what are Community Notes. Find out more information about how X solves false information and context on their platform
+          X Help Centre, what are Community Notes. Find out more information about how X solves false information and context on their platform.
         </Typography>
         </div>
       </CardContent>
@@ -88,7 +88,7 @@ export default function Card1() {
         </Typography>
         <div className="textColor">
         <Typography variant="body2" >
-        YouTube Official Blog, Our approach to Responsible innovation. Find out more information about how YouTube tackles different AI usage on their platform 
+        YouTube Official Blog, Our approach to Responsible innovation. Find out more information about how YouTube tackles different AI usage on their platform. 
           </Typography>
         </div>
       </CardContent>
