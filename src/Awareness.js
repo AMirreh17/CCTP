@@ -73,7 +73,7 @@ export default function Awareness2() {
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={12} md={6} sm={7}>
+        <Grid item xs={12} md={6} sm={7}>{/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> AI Misinformation</Typography>
         
@@ -102,7 +102,7 @@ export default function Awareness2() {
       <Grid item> {/*These elements were produced by myself*/}
       <img style={{boxShadow: "5px 20px 40px black", borderRadius: "5%"}}  src={img1} width="500" height="500"alt=''/>
       </Grid>
-        <Grid item xs={11} sm={7} md={6}>
+        <Grid item xs={11} sm={7} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Examples of AI Misinformation</Typography>
             <br></br>
           <div className="textColor">
@@ -127,7 +127,7 @@ export default function Awareness2() {
 
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
-        <Grid item xs={12} sm={8} md={6}> 
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>{/*These elements were produced by myself*/}
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> Methods of Prevention </Typography>
         </div>
@@ -154,7 +154,7 @@ export default function Awareness2() {
       <Grid item> {/*These elements were produced by myself*/}
         <img src={img3} width="500" height="500"alt=''/>
         </Grid>
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className="textColor">
           <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with generative AI developments</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -173,7 +173,7 @@ export default function Awareness2() {
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className="textColor">{/*These elements were produced by myself*/}
         <Typography  fontSize="30px" sx={{mt: 2}} >Conducting your own research</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -197,7 +197,7 @@ export default function Awareness2() {
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
         <Grid container direction="row" my={4} className='text3' spacing={2} > {/*Grid component from Material UI is used here to align and organise content*/}
 
-            <Grid item xs={12} sm={7}>
+            <Grid item xs={12} sm={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
             <div className='text-white'> {/*These elements were produced by myself*/}
             <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Want to find out more?</Typography>
                 <br></br>

@@ -84,8 +84,8 @@ export default function Home() {
 
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
-        <Grid item xs={12} sm={8} md={6}>{/*These elements were produced by myself*/}
-        <div className='text-black'>
+        <Grid item xs={12} sm={8} md={6}>{/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <div className='text-black'>{/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Our Mission</Typography>
         </div>
         <div className="textColor">
@@ -111,8 +111,8 @@ export default function Home() {
       <motion.div className="welcome3" class="py-10" > 
       <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>{/*Grid component from Material UI is used here to align and organise content*/} 
-        <Grid item xs={11} sm={8} md={7}> {/*These elements were produced by myself*/}
-          <div className='text-white'> 
+        <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+          <div className='text-white'> {/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is AI and how is it used on social media?</Typography>
             <br></br>
             </div>
@@ -140,7 +140,7 @@ export default function Home() {
       <Grid item> {/*These elements were produced by myself*/}
       <img src={welcomeimg2} width="500" height="500"alt=''/>
       </Grid>
-      <Grid item xs={12} sm={8} md={6}>
+      <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
       <div className='text-black'>
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Can AI tools be used for content creation?</Typography>
           <br></br>
@@ -164,8 +164,8 @@ export default function Home() {
       <motion.div className="welcome3" class="py-10">
       <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/}
-        <Grid item xs={11} sm={8} md={7}>  {/*These elements were produced by myself*/}
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>
+        <Grid item xs={11} sm={8} md={7}>   {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>{/*These elements were produced by myself*/}
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 

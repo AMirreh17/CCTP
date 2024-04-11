@@ -65,8 +65,8 @@ export default function About() {
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/} 
 
-        <Grid item xs={12} sm={6}> {/*These elements were produced by myself*/}
-        <div className='text-black'>
+        <Grid item xs={12} sm={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <div className='text-black'>{/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who are we?</Typography>
             <br></br>
             </div>
@@ -95,7 +95,7 @@ export default function About() {
           <Grid item> {/*These elements were produced by myself*/}
           <img src={aboutimg2} width="500" height="500"alt=''/>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6}>{/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'>
           <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who is the founder?</Typography>
 
