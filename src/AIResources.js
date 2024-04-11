@@ -66,7 +66,7 @@ export default function Awareness() {
       
       <Grid item xs={11} sm={9} md={6}>
         <div className='text-black'>
-      <Typography align="center" fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>Our selection </Typography>
+      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Current Recommendations </Typography>
           <br></br>
           </div>
       <div className="textColor">
@@ -122,7 +122,7 @@ export default function Awareness() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI is a technology/system which is designed to complete complex tasks. Generative AI in particular, is a type of AI technology used to 
         produce different forms of content. These forms of content can range from video, images, illustrations, audio and text (such as ChatGPT). Below will be 
-        a resource gallery of various generative AI tools used for social media content and creative artworks.
+        a resource gallery of various Generative AI tools used for social media content and creative artworks.
         </Typography>
         <br></br>
         <br></br>
@@ -145,7 +145,7 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        ChatGPT is a text-to-text generative AI tool which allows users to complete text-based tasks. ChatGPT was created by the company Open AI and this generative AI tool brings a more conversational style format to AI chatbots. 
+        ChatGPT is a text-to-text Generative AI tool which allows users to complete text-based tasks. ChatGPT was created by the company Open AI and this Generative AI tool brings a more conversational style format to AI chatbots. 
         ChatGPT is commonly used by social media users and content creators to generate content ideas, scripts, and video titles and descriptions.  
         </Typography>
         <br></br>
@@ -177,8 +177,8 @@ export default function Awareness() {
         </div>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Midjourney is a text-to image generative AI tool which allows users to produce AI generated images through prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and humans. 
-        This generative AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. Midjourney is one of the leading image-based generative AI tools available.  
+        Midjourney is a text-to image Generative AI tool which allows users to produce AI generated images through prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and humans. 
+        This Generative AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. Midjourney is one of the leading image-based Generative AI tools available.  
         </Typography>
         <br></br>
         </div>
@@ -204,9 +204,9 @@ export default function Awareness() {
           </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        DALL-E 2 is a text to image generative AI tool which allows users to produce AI generated images through prompts. 
-        This generative AI tool was also created by the company Open AI, which is one of the leading companies within AI research. This generative AI tool is commonly used to produce graphics and artworks which can be shared across social media platforms. 
-        Alongside Midjourney, DALL-E 2 is one of the leading image-based generative AI tools available. 
+        DALL-E 2 is a text to image Generative AI tool which allows users to produce AI generated images through prompts. 
+        This Generative AI tool was also created by the company Open AI, which is one of the leading companies within AI research. This Generative AI tool is commonly used to produce graphics and artworks which can be shared across social media platforms. 
+        Alongside Midjourney, DALL-E 2 is one of the leading image-based Generative AI tools available. 
         </Typography>
         <br></br>
         </div>
@@ -237,7 +237,7 @@ export default function Awareness() {
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Sora AI is a newly text to video generative AI tool which allows users to produce AI generated one minute video clips through prompts. This generative AI tool was also created by the company Open AI, and this newly released AI tool brings innovation to AI and motion. This tool could potentially be used for stock footage within video content on social media or visual tutorials and demonstrations. 
+        Sora AI is a newly text to video Generative AI tool which allows users to produce AI generated one minute video clips through prompts. This Generative AI tool was also created by the company Open AI, and this newly released AI tool brings innovation to AI and motion. This tool could potentially be used for stock footage within video content on social media or visual tutorials and demonstrations. 
         This tool has not been released to the public yet, but if you want to keep up to date with the developments or its public release, feel free to follow the source below. 
         </Typography>
         <br></br>
@@ -374,7 +374,7 @@ export default function Awareness() {
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>TimeBolt</Typography>
         <div class="font-light text-lg">
-          <p>Content creation, Video editing, Multi platform</p>
+          <p>Content creation, Video editing, Audio editing</p>
         </div>
         </div>
         <div className="textColor">

@@ -1,14 +1,15 @@
-import {Typography, Grid} from '@mui/material';
-import NavBar from './NavBar';
-import './App.css';
-import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
-import Footer from './footer';
-import { useRef } from 'react';
+import {Typography, Grid} from '@mui/material'; //importing functions/variables, Typography and Grid from react library called Material UI. This is referenced from Material Ui documentsation: https://mui.com/components/
+import NavBar from './NavBar'; // importing the function NavBar from NavBar.js file
+import './App.css';// Importing css file called app.css onto this page
+import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion. The is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
+import Footer from './footer';// importing the function Footer from Footer.js file
+import { useRef } from 'react'; // importing the function useRef from react
 import aboutimg2 from '../src/assets/me.jpg';// importing a image from assets folder
 import aboutimg from '../src/assets/tuplogo.png';// importing a image from assets folder
 
-
-const fadeInAnimationsVariants = {
+//This function used to add fade up animations within different div components
+//This function is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s
+const fadeAnimations = {
   initial: {
    opacity:0,
    y: 100,
@@ -24,25 +25,24 @@ const fadeInAnimationsVariants = {
  
 
 export default function About() {
-  
-  const container = useRef(null);
+   //The variables and functions below are referenced from tutorials from Oliver Larose and Sakura Dev: https://www.youtube.com/watch?v=VhXemORYup8&t and https://www.youtube.com/watch?v=GMafliGL7Zs
+      const container = useRef(null);// declaring the function container and it is equal to the react function useRef. useRef is given a null value, so it can be later added to a element within the page
       const yScroll = useMotionValue(0);
+      //Declaring the function ScrollYProgress, this captures the scroll progress of the user from the Y axis. This can used for scroll animations on the Y axis
       const {scrollYProgress} = useScroll({
         target: container,
-        offset: ['start end', '0.65 0.49']
-      }
-
-      )
+        offset: ['start end', '0.8 0.18']
+      })
       
       
-     
+     //Declarinf the function scaleX whihc used the useSpring function from framer motion. This function can give an element a spring effect while scrolling.
       const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
         restDelta: 0.001
       });
       
-
+      // This is used for viewing the user scroll value from the Y axis within the console
       useMotionValueEvent(scrollYProgress, "change", (latest) => {
         yScroll.set(latest);
         console.log(latest)
@@ -50,11 +50,11 @@ export default function About() {
 
    return(
     <div className='App'>
-      <div ref={container}>
-        <NavBar />
-        <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> 
-      <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}>
-        <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>About</Typography>
+      <div ref={container}>{/*The container function uis added here*/}
+        <NavBar />{/*The NavBar function is added to the top of the page*/}
+        <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>About</Typography>{/*These elements were produced by myself*/}
         <motion.p  class="font-light  max-w-xl">Find out more about our project aims and objectives</motion.p>
         <br></br>
         
@@ -62,14 +62,12 @@ export default function About() {
       </motion.header>
       <motion.div class="text-white py-10" className='backgroundsection2'>
 
-        <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-        <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/} 
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6}> {/*These elements were produced by myself*/}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who are we?</Typography>
-
-          
             <br></br>
             </div>
           <div className="textColor">
@@ -92,9 +90,9 @@ export default function About() {
         </motion.div>
         <motion.div class="text-white py-10" className='backgroundsection3'>
 
-          <motion.div variants={fadeInAnimationsVariants} initial="initial" whileInView="animate" viewport={{once: true,}}>
-          <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}>
-          <Grid item>
+          <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+          <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
+          <Grid item> {/*These elements were produced by myself*/}
           <img src={aboutimg2} width="500" height="500"alt=''/>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -120,7 +118,8 @@ export default function About() {
           </Grid>
           </motion.div>
           </motion.div>
-       <Footer />
+       <Footer /> {/*The Footer function is placed here. The contents from  the Footer.js is added here*/}
+        {/*This div displays the scroll line animation and sticks to the bottom of the browser view. This div is referenced from a tutorial: https://www.youtube.com/watch?v=AsniwnTMNrw&t*/}
        <motion.div style={{
         scaleX,
         background: "grey",
