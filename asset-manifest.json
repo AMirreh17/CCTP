@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CCTP/static/css/main.8de23238.css",
-    "main.js": "/CCTP/static/js/main.254ebbaa.js",
+    "main.css": "/CCTP/static/css/main.3fc50380.css",
+    "main.js": "/CCTP/static/js/main.be48d21e.js",
     "static/js/787.02c67af2.chunk.js": "/CCTP/static/js/787.02c67af2.chunk.js",
     "static/media/sora.png": "/CCTP/static/media/sora.7fb4a11105a0f7bf2fbd.png",
     "static/media/researchexample.png": "/CCTP/static/media/researchexample.4782170a68bec121bf42.png",
@@ -30,12 +30,12 @@
     "static/media/Insta.avif": "/CCTP/static/media/Insta.94b9e701b7cb58201130.avif",
     "static/media/X.avif": "/CCTP/static/media/X.645562cda12d712f64c8.avif",
     "index.html": "/CCTP/index.html",
-    "main.8de23238.css.map": "/CCTP/static/css/main.8de23238.css.map",
-    "main.254ebbaa.js.map": "/CCTP/static/js/main.254ebbaa.js.map",
+    "main.3fc50380.css.map": "/CCTP/static/css/main.3fc50380.css.map",
+    "main.be48d21e.js.map": "/CCTP/static/js/main.be48d21e.js.map",
     "787.02c67af2.chunk.js.map": "/CCTP/static/js/787.02c67af2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de23238.css",
-    "static/js/main.254ebbaa.js"
+    "static/css/main.3fc50380.css",
+    "static/js/main.be48d21e.js"
   ]
 }
