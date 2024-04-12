@@ -1,6 +1,6 @@
 # The Undercover Project
 
-The Undercover Project is an informational resource to help educate and raise awareness on the dangers and usability of Artificial Intelligence (AI) within social media content and platforms. This resource was created as part of a final year project on the BSc Digital Media course at the University of West of England Bristol (UWE).
+The Undercover Project is an informational resource to help educate and raise awareness on the dangers and usability of Artificial Intelligence (AI) within social media content and platforms. This project was created by myself, Adam Mirreh. This resource was also created as part of a final year project on the BSc Digital Media course at the University of West of England Bristol (UWE).
 
 This website was built on the Create React App bootstrap (This is a part of the React.js web framework).
 
