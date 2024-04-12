@@ -2,7 +2,7 @@ import {Typography, Grid } from '@mui/material'; //importing functions/variables
 import NavBar from './NavBar'; // importing the function NavBar from NavBar.js file
 import './App.css'; // Importing css file called app.css onto this page
 import Footer from './footer'; // importing the function Footer from Footer.js file
-import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion';
+import {motion, useMotionValueEvent, useScroll, useSpring, useMotionValue} from 'framer-motion'; // importing functions/variables from react library called Framer Motion. The is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
 import { useRef } from 'react'; // importing the function useRef from react
 import img1 from '../src/assets/aiexample1.png'; // importing a image from assets folder
 import img2 from '../src/assets/metaexample.png'; // importing a image from assets folder
@@ -59,8 +59,8 @@ export default function Awareness2() {
       <NavBar /> {/*The NavBar function is added to the top of the page*/}
   
       <div ref={container}> {/*The container function uis added here*/}
-      <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
-        <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow animations and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>Awareness</Typography> {/*These elements were produced by myself*/}
         <motion.p  class="font-light  max-w-xl">How to be more aware of AI based social media content</motion.p>
         <br></br>
@@ -70,7 +70,7 @@ export default function Awareness2() {
 
       <motion.div class="text-white py-10" className='backgroundsection2'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
         <Grid item xs={12} md={6} sm={7}>{/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
@@ -97,7 +97,7 @@ export default function Awareness2() {
       </motion.div>
 
       <motion.div className="backgroundsection2" class="py-10" >
-      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={15}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item> {/*These elements were produced by myself*/}
       <img style={{boxShadow: "5px 20px 40px black", borderRadius: "5%"}}  src={img1} width="500" height="500"alt=''/>
@@ -125,7 +125,7 @@ export default function Awareness2() {
 
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
         <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>{/*These elements were produced by myself*/}
@@ -149,7 +149,7 @@ export default function Awareness2() {
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item> {/*These elements were produced by myself*/}
         <img src={img3} width="500" height="500"alt=''/>
@@ -170,7 +170,7 @@ export default function Awareness2() {
       
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
         <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
@@ -194,7 +194,7 @@ export default function Awareness2() {
       
       <motion.div class="text-white py-10" className='backgroundsection3'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
         <Grid container direction="row" my={4} className='text3' spacing={2} > {/*Grid component from Material UI is used here to align and organise content*/}
 
             <Grid item xs={12} sm={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
@@ -217,7 +217,7 @@ export default function Awareness2() {
         </motion.div>
         </motion.div>
         
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
 
         <Card1 />{/*The Card component is placed here. The contents from  the Cards.js is added here*/}
       </motion.div>

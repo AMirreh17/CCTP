@@ -61,8 +61,8 @@ export default function Home() {
       <NavBar /> {/*The NavBar function is added to the top of the page*/}
   
       <div ref={container}> {/*The container function uis added here*/}
-      <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
-      <motion.div animate={{y: -30, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow aniamtions and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.header className="App-header" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div animate={{y: -30, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow animations and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Typography  fontSize="65px" variant='h1' sx={{my: 4, }}>The Undercover Project</Typography> {/*These elements were produced by myself*/}
         <motion.p  class="font-light  max-w-xl">Revealing the truth behind Artificial Intelligence within social media content and platforms</motion.p>
         <br></br>
@@ -82,7 +82,7 @@ export default function Home() {
 
       <motion.div ref={targetRef} class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
         <Grid item xs={12} sm={8} md={6}>{/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>{/*These elements were produced by myself*/}
@@ -109,7 +109,7 @@ export default function Home() {
       </motion.div>
 
       <motion.div className="welcome3" class="py-10" > 
-      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>{/*Grid component from Material UI is used here to align and organise content*/} 
         <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
@@ -135,7 +135,7 @@ export default function Home() {
 
       <motion.div class="text-white py-10" className='welcome'>
 
-      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item> {/*These elements were produced by myself*/}
       <img src={welcomeimg2} width="500" height="500"alt=''/>
@@ -162,7 +162,7 @@ export default function Home() {
       </motion.div>
 
       <motion.div className="welcome3" class="py-10">
-      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow aniamtions and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/}
         <Grid item xs={11} sm={8} md={7}>   {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}> How to be more aware of AI based social media content</Typography>{/*These elements were produced by myself*/}
@@ -183,7 +183,7 @@ export default function Home() {
       </motion.div>
       </motion.div>
 
-      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow aniamtions and the fade up animation is added to the componenets within this div*/}
+      <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations and the fade up animation is added to the componenets within this div*/}
 
         <Explore /> {/*The Explore function is placed here. The contents from  the ExploreSection.js is added here*/}
       </motion.div>
