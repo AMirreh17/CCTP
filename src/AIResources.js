@@ -115,7 +115,7 @@ export default function Awareness() {
        
         <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
             <br></br>
             </div>
           <div className="textColor">
@@ -255,7 +255,7 @@ export default function Awareness() {
        
         <Grid item xs={11} sm={8} md={7}> {/*Grid component from Material UI is used here to align and organise content*/}
           <div className='text-white'>
-        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for content creators</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for content creators</Typography>
             <br></br>
             </div>
           <div className="textColor">
