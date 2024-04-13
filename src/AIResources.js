@@ -19,6 +19,7 @@ import logoimg3 from '../src/assets/vidyoailogo.jpg'; // importing a image from 
 import logoimg4 from '../src/assets/tubebuddylogo.png'; // importing a image from assets folder
 
 
+
 export default function Awareness() { // This function was originally for the awareness page of the websiite but due to errors, the name of this function could not be changed
   const container = useRef(null); // declaring the function container and it is equal to the react function useRef. useRef is given a null value, so it can be later added to a element within the page
   
@@ -73,7 +74,7 @@ export default function Awareness() { // This function was originally for the aw
       
       <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
-      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Current Recommendations </Typography>
+      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Popular Recommendations </Typography>
           <br></br>
           </div>
       <div className="textColor">
@@ -122,7 +123,7 @@ export default function Awareness() { // This function was originally for the aw
        
         <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
-        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
+        <Typography fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
             <br></br>
             </div>
           <div className="textColor">
@@ -262,7 +263,7 @@ export default function Awareness() { // This function was originally for the aw
        
         <Grid item xs={11} sm={8} md={7}>  {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
-        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for content creators</Typography>
+        <Typography fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for content creators</Typography>
             <br></br>
             </div>
           <div className="textColor">
