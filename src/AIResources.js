@@ -123,7 +123,7 @@ export default function Awareness() { // This function was originally for the aw
        
         <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
-        <Typography fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
             <br></br>
             </div>
           <div className="textColor">
@@ -257,13 +257,13 @@ export default function Awareness() { // This function was originally for the aw
         </Grid>
       </motion.div>
       </motion.div>
-      <motion.div className="welcome3" class="py-10" > 
+      <motion.div className="backgroundsection3" class="py-10" > 
       <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>{/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>{/*Grid component from Material UI is used here to align and organise content*/}
        
         <Grid item xs={11} sm={8} md={7}>  {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
-        <Typography fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for content creators</Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for social media content</Typography>
             <br></br>
             </div>
           <div className="textColor">
