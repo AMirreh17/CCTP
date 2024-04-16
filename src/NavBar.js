@@ -9,7 +9,7 @@ import {useState} from 'react'
 export default function NavBar() {
    const [isDrawerOpen, setIsDrawerOpen] = useState(false)
     return (
-<AppBar position="sticky" style={{background: '#111111', minHeight: "70px"}}>
+<AppBar position="sticky" style={{background: '#111111', minHeight: "65px"}}>
    
  <Toolbar>
     <IconButton size='large' edge='start' color='inherit' aria-label="logo" onClick={() => setIsDrawerOpen(true)}> 
@@ -18,10 +18,7 @@ export default function NavBar() {
     <IconButton size='large' edge='start' color='inherit' aria-label="logo"  href="/CCTP/" > 
     <HomeIcon />
     </IconButton>
-    {
-      //<img src={AppLogo} width="40" height="40" alt=""/>
-    }
-    
+   
     <Typography variant="h6"></Typography>
     <Typography variant='h6' component='div' sx={{flexGrow: 1}}>
      
@@ -29,33 +26,12 @@ export default function NavBar() {
     <Stack direction='row' spacing={2}>
 
      <a href='/CCTP/#Background'>
-     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-amber-50 rounded font-sans hover:text-black" > Background</button>
+     <button class=" bg-amber-50 font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-black  hover:bg-black rounded font-sans hover:text-white" > Background</button>
      </a>
      <a href='/CCTP/#AIResources'>
-     <button class=" font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-white  hover:bg-amber-50 rounded font-sans hover:text-black" > AI Resources</button>
+     <button class=" bg-amber-50 font-semibold transition ease-in-out delay-150 uppercase px-3 py-2 text-sm text-black  hover:bg-black rounded font-sans hover:text-white" > AI Resources</button>
      </a>
      
-
-       
-         
-      
-      { /*
-         <Button color='inherit' href="/CCTP/#background">Background</Button>
-         <Button color='inherit' href="/CCTP/#AIResources"> AI Resources</Button>
-         <a href='/CCTP/#background'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Background</motion.button>
-         </a>
-         <a href='/CCTP/#recommendations'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Resources</motion.button>
-         </a>
-         <a href='/CCTP/#Awareness'>
-         <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Awareness</motion.button>
-         </a>*/
-       
-       //<Button color='inherit' href="/CCTP">Home</Button>
-       //<Button color='inherit' href="/CCTP/#about">About</Button>
-      //<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
-       }
     </Stack>
    <Drawer anchor="left" open={isDrawerOpen} onClose={() => setIsDrawerOpen(false)}>
        <Box p={2} width='250px' textAlign='center' role='presentation'>

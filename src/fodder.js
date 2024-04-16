@@ -331,3 +331,21 @@
       </motion.div>
       </motion.div> */
   }
+   
+  { /*
+  <Button color='inherit' href="/CCTP/#background">Background</Button>
+  <Button color='inherit' href="/CCTP/#AIResources"> AI Resources</Button>
+  <a href='/CCTP/#background'>
+  <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Background</motion.button>
+  </a>
+  <a href='/CCTP/#recommendations'>
+  <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Resources</motion.button>
+  </a>
+  <a href='/CCTP/#Awareness'>
+  <motion.button whileHover={{scale: 1.2}}class=" bg-white px-3 py-2 text-black rounded-full font-bold" href="/CCTP/#about"> Awareness</motion.button>
+  </a>*/
+
+//<Button color='inherit' href="/CCTP">Home</Button>
+//<Button color='inherit' href="/CCTP/#about">About</Button>
+//<Button color='inherit' href="/CCTP/#showcase">Showcase</Button>
+}
