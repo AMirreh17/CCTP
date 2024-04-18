@@ -1,22 +1,22 @@
-.App {
+.App {  /*This was initally was built within setup of React.js*/
   text-align: center;
   /*background-color: #212133;*/
   background-color: #0c0c0c;
   
 }
 
-.App-logo {
+.App-logo {  /*This was initally was built within setup of React.js*/
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {  /*This was initally was built within setup of React.js*/
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.App-header {  /*This was initally was built within setup of React.js. This was edited and altered from the original*/
   background-image: url(./assets/headerbackground.png);
   background-size: cover;
   background-color: #000000;
@@ -30,7 +30,7 @@
   text-align: left;
   padding: 40px;
 }
-.container {
+.container {  /*T This css class was inspired by the App header class above*/
   background-size: cover;
   background-color: #353535;
   min-height: 60vh;
@@ -43,7 +43,7 @@
   text-align: center;
   /*padding-left: 25px;*/
 }
-.container2{
+.container2{ /*T This css class was inspired by the App header class above*/
   background-size: cover;
   background-color: #111111;
   min-height: 60vh;
@@ -57,13 +57,13 @@
   padding: 60px;
   
 }
-.bgColour{
+.bgColour{ /*This element was created by myselt*/
   background-color: #272727;
 }
-.App-link {
+.App-link { 
   color: #61dafb;
 }
-footer {
+footer { /*This element was created by myselt*/
   
   padding: 30px;
   /*background-color: #272727;*/
@@ -74,7 +74,7 @@ footer {
   
   
 }
-.Footer1{
+.Footer1{ /*This element was created by myselt*/
   
   vertical-align: middle;
 }
@@ -93,7 +93,7 @@ footer {
 }
 
 
-.wrapper {
+.wrapper { /*This element was created by myselt*/
   /*background-color: #282c34;*/
   text-align: center;
   display: flex;
@@ -105,7 +105,7 @@ footer {
  
 }
 
-.wrapper1 {
+.wrapper1 { /*This element was created by myselt*/
  
   justify-content: space-between;
   text-align: center;
@@ -117,28 +117,28 @@ footer {
   margin-right: 30px;
   flex-shrink: 0;
 }
-.text{
+.text{ /*This element was created by myselt*/
   color: white;
   text-align: left;
   align-items: center;
   justify-content: center;
 
 }
-.text2{
+.text2{ /*This element was created by myselt*/
   color: white;
   text-align: right;
   align-items: center;
   justify-content: center;
 
 }
-.text3{
+.text3{ /*This element was created by myselt*/
   color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
 
 }
-.textColor{
+.textColor{ /*This element was created by myselt*/
 
 color: #797878;
 }
@@ -150,22 +150,22 @@ color: #797878;
   justify-content: center;
   background-color: #FFFFF0;
 }
-.welcome img{
+.welcome img{ /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
   box-shadow: 5px 20px 40px black;
   border-radius: 5%;
 }
-.welcome2 img{
-  box-shadow: 5px 20px 40px black;
-  border-radius: 5%;
-}
-
-.welcome3 img{
+.welcome2 img{  /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
   box-shadow: 5px 20px 40px black;
   border-radius: 5%;
 }
 
+.welcome3 img{ /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
+  box-shadow: 5px 20px 40px black;
+  border-radius: 5%;
+}
 
-.welcome2{
+
+.welcome2{ /*This element was created by myselt*/
   background-size: cover;
   padding: 30px;
   min-height: 50vh;
@@ -173,7 +173,7 @@ color: #797878;
   justify-content: center;
   background-color: #E6E6E1;
 }
-.welcome3{
+.welcome3{ /*This element was created by myselt*/
   background-size: cover;
   padding: 30px;
   min-height: 50vh;
@@ -182,7 +182,7 @@ color: #797878;
  background-color: #111111;
 }
 
-.card{
+.card{ /*This element was created by myselt*/
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -191,10 +191,11 @@ color: #797878;
   flex-direction: row;
 
 }
-html {
+html { /*This class is used for the scroll progress animation. This class is referenced from a tutorial: https://www.youtube.com/watch?v=AsniwnTMNrw&t*/
+  
   scroll-snap-type: y mandatory;
 }
-.backgroundsection2{
+.backgroundsection2{  /*This element was created by myselt*/
   background-size: cover;
   padding: 30px;
   min-height: 50vh;
@@ -202,12 +203,12 @@ html {
   justify-content: center;
   background-color: #FFFFF0;
 }
-.backgroundsection2 img{
+.backgroundsection2 img{  /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
   box-shadow: 5px 20px 40px black;
   border-radius: 5%;
 }
 
-.backgroundsection1{
+.backgroundsection1{ /*This element was created by myselt*/
   background-size: cover;
   padding: 30px;
   min-height: 50vh;
@@ -215,11 +216,11 @@ html {
   justify-content: center;
   background-color: #FAF9F6;
 }
-.backgroundsection1 img{
+.backgroundsection1 img{ /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
   box-shadow: 5px 20px 40px black;
   border-radius: 5%;
 }
-.backgroundsection3{
+.backgroundsection3{ /*This element was created by myselt*/
   background-size: cover;
   padding: 30px;
   min-height: 50vh;
@@ -227,7 +228,7 @@ html {
   justify-content: center;
   background-color: #111111;
 }
-.backgroundsection3 img{
+.backgroundsection3 img{ /*The  functions mentioned are based on W3Schools documentation ann a seperate tutorial. Reference: https://www.w3schools.com/howto/howto_css_rounded_images.asp , https://www.youtube.com/watch?v=jEuvbVVkcT0 */
   box-shadow: 5px 20px 40px black;
   border-radius: 5%;
 }

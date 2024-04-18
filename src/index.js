@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider, createTheme } from '@mui/material';
-import {HashRouter} from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
+import { ThemeProvider, createTheme } from '@mui/material'; // These theme function were imported from the Material UI documentation
+import {HashRouter} from 'react-router-dom'; // This function is imported from React Router Dom library. This is used to help react pages navigate correctly through GitHub Pages
+import ScrollToTop from './ScrollToTop'; // This function is imported from ScrollToTop.js
 
 
-const theme = createTheme(
+const theme = createTheme( // This theme was built from the Material UI documentation. Reference: https://mui.com/material-ui/customization/theming/ , https://mui.com/material-ui/customization/typography/
   {
     palette: {
       

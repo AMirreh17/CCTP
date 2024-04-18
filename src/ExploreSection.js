@@ -1,15 +1,15 @@
-import './App.css';
-import { Box, Typography, Grid, Paper} from '@mui/material';
-import {motion} from 'framer-motion';
+import './App.css'; // Importing css file called app.css onto this page
+import { Box, Typography, Grid, Paper} from '@mui/material';  //importing functions/variables, Typography, Box, Card, Paper and Grid  from react library called Material UI. This is referenced the from Material Ui documentsation: https://mui.com/components/
+import {motion} from 'framer-motion'; // Importing motion component from Framer Motion. he is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
 
 
 export default function Explore(){
     return(
-        <div className='mainBody'>
-        <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}>
+      <div className='mainBody'> {/*This element was produced by myself*/}
+       <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
       
-      <Grid item xs={11} sm={9} md={6}>
-        <div className='text-black'>
+      <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <div className='text-black'> {/*These elements were produced by myself*/}
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Learn more about AI and Social Media</Typography>
           <br></br></div>
           <div className="textColor">
@@ -20,50 +20,52 @@ export default function Explore(){
       </div>
       </Grid>
       </Grid>
-        <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
+
+      {/*Some of these elements were based on tutorials from codeevolution and Paper documentation from Material UI components. Reference: https://www.youtube.com/watch?v=Wd_oTDMtCjI&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=18 , https://www.youtube.com/watch?v=JlI5j37sbIE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=14 , https://mui.com/material-ui/react-paper/   */}
+      <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
-         <Typography fontSize="40px" variant='h2'>Background</Typography>
-         <div className="textColor">
-         <Typography sx={{mt: 2}}> 
+         <Typography fontSize="40px" variant='h2'>Background</Typography> {/*The text was produced by myself*/}
+         <div className="textColor">{/*This element was produced by myself*/}
+         <Typography sx={{mt: 2}}> {/*The text was produced by myself*/}
          What is Artificial Intelligence and why is it used within most social media platforms. 
          Does this have an impact on me? Find out more about the context behind AI and how it’s used by many users on social media.
          </Typography>
        </div>
          <br></br>
-         <a href='/CCTP/#background'>
+         <a href='/CCTP/#background'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3  text-black rounded-full"> Find out More</motion.button>
          </a>
          
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
-         <Typography  fontSize="40px"variant='h2'>AI Resources</Typography>
-         <div className="textColor">
-         <Typography sx={{mt: 2}}> 
+         <Typography  fontSize="40px"variant='h2'>AI Resources</Typography> {/*The text was produced by myself*/}
+         <div className="textColor"> {/*This element was produced by myself*/}
+         <Typography sx={{mt: 2}}>  {/*The text was produced by myself*/}
          Explore the vast world of AI resources for content creation and creative artwork. 
          View our selection of popular AI tools and resources best suited for you or any social media enthusiast who is interested in learning more about AI.
          </Typography>
          </div>
         
          <br></br>
-         <a href='/CCTP/#AIResources'>
+         <a href='/CCTP/#AIResources'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3 text-black rounded-full"> Find out More</motion.button>
          </a>
        </Paper>
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>
          
-         <Typography  fontSize="40px"variant='h3'> Awareness</Typography>
-         <div className="textColor">
-         <Typography sx={{mt: 2}}> 
+         <Typography  fontSize="40px"variant='h3'> Awareness</Typography> {/*The text was produced by myself*/}
+         <div className="textColor"> {/*This element was produced by myself*/}
+         <Typography sx={{mt: 2}}> {/*The text was produced by myself*/}
          What are the dangers of AI and how does this have an impact on social media users? 
          Find out more about the dangers of AI and how to be more aware of AI misinformation along your social media journeys. 
          </Typography>
          </div>
        
          <br></br>
-         <a href='/CCTP/#Awareness'>
+         <a href='/CCTP/#Awareness'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
          <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-amber-50 px-5 py-3  text-black rounded-full"> Find out More</motion.button>
          </a>
          
