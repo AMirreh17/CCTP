@@ -29,7 +29,7 @@ export default function Explore(){
          <Typography fontSize="40px" variant='h2'>Background</Typography> {/*The text was produced by myself*/}
          <div className="textColor">{/*This element was produced by myself*/}
          <Typography sx={{mt: 2}}> {/*The text was produced by myself*/}
-         What is Artificial Intelligence and why is it used within most social media platforms. 
+         What is Artificial Intelligence and why is it implemented within most social media platforms? 
          Does this have an impact on me? Find out more about the context behind AI and how it’s used by many users on social media.
          </Typography>
        </div>
@@ -60,7 +60,7 @@ export default function Explore(){
          <div className="textColor"> {/*This element was produced by myself*/}
          <Typography sx={{mt: 2}}> {/*The text was produced by myself*/}
          What are the dangers of AI and how does this have an impact on social media users? 
-         Find out more about the dangers of AI and how to be more aware of AI misinformation along your social media journeys. 
+         Find out more about the dangers relating to AI and how to be more aware of AI misinformation along your social media journeys. 
          </Typography>
          </div>
        

@@ -107,8 +107,8 @@ export default function About() {
           Hi, my name is Adam Mirreh and I am the founder and creator of The Undercover Project. I am a final year student at the University of West of England Bristol (UWE) . This online resource was a part of my final year project. 
           </Typography>
           <Typography  fontSize="20px" sx={{mt: 2}} > 
-          I am an aspiring Digital Creative. The ability to be unique and tell a story through visual concepts has always been an interest of mine. 
-          I’m a diligent and motivated individual, with a passion to produce creative and exciting video productions and web developments at industry standard. 
+          I am an aspiring Digital Creative. Storytelling and producing exciting forms of media has been a huge inspiration to me within in my digital career. 
+          I’m an industrious and driven individual, with a passion to create exciting media productions and web developments at industry standard. 
           </Typography>
           <br></br>
           </div>

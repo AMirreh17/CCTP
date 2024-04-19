@@ -63,7 +63,7 @@ export default function Card1() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          X Help Centre
+          X Help Centre (Twitter)
         </Typography>
         <div className="textColor"> {/*This element was produced by myself*/}
         <Typography variant="body2" > 
@@ -90,7 +90,7 @@ export default function Card1() {
         </Typography>
         <div className="textColor"> {/*This element was produced by myself*/}
         <Typography variant="body2" > 
-        YouTube Official Blog, Our approach to Responsible innovation. Find out more information about how YouTube tackles different AI usage on their platform. 
+        YouTube Official Blog, Our approach to Responsible Innovation. Find out more information about how YouTube tackles different AI usage on their platform. 
           </Typography>
         </div>
       </CardContent>

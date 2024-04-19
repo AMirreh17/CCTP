@@ -186,7 +186,7 @@ export default function Awareness() { // This function was originally for the aw
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Midjourney is a text-to image Generative AI tool which allows users to produce AI generated images through prompts. Midjourney is an independent research team which focuses on the innovation and expansion of AI and humans. 
-        This Generative AI tool is commonly used to produce graphics and artwork which can be shared across social media platforms. Midjourney is one of the leading image-based Generative AI tools available.  
+        This Generative AI tool is commonly used to produce graphics and artworks which can be shared across social media platforms. Midjourney is one of the leading image-based Generative AI tools available.  
         </Typography>
         <br></br>
         </div>
@@ -269,7 +269,7 @@ export default function Awareness() { // This function was originally for the aw
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Many social media content creators utilise AI tools to improve their content production and create outstanding artworks. 
-        There are various AI tools available, which can benefit your social media experience and enhance your creativity when used in a positive light.
+        There are various AI tools available, which can benefit your social media experience and enhance your creativity.
         Below will be 
         a resource gallery of various AI tools used for social media content and creative artworks.
         </Typography>
@@ -327,7 +327,7 @@ export default function Awareness() { // This function was originally for the aw
         </div>
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        TubeBuddy is a YouTube and strategy based tool available for YouTube content creators who want to improve their content and exposure. 
+        TubeBuddy is a YouTube and strategy-based tool available for YouTube content creators who want to improve their content and exposure. 
         TubeBuddy utilises AI features to generate titles for videos, suggest short form content ideas and analyse your potential thumbnails. 
         Also, there are other beneficial features which can boost your YouTube videos such as video analysis/ratings, tags, and SEO. 
         </Typography>

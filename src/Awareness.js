@@ -83,7 +83,7 @@ export default function Awareness2() {
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Social media content is one of the most popular forms of media for information and news in recent times. As mentioned throughout our website, AI is becoming more prominent within social media platforms and media.
-         Unfortunately, AI generative tools are now being used by social media users and companies to spread misinformation for a specific goal or agenda.  
+         Unfortunately, Generative AI tools are now being used by social media users and companies to spread misinformation for a specific goal or agenda.  
         </Typography>
         <br></br>
         </div>
@@ -107,13 +107,13 @@ export default function Awareness2() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        A recent example of AI misinformation occurring is with the current US presidential election campaigns. AI generated political advertisements were created to highlight a potential future if the current US president, Joe Biden, was to continue for a second presidential term. This generated content consisted of doomsday events, potential world wars, soldiers patrolling the streets, etc. These advertisements are to mislead the public for political gain.   
+        A recent example of AI misinformation occurring was with the US presidential election campaigns. AI generated political advertisements were created to highlight a potential future if the current US president, Joe Biden, was to continue for a second presidential term. This generated content consisted of doomsday events, potential world wars, soldiers patrolling the streets, etc. These advertisements are to mislead the public for political gain.   
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Another example of AI misinformation was when pictures circulated on social media of the Pope wearing a popular piece of clothing, a puffer jacket. This sparked curiosity as the pictures were very realistic and many social media users believed it to be real. 
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI generative tools are powerful technologies which can influence many social media users; however, are there methods available to protect yourself from AI misinformation on social media?  
+        Generative AI tools are powerful technologies which can influence many social media users; however, are there methods available to protect yourself from AI misinformation on social media?  
         </Typography>
         <br></br>
         <br></br>
@@ -134,8 +134,8 @@ export default function Awareness2() {
         <div className="textColor">
         <Typography  fontSize="30px" sx={{mt: 2}} > Utilise built in features within social media applications </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Social media applications are now implementing features to mitigate misinformation and fake news within their platforms. For example, X have created community notes to help allow users to add further context to content posted, to stop the spread of misinformation. 
-        Other applications such as Instagram and Facebook have similar features (potential false content on Instagram and Facebook is censored before viewing) to combat false and misleading content.   
+        Social media applications are now implementing features to mitigate misinformation and fake news within their platforms. For example, X (Twitter) have created community notes to help allow users to add further context to tweets and posts, to stop the spread of misinformation. 
+        Other applications such as Instagram and Facebook have similar features (potential false content on Instagram and Facebook are censored before viewing) to combat false and misleading content.   
         </Typography>
         <br></br>
         </div>
@@ -158,8 +158,8 @@ export default function Awareness2() {
           <div className="textColor">
           <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with generative AI developments</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Keeping up to date and understanding the developments on generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common AI generated tools used on social media consist of ChatGPT, Stable Diffusion, DALL-E and many more. 
-        If you want to find out more information about AI generated tools, check out our page dedicated to AI tools for social media.   
+        Keeping up to date and understanding the developments within Generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common Generative AI tools used on social media consists of ChatGPT, Stable Diffusion, DALL-E 2 and many more. 
+        If you want to find out more information about Generative AI tools, check out our page dedicated to AI tools for social media. 
         </Typography>
         <br></br>
         </div>
@@ -178,8 +178,8 @@ export default function Awareness2() {
         <Typography  fontSize="30px" sx={{mt: 2}} >Conducting your own research</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Researching into the context of the AI misinformation you have encountered can be useful in finding out the truth and protecting yourself. 
-        Utilising reliable sources and media are essential when encountering AI content that you are unsure of. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the context of the content posted. 
-        However, more difficult, and widespread AI misinformation on social media will require other methods for protection. 
+        Utilising reliable sources and media are essential when encountering AI content that could be false. A simple google search can solve minor AI misinformation as most reliable sources might have an answer to the overall context. 
+        However, more difficult, and widespread AI misinformation on social media will require other methods for protection.
         </Typography>
         <br></br>
         </div>
@@ -204,7 +204,7 @@ export default function Awareness2() {
                 </div>
               <div className="textColor">
             <Typography  fontSize="20px" sx={{mt: 2}} > 
-            AI misinformation and false content is a growing issue within the world of social media and hopefully the information provided on this page gives you useful advice and insights into how AI can negatively impact social media content. 
+            AI misinformation and false content is a growing issue within the world of social media and hopefully the information provided on this page gave you useful advice and insights into how AI can negatively impact social media content. 
             If you want to find out the background behind AI and how it is used within social media content and platforms, check out our dedicated page on the context behind AI. 
             </Typography>
             <br></br>

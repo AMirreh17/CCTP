@@ -106,7 +106,7 @@ export default function Test() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI systems have been implemented into most social media platforms to improve their user experiences. Some of these platforms consist of Instagram, YouTube, X, Facebook, Snapchat and TikTok. 
+        AI systems have been implemented into most social media platforms to improve their user experiences. Some of these platforms consist of Instagram, YouTube, X (Twitter), Facebook, Snapchat and TikTok. 
         AI algorithms allows social media platforms to understand their users better by collecting user data such as likes, comments, trends, watch time, profile viewing and purchasing choices.  
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
@@ -170,8 +170,8 @@ export default function Test() {
             <br></br>
           <div className="textColor"> {/*These elements were produced by myself*/}
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI related tools can benefit many content creators within content production, however, there are some social media users that utilise these AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and misleading content which could widely spread across social media platforms. 
-        Social media is the main source of information for many of their users, therefore, it is important to be aware of what content you post.  
+        AI related tools can benefit many content creators within content production, however, there are some social media users that utilise AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and misleading content, which tends to widely spread across social media platforms. 
+        Social media is the main source of information for many of their users, therefore, it is important to be aware of what content you are posting.  
         </Typography>
         <br></br>
         </div>

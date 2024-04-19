@@ -119,7 +119,7 @@ export default function Home() {
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI is a technology/system which is designed to complete complex tasks. Social media applications utilise AI to 
-        improve their user experiences on their platforms. This consist of tracking likes, comments, follows, trends and more. 
+        improve their user experiences on their platforms. This consists of tracking likes, comments, follows, trends and more. 
         Find out more information about the context behind AI and how it is implemented within social media content and platforms.
         </Typography>
         <br></br>
@@ -147,9 +147,9 @@ export default function Home() {
           </div>
         <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      Many social media content creators utilise AI tools to improve their content production and create outstanding artworks. 
-      There are various AI tools available, which can benefit your social media experience and enhance your creativity, when used in a positive light. 
-      Find out more information about trendy AI tools for social media content or visual artworks. 
+      Many social media content creators utilise AI tools to improve their content production. 
+      There are various AI tools available, which can benefit your social media experience and enhance your creativity. 
+      Find out more information about popular AI tools for social media content or visual artworks. 
       </Typography>
       <br></br>
       </div>
@@ -169,9 +169,9 @@ export default function Home() {
             <br></br>
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI can be a powerful tool to improve your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
-        Social media applications such as Instagram, YouTube and X, have recently developed methods on mitigating AI misinformation across their platforms. 
-        Find out ways to become more aware of AI and how to protect yourself on social media.
+        AI can be a powerful tool when elevating your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
+        Social media applications such as Instagram, YouTube and X (Twitter), have recently developed methods on mitigating AI misinformation across their platforms. 
+        Find out more information on how to be aware of AI based social media content.
         </Typography>
         <br></br>
         </div>
