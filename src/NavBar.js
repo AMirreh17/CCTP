@@ -43,8 +43,9 @@ return (
        <Button color='inherit' href="/CCTP">Home</Button>
        <Button color='inherit' href="/CCTP/#about">About</Button>
        <Button color='inherit' href="/CCTP/#background">Background</Button>
-       <Button color='inherit' href="/CCTP/#AIResources">AI Resources</Button>
        <Button color='inherit' href="/CCTP/#Awareness">Awareness</Button>
+       <Button color='inherit' href="/CCTP/#AIResources">AI Resources</Button>
+       
     </Stack>
        </Box>
    </Drawer>

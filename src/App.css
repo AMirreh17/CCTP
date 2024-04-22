@@ -17,7 +17,7 @@
 }
 
 .App-header {  /*This was initally was built within setup of React.js. This was edited and altered from the original*/
-  background-image: url(./assets/headerbackground.png);
+  background-image: url(./assets/headerbackground1.png);
   background-size: cover;
   background-color: #000000;
   min-height: 100vh;
