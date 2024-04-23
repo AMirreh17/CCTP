@@ -42,7 +42,7 @@ const fadeAnimation = {
  //Declaring the function ScrollYProgress, this captures the scroll progress of the user from the Y axis. This can be used for scroll animations on the Y axis
  const {scrollYProgress} = useScroll({
   target: container,
-  offset: ['start end', '0.7 0.18']
+  offset: ['start end', '0.88 0.18']
 });
   
  //Declaring the function scaleX which uses the useSpring function from framer motion. This function can give an element a spring effect while scrolling.
@@ -73,7 +73,7 @@ const fadeAnimation = {
       
       <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
-      <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Popular Recommendations </Typography>
+      <Typography fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Popular Recommendations </Typography>
           <br></br>
           </div>
       <div className="textColor">
@@ -416,12 +416,12 @@ const fadeAnimation = {
         <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Adobe Creative Cloud is a software library created by Adobe. Adobe Creative Cloud provides popular applications such as Photoshop, Illustrator and Premiere Pro. 
-        These popular applications utilise AI capabilities to improve their visual content. For example, Photoshop and illustrator utilises Generative AI to extend the background within images and remove unwanted items within photos. 
-        This software library is a subscription-based platform, if you want to find out more information, feel free to follow the source below.  
+        These popular applications utilise AI capabilities to improve  visual content. For example, Photoshop and illustrator utilises Generative AI to extend the background within images and remove unwanted items within photos. 
+         
         </Typography>
         <br></br>
         </div>
-        <a href='https://www.adobe.com/uk/creativecloud.html?mv=search&mv=search&mv2=paidsearch&sdid=D8F91K7Y&ef_id=adf348d2d6141bf428ab2ef5775e1ff8:G:s&s_kwcid=AL!3085!10!79508636641875!79508598937792&msclkid=adf348d2d6141bf428ab2ef5775e1ff8'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
+        <a href='https://creativecloud.adobe.com/'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
         <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
         </a>
         </Grid>

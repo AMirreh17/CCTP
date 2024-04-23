@@ -32,5 +32,6 @@ This website was built on the Create-React-App bootstrap (This is a part of the 
 14. Index.js (This was initially created by React.js at the setup. However, changes and edits were made to this file)
 15. Package.json (This was initially created by React.js at the setup. However, changes and edits were made to this file)
 16.	Showcase.js (This page was not used within the final website)
+17. favicon.ico (This was initially created by React.js at the setup. This icon was changed to the website's logo/branding)
 
-### All other files/folders within this project were created at the setup through Create-React-App or through the setup of other web frameworks installed
+### All other files/folders within this project were created at the setup through Create-React-App or through the setup of the other web frameworks installed
