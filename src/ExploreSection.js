@@ -1,6 +1,6 @@
 import './App.css'; // Importing css file called app.css onto this page
-import { Box, Typography, Grid, Paper} from '@mui/material';  //importing functions/variables, Typography, Box, Card, Paper and Grid  from react library called Material UI. This is referenced the from Material Ui documentsation: https://mui.com/components/
-import {motion} from 'framer-motion'; // Importing motion component from Framer Motion. he is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
+import { Box, Typography, Grid, Paper} from '@mui/material';  //importing functions/variables, Typography, Box, Card, Paper and Grid  from the react library called Material UI. This is referenced from the Material Ui documentsation: https://mui.com/components/
+import {motion} from 'framer-motion'; // Importing motion component from  Framer Motion. This is referenced from the framer motiion documentation:https://www.framer.com/motion/component/ 
 
 
 export default function Explore(){
@@ -8,7 +8,7 @@ export default function Explore(){
       <div className='mainBody'> {/*This element was produced by myself*/}
        <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
       
-      <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+      <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Learn more about AI and Social Media</Typography>
           <br></br></div>
@@ -21,7 +21,7 @@ export default function Explore(){
       </Grid>
       </Grid>
 
-      {/*Some of these elements were based on tutorials from codeevolution and Paper documentation from Material UI components. Reference: https://www.youtube.com/watch?v=Wd_oTDMtCjI&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=18 , https://www.youtube.com/watch?v=JlI5j37sbIE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=14 , https://mui.com/material-ui/react-paper/   */}
+      {/*Some of these elements were based on tutorials from codeevolution and the Paper documentation from Material UI components. Reference: https://www.youtube.com/watch?v=Wd_oTDMtCjI&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=18 , https://www.youtube.com/watch?v=JlI5j37sbIE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=14 , https://mui.com/material-ui/react-paper/   */}
       <Box sx={{display: 'flex', flexDirection: {xs: "column", md: "row"},  justifyContent:'space-between', gap:3, m: 3,  }}>
        
        <Paper  elevation={3} square={false} style={{ width: {xs: 1, md:500}, padding: 40 }}>

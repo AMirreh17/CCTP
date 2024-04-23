@@ -1,9 +1,9 @@
-import {Typography, Grid } from '@mui/material'; //importing functions/variables, Typography and Grid from react library called Material UI. This is referenced from Material Ui documentsation: https://mui.com/components/
+import {Typography, Grid } from '@mui/material'; //importing functions/variables, Typography and Grid from the react library called Material UI. This is referenced from the Material Ui documentsation: https://mui.com/components/
 import NavBar from './NavBar'; // importing the function NavBar from NavBar.js file
 import './App.css'; // Importing css file called app.css onto this page
 import Footer from './footer'; // importing the function Footer from Footer.js file
 import { useRef } from 'react'; // importing the function useRef from react
-import {motion, useSpring, useScroll} from 'framer-motion'; // importing functions/variables from react library called Framer Motion. The is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
+import {motion, useSpring, useScroll} from 'framer-motion'; // importing functions/variables from the react library called Framer Motion. This is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
 import toolimg from '../src/assets/chatgpt.avif'; // importing a image from assets folder
 import toolimg2 from '../src/assets/midjourney.avif'; // importing a image from assets folder
 import toolimg3 from '../src/assets/Dall.png'; // importing a image from assets folder
@@ -12,6 +12,7 @@ import toolimg5 from '../src/assets/vidyo.png'; // importing a image from assets
 import toolimg6 from '../src/assets/tubebuddy.png'; // importing a image from assets folder
 import toolimg7 from '../src/assets/magicstudio.png'; // importing a image from assets folder
 import toolimg8 from '../src/assets/timebolt.png'; // importing a image from assets folder
+import toolimg9 from '../src/assets/Adobe.png'; // importing a image from assets folder
 
 import logoimg from '../src/assets/chatgptlogo.png'; // importing a image from assets folder
 import logoimg2 from '../src/assets/Midjourneylogo.png'; // importing a image from assets folder
@@ -20,46 +21,44 @@ import logoimg4 from '../src/assets/tubebuddylogo.png'; // importing a image fro
 
 
 
-export default function Awareness() { // This function was originally for the awareness page of the websiite but due to errors, the name of this function could not be changed
+export default function Awareness() { // This page was originally built for the awareness page of the website but due to errors, the name of this function could not be changed
   const container = useRef(null); // declaring the function container and it is equal to the react function useRef. useRef is given a null value, so it can be later added to a element within the page
   
-//This function used to add fade up animations within different div components
-//This function is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s
-  const fadeAnimation = {
-    initial: {
-     opacity:0,
-     y: 100,
-    },
-    animate: {
-     opacity: 1,
-     y:0,
-     transition: {
-       delay: 0.05,
-     }
-    },
+ //This function is used to add fade up animations within different div components
+//This function is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s
+const fadeAnimation = {
+  initial: {
+   opacity:0,
+   y: 100,
+  },
+  animate: {
+   opacity: 1,
+   y:0,
+   transition: {
+     delay: 0.05,
    }
-  //Declaring the function ScrollYProgress, this captures the scroll progress of the user from the Y axis. This can used for scroll animations on the Y axis
-  const {scrollYProgress} = useScroll({
-    target: container,
-    offset: ['start end', '0.8 0.18']
-  })
+  },
+ }
+ //Declaring the function ScrollYProgress, this captures the scroll progress of the user from the Y axis. This can be used for scroll animations on the Y axis
+ const {scrollYProgress} = useScroll({
+  target: container,
+  offset: ['start end', '0.7 0.18']
+});
   
-  
- //Declarinf the function scaleX whihc used the useSpring function from framer motion. This function can give an element a spring effect while scrolling.
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001
-  });
-
+ //Declaring the function scaleX which uses the useSpring function from framer motion. This function can give an element a spring effect while scrolling.
+ const scaleX = useSpring(scrollYProgress, {
+  stiffness: 100,
+  damping: 30,
+  restDelta: 0.001
+});
 
     return (
       
         <div className='App'>
         <NavBar /> {/*The NavBar function is added to the top of the page*/}
         <div ref={container}> {/*The container function uis added here*/}
-        <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
-        <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow animations and the fade animation is added to the componenets within this div. //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.header className="container2" animate={{ opacity: 1}} initial={{ opacity:0}} transition={{duration: 3, ease: "easeOut"}}>{/*motion is added to the header elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div animate={{y: -50, opacity: 1}} initial={{ opacity:0}} transition={{duration: 1, ease: "easeOut"}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Typography  fontSize="55px" variant='h1' sx={{my: 4, }}>AI Resources</Typography> {/*These elements were produced by myself*/}
         <motion.p  class="font-light  max-w-xl">Most popular and effective AI tools for social media content creators and enthusiasts</motion.p>
         <br></br>
@@ -69,10 +68,10 @@ export default function Awareness() { // This function was originally for the aw
       
       <motion.div class="text-white py-10 align-middle" className='backgroundsection2'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-      <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+      <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
       <Typography align="center" fontSize="35px"variant='h2' sx={{my: 1, mt: 2}}>Popular Recommendations </Typography>
           <br></br>
@@ -118,10 +117,10 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
 
       <motion.div className="backgroundsection3" class="py-10" > 
-      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
        
-        <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={11} sm={8} md={7}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>What is Generative AI?</Typography>
             <br></br>
@@ -141,10 +140,10 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>ChatGPT</Typography>
         <div class="font-light text-lg">
@@ -171,12 +170,12 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item>
         <img src={toolimg2} width="500" height="500"alt=''/> {/*These elements were produced by myself*/}
         </Grid>
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Midjourney</Typography>
         <div class="font-light text-lg">
@@ -200,10 +199,10 @@ export default function Awareness() { // This function was originally for the aw
       
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>DALL-E 2</Typography>
         <div class="font-light text-lg">
@@ -231,12 +230,12 @@ export default function Awareness() { // This function was originally for the aw
        
       <motion.div  class="text-white py-10" className='welcome'>
 
-      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>  {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
         <Grid item> {/*These elements were produced by myself*/}
         <img src={toolimg4} width="500" height="500"alt=''/>
         </Grid>
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Sora AI <span class="font-light text-lg">(*New*)</span></Typography>
         <div class="font-light text-lg">
@@ -258,10 +257,10 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       </motion.div>
       <motion.div className="backgroundsection3" class="py-10" > 
-      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>{/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+      <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>{/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} columnSpacing={21}>{/*Grid component from Material UI is used here to align and organise content*/}
        
-        <Grid item xs={11} sm={8} md={7}>  {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={11} sm={8} md={7}>  {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'> {/*These elements were produced by myself*/}
         <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}>AI tools for social media content</Typography>
             <br></br>
@@ -282,7 +281,7 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
         <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
@@ -313,12 +312,12 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}>{/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item> {/*These elements were produced by myself*/}
         <img src={toolimg6} width="500" height="500"alt=''/>
         </Grid>
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>TubeBuddy</Typography>
         <div class="font-light text-lg">
@@ -342,10 +341,10 @@ export default function Awareness() { // This function was originally for the aw
       </motion.div>
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'> {/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Magic Studio</Typography>
         <div class="font-light text-lg">
@@ -371,14 +370,15 @@ export default function Awareness() { // This function was originally for the aw
       </Grid>
       </motion.div>
       </motion.div>
+
       <motion.div  class="text-white py-10" className='welcome'>
 
-        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to header elemeent to allow animations and the fade animation is added to the componenets within this div, //This div is referenced from ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
       <Grid container direction="row" my={4} className='text2' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
       <Grid item> {/*These elements were produced by myself*/}
         <img src={toolimg8} width="500" height="500"alt=''/>
         </Grid>
-        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>TimeBolt</Typography>
         <div class="font-light text-lg">
@@ -400,8 +400,40 @@ export default function Awareness() { // This function was originally for the aw
       </Grid>
       </motion.div>
       </motion.div>
-       <Footer /> {/*The Footer function is placed here. The contents from  the Footer.js is added here*/}
-       {/*This div displays the scroll line animation and sticks to the bottom of the browser view*/}
+
+      <motion.div  class="text-white py-10" className='welcome'>
+
+        <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
+        <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/}
+
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <div className='text-black'> {/*These elements were produced by myself*/}
+        <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Adobe Creative Cloud</Typography>
+        <div class="font-light text-lg">
+          <p>Photo editing, Video editing, Illustrations, Content creation</p>
+        </div>
+        </div>
+        <div className="textColor">
+        <Typography  fontSize="20px" sx={{mt: 2}} > 
+        Adobe Creative Cloud is a software library created by Adobe. Adobe Creative Cloud provides popular applications such as Photoshop, Illustrator and Premiere Pro. 
+        These popular applications utilise AI capabilities to improve their visual content. For example, Photoshop and illustrator utilises Generative AI to extend the background within images and remove unwanted items within photos. 
+        This software library is a subscription-based platform, if you want to find out more information, feel free to follow the source below.  
+        </Typography>
+        <br></br>
+        </div>
+        <a href='https://www.adobe.com/uk/creativecloud.html?mv=search&mv=search&mv2=paidsearch&sdid=D8F91K7Y&ef_id=adf348d2d6141bf428ab2ef5775e1ff8:G:s&s_kwcid=AL!3085!10!79508636641875!79508598937792&msclkid=adf348d2d6141bf428ab2ef5775e1ff8'> {/*Button is added here with custom styling through tailwind css. Tutorial reference: https://www.youtube.com/watch?v=z1EqQft4VsM&t */}
+        <motion.button whileHover={{scale: 1.2}}class=" uppercase bg-black px-7 py-5 text-xl text-white rounded-full" > View Source</motion.button>
+        </a>
+        </Grid>
+        <Grid item>
+        <img src={toolimg9} width="500" height="500"alt=''/>
+        </Grid>
+
+        </Grid>
+        </motion.div>
+        </motion.div>
+       <Footer /> {/*The Footer function is placed here. The web content from the Footer.js file is added here*/}
+       {/*This div displays the scroll line animation and sticks to the bottom of the browser view. This div is referenced from a tutorial: https://www.youtube.com/watch?v=AsniwnTMNrw&t*/}
        <motion.div style={{ 
         scaleX,
         background: "grey",

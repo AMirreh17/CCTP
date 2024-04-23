@@ -1,5 +1,5 @@
 import './App.css'; // Importing css file called app.css onto this page
-import { Typography, Grid } from '@mui/material'; //importing functions/variables, Typography and Grid  from react library called Material UI. This is referenced the from Material Ui documentsation: https://mui.com/components/
+import { Typography, Grid } from '@mui/material'; //importing functions/variables, Typography and Grid  from the react library called Material UI. This is referenced from the Material Ui documentsation: https://mui.com/components/
 
 export default function Footer() {
 
@@ -8,7 +8,7 @@ export default function Footer() {
       <footer  class="text-"className="Footer1"style={{backgroundColor: "#0e0d0d"}}> {/*This element was produced by myself*/}
       <Grid container direction="row" my={4} className='text3' spacing={2} > {/*Grid component from Material UI is used here to align and organise content*/} 
       
-      <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+      <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <Typography align="left" fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>The Undercover Project</Typography> {/*These elements were produced by myself*/}
           <div className="textColor">
       
@@ -29,7 +29,7 @@ export default function Footer() {
         </a>
        </div>
         </Grid>
-        <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <Typography  align="left"fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>Contact Us</Typography> {/*These elements were produced by myself*/} 
           <div className="textColor">
         <Typography  align="left" fontSize="15px" sx={{mt: 2}}> Email: admin@theundercoverproject.com</Typography>
@@ -38,7 +38,7 @@ export default function Footer() {
         
        </div>
         </Grid>
-        <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={11} sm={8} md={4}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <Typography  align="left" fontSize="15px"variant='h4' sx={{my: 1, mt: 2}}>Useful External Resources</Typography> {/*These elements were produced by myself*/}  
           <div className="textColor">
         <a href="https://openai.com/research/overview">

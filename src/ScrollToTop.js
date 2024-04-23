@@ -1,5 +1,5 @@
 //This function is from the React Router Dom documentation for scroll restoration: source - https://v5.reactrouter.com/web/guides/scroll-restoration
-//This function restores the scroll progress of the user when enterinng a new page. Without this function, user's were entering new pages starting from the bottom
+//This function restores the scroll progress of the user when entering a new page. Without this function, users were entering new pages at different start points
 import { useEffect } from "react";
 import {useLocation} from "react-router-dom";
 

@@ -1,12 +1,12 @@
 import './App.css'; // Importing css file called app.css onto this page
-import { Typography, Card, Box, Grid } from '@mui/material'; //importing functions/variables, Typography, Box, Card and Grid  from react library called Material UI. This is referenced the from Material Ui documentsation: https://mui.com/components/
+import { Typography, Card, Box, Grid } from '@mui/material'; //importing functions/variables, Typography, Box, Card and Grid  from the react library called Material UI. This is referenced from the Material Ui documentsation: https://mui.com/components/
 import cardimg from '../src/assets/Insta.avif'; // importing a image from assets folder
 import cardimg2 from '../src/assets/X.avif'; // importing a image from assets folder
 import cardimg3 from '../src/assets/yt.avif';// importing a image from assets folder
-import CardActions from '@mui/material/CardActions'; // Importing CardActions component from the Material UI Icons library. Reference: https://mui.com/material-ui/react-card/
-import CardContent from '@mui/material/CardContent'; // Importing CardContent component from the Material UI Icons library. Reference: https://mui.com/material-ui/react-card/
-import CardMedia from '@mui/material/CardMedia'; // Importing CardMedia component from the Material UI Icons library. Reference: https://mui.com/material-ui/react-card/ 
-import {motion} from 'framer-motion'; // Importing motion component from Framer Motion. he is referenced from framer motiion documentation:https://www.framer.com/motion/component/ 
+import CardActions from '@mui/material/CardActions'; // Importing CardActions component from the Material UI  library. Reference: https://mui.com/material-ui/react-card/
+import CardContent from '@mui/material/CardContent'; // Importing CardContent component from the Material UI library. Reference: https://mui.com/material-ui/react-card/
+import CardMedia from '@mui/material/CardMedia'; // Importing CardMedia component from the Material UI library. Reference: https://mui.com/material-ui/react-card/ 
+import {motion} from 'framer-motion'; // Importing motion component from Framer Motion. This is referenced from the framer motiion documentation:https://www.framer.com/motion/component/ 
 
 
 export default function Card1() {
@@ -17,7 +17,7 @@ export default function Card1() {
       
     <Grid container direction="row" className='text3' spacing={2} columnSpacing={21}> {/*Grid component from Material UI is used here to align and organise content*/} 
       
-    <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial referencel: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+    <Grid item xs={11} sm={9} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
       <div className='text-black'> {/*These elements were produced by myself*/}
       <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>External Resources</Typography>
           <br></br></div>
