@@ -82,7 +82,7 @@ export default function Test() { // This page was originally built as a test pag
           <div className="textColor">
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         Artificial Intelligence (AI) is a technology developed to complete complex tasks, which are normally achieved by human intelligence. These complex tasks can consist of decision-making, the accumulation of data and machine learning.  
-        In recent times, this has led to AI systems being utilised within many different industries to improve productivity and automation such as Ecommerce, Health Care, Travel, Education, and Entertainment. 
+        In recent times, this has led to AI systems being utilised within many different industries to improve productivity and automation such as E-commerce, Health Care, Travel, Education, and Entertainment. 
         </Typography>
         <br></br>
         </div>
@@ -110,11 +110,11 @@ export default function Test() { // This page was originally built as a test pag
         AI algorithms allows social media platforms to understand their users better by collecting user data such as likes, comments, trends, watch time, profile viewing and purchasing choices.  
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        An example of AI algorithms being used within social media platforms, is the use of Natural Language Processing (NLP). NLP is a subtype of AI which allows systems to understand and alter human language. This is used within social media platforms to capture user interactions and filter content. 
-        Other AI algorithms/systems that are used within social media platforms consist of Support Vector Machines (SVM) and Linear Regression   
+        An example of AI algorithms being used within social media platforms, is the use of Natural Language Processing (NLP). NLP is a subtype of AI which allows systems to understand and alter human language. This is used by social media platforms to capture user interactions and filter content. 
+        Other AI algorithms/systems that are used within social media platforms consist of Support Vector Machines (SVM) and Linear Regression.  
         </Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        This process in theory can be viewed as invasive to many users but in order for social media users to have an more personalised experience, their user data and interactions will need to be tracked and collected by most social media applications. 
+        This process in theory can be viewed as invasive but in order for social media users to have a more personalised experience, their user data and interactions will need to be tracked and collected by most social media applications. 
         However, is this process ethically correct?  
         </Typography>
         <br></br>
@@ -136,7 +136,7 @@ export default function Test() { // This page was originally built as a test pag
           </div>
         <div className="textColor">
       <Typography  fontSize="20px" sx={{mt: 2}} > 
-      With the rise of generative AI and AI tools in recent years, this has made content creation on social media platforms a lot easier.
+      With the rise of Generative AI and AI tools in recent years, this has made content creation on social media platforms a lot easier.
       There are many tools available which can speed the process of producing content such as generating  ideas, video editing, thumbnails, tags, 
       generating artwork and video descriptions/titles.  
       </Typography>
@@ -166,11 +166,11 @@ export default function Test() { // This page was originally built as a test pag
       </Grid>
         <Grid item xs={11} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           
-        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> The Dangers and Implications of using AI tools for social media content? </Typography>
+        <Typography fontSize="40px"variant='h2' sx={{my: 1, mt: 2}}> The dangers and implications of using AI tools for social media content? </Typography>
             <br></br>
           <div className="textColor"> {/*These elements were produced by myself*/}
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        AI related tools can benefit many content creators within content production, however, there are some social media users that utilise AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and misleading content, which tends to widely spread across social media platforms. 
+        AI related tools can benefit many content creators within content production, however, there are some social media users that utilise AI tools to mislead others. Generative AI tools such as Stable Diffusion (an open-source software) are commonly used to produce fake and misleading content across multiple social media platforms. 
         Social media is the main source of information for many of their users, therefore, it is important to be aware of what content you are posting.  
         </Typography>
         <br></br>

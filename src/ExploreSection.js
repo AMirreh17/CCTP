@@ -30,7 +30,7 @@ export default function Explore(){
          <div className="textColor">{/*This element was produced by myself*/}
          <Typography sx={{mt: 2}}> {/*The text was produced by myself*/}
          What is Artificial Intelligence and why is it implemented within most social media platforms? 
-         Does this have an impact on me? Find out more about the context behind AI and how it’s used by many users on social media.
+         Does this have an impact on me? Find out more about the context behind AI and how it’s used by many on social media.
          </Typography>
        </div>
          <br></br>
@@ -45,7 +45,7 @@ export default function Explore(){
          <div className="textColor"> {/*This element was produced by myself*/}
          <Typography sx={{mt: 2}}>  {/*The text was produced by myself*/}
          Explore the vast world of AI resources for content creation and creative artwork. 
-         View our selection of popular AI tools and resources best suited for you or any social media enthusiast who is interested in learning more about AI.
+         View our selection of popular AI tools and resources best suited for you or any social media enthusiast, who is interested in learning more about AI.
          </Typography>
          </div>
         

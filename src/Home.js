@@ -120,7 +120,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI is a technology/system which is designed to complete complex tasks. Social media applications utilise AI to 
         improve their user experiences on their platforms. This consists of tracking likes, comments, follows, trends and more. 
-        Find out more information about the context behind AI and how it is implemented within social media content and platforms.
+        Find out more information about the context behind AI and how its implemented within social media content and platforms.
         </Typography>
         <br></br>
         <br></br>
@@ -171,7 +171,7 @@ export default function Home() {
         <Typography  fontSize="20px" sx={{mt: 2}} > 
         AI can be a powerful tool when elevating your creative work, however, there are many social media users who unfortunately use AI to mislead others. 
         Social media applications such as Instagram, YouTube and X (Twitter), have recently developed methods on mitigating AI misinformation across their platforms. 
-        Find out more information on how to be aware of AI based social media content.
+        Find out more information about how to be aware of AI based social media content.
         </Typography>
         <br></br>
         </div>

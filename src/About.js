@@ -66,7 +66,7 @@ export default function About() {
         <motion.div variants={fadeAnimations} initial="initial" whileInView="animate" viewport={{once: true,}}> {/*motion is added to this div elemeent to allow animations. The fade animation is added to the components within this div. This div is referenced from the ByteGrad YouTube Tutorial: https://www.youtube.com/watch?v=ajPPgKTViX8&t=32s*/}
         <Grid container direction="row" my={4} className='text' spacing={2} columnSpacing={21}>  {/*Grid component from Material UI is used here to align and organise content*/} 
 
-        <Grid item xs={12} sm={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+        <Grid item xs={12} sm={8} md={6}> {/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
         <div className='text-black'>{/*These elements were produced by myself*/}
         <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who are we?</Typography>
             <br></br>
@@ -96,7 +96,7 @@ export default function About() {
           <Grid item> {/*These elements were produced by myself*/}
           <img src={aboutimg2} width="500" height="500"alt=''/>
           </Grid>
-          <Grid item xs={12} sm={6}>{/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
+          <Grid item xs={12} sm={8} md={6}>{/*This Grid item is responsive for various devices. Tutorial reference: https://www.youtube.com/watch?v=jrgiTFwvglw&t=158s */}
           <div className='text-white'>
           <Typography fontSize="50px"variant='h2' sx={{my: 1, mt: 2}}>Who is the founder?</Typography>
 
@@ -108,8 +108,8 @@ export default function About() {
           Hi, my name is Adam Mirreh and I am the founder and creator of The Undercover Project. I am a final year student at the University of West of England Bristol (UWE) . This online resource was a part of my final year project. 
           </Typography>
           <Typography  fontSize="20px" sx={{mt: 2}} > 
-          I am an aspiring Digital Creative. Storytelling and producing exciting forms of media has been a huge inspiration to me within in my digital career. 
-          I’m an industrious and driven individual, with a passion to create exciting media productions and web developments at industry standard. 
+          I am an aspiring Digital Creative. Storytelling and producing exciting forms of media has always been a huge inspiration for me during my digital career. 
+          I’m an industrious and driven individual, with a passion to produce exciting media productions and web developments at industry standard. 
           </Typography>
           <br></br>
           </div>
