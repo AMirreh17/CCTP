@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/CCTP/static/css/main.a2b8799b.css",
-    "main.js": "/CCTP/static/js/main.12ab8df5.js",
+    "main.js": "/CCTP/static/js/main.57e51088.js",
     "static/js/787.02c67af2.chunk.js": "/CCTP/static/js/787.02c67af2.chunk.js",
     "static/media/sora.png": "/CCTP/static/media/sora.7fb4a11105a0f7bf2fbd.png",
-    "static/media/Adobe.png": "/CCTP/static/media/Adobe.a2f7172b820aa3b46f0a.png",
     "static/media/researchexample.png": "/CCTP/static/media/researchexample.4782170a68bec121bf42.png",
     "static/media/magicstudio.png": "/CCTP/static/media/magicstudio.68d1e69b9d238b71b779.png",
     "static/media/vidyo.png": "/CCTP/static/media/vidyo.68da3c9cc1f5a5cb08da.png",
@@ -18,6 +17,7 @@
     "static/media/Midjourneylogo.png": "/CCTP/static/media/Midjourneylogo.b0ffad5bc94c33459683.png",
     "static/media/chatgpt.avif": "/CCTP/static/media/chatgpt.c5c6cc1e84a55c4f255e.avif",
     "static/media/me.jpg": "/CCTP/static/media/me.116f3d54aaa1dbe2856b.jpg",
+    "static/media/illustrator.png": "/CCTP/static/media/illustrator.82347494eeafcf0d8150.png",
     "static/media/yt.avif": "/CCTP/static/media/yt.1513481b2250f57f08af.avif",
     "static/media/codeimage.jpeg": "/CCTP/static/media/codeimage.1e02e625b3f6eea889d9.jpeg",
     "static/media/fakenews.webp": "/CCTP/static/media/fakenews.a7acd921b6df37aea68c.webp",
@@ -32,11 +32,11 @@
     "static/media/X.avif": "/CCTP/static/media/X.645562cda12d712f64c8.avif",
     "index.html": "/CCTP/index.html",
     "main.a2b8799b.css.map": "/CCTP/static/css/main.a2b8799b.css.map",
-    "main.12ab8df5.js.map": "/CCTP/static/js/main.12ab8df5.js.map",
+    "main.57e51088.js.map": "/CCTP/static/js/main.57e51088.js.map",
     "787.02c67af2.chunk.js.map": "/CCTP/static/js/787.02c67af2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b8799b.css",
-    "static/js/main.12ab8df5.js"
+    "static/js/main.57e51088.js"
   ]
 }
