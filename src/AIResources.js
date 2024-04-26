@@ -12,7 +12,7 @@ import toolimg5 from '../src/assets/vidyo.png'; // importing a image from assets
 import toolimg6 from '../src/assets/tubebuddy.png'; // importing a image from assets folder
 import toolimg7 from '../src/assets/magicstudio.png'; // importing a image from assets folder
 import toolimg8 from '../src/assets/timebolt.png'; // importing a image from assets folder
-import toolimg9 from '../src/assets/Adobe.png'; // importing a image from assets folder
+import toolimg9 from '../src/assets/illustrator.png'; // importing a image from assets folder
 
 import logoimg from '../src/assets/chatgptlogo.png'; // importing a image from assets folder
 import logoimg2 from '../src/assets/Midjourneylogo.png'; // importing a image from assets folder

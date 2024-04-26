@@ -159,7 +159,7 @@ export default function Awareness2() {
           <div className="textColor">
           <Typography  fontSize="30px" sx={{mt: 2}} > Keep up to date with Generative AI developments</Typography>
         <Typography  fontSize="20px" sx={{mt: 2}} > 
-        Keeping up to date and understanding the developments within Generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common Generative AI tools used on social media consists of ChatGPT, Stable Diffusion, DALL-E 2 and many more. 
+        Keeping up to date and understanding the developments within Generative AI tools can be beneficial in learning how AI misinformation is created to gain further awareness. Common Generative AI tools used on social media consists of ChatGPT, Midjourney, DALL-E 2 and many more. 
         If you want to find out more information about Generative AI tools, feel free to visit our page dedicated to AI resources for social media. 
         </Typography>
         <br></br>
